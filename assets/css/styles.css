@@ -482,22 +482,38 @@ header>nav>ol>li>a{
 }
 
 /* what I learnt */
-/*#learn{*/
-/*    position: absolute;*/
-/*    background-color: #202135;*/
-/*    top: 610.8%;*/
-/*    width: 100%;*/
-/*    height: 50%;*/
-/*}*/
+#learn{
+    position: absolute;
+    background-color: #202135;
+    top: 610.8%;
+    width: 100%;
+    height: 50%;
+}
 
-/*#learn>h4{*/
-/*    position: absolute;*/
-/*    font-size: 36px;*/
-/*    font-weight: bold;*/
-/*    color: white;*/
-/*    top: 9%;*/
-/*    left: 10%;*/
-/*}*/
+#learn>h4{
+    position: absolute;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    top: 9%;
+    left: 10%;
+}
+
+#learn>#div8{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+}
+
+#learn>#div9{
+    position: absolute;
+    background-color: #1DB89D;
+    bottom: 0%;
+    right: 0%;
+    width: 40%;
+    height: 0.3%;
+}
+    
 
 
 
