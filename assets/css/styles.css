@@ -422,64 +422,64 @@ header>nav>ol>li>a{
     right: 20%;
 }
 
-/*#h5text2{*/
-/*    position: absolute;*/
-/*    color: #1DB89D;*/
-/*    font-size: 24px;*/
-/*    top: 69%;*/
-/*    left: 20%;*/
-/*}*/
+#h5text2{
+    position: absolute;
+    color: #1DB89D;
+    font-size: 24px;
+    top: 69%;
+    left: 20%;
+}
 
-/*#span1{*/
-/*    color: white;*/
-/*}*/
+#span1{
+    color: white;
+}
 
-/*#h5text3{*/
-/*    position: absolute;*/
-/*    width: 30%;*/
-/*    color: white;*/
-/*    opacity: 60%;*/
-/*    font-size: 24px;*/
-/*    top: 72.5%;*/
-/*    left: 20%;*/
-/*}*/
+#h5text3{
+    position: absolute;
+    width: 30%;
+    color: white;
+    opacity: 60%;
+    font-size: 24px;
+    top: 72.5%;
+    left: 20%;
+}
 
-/*#span2{*/
-/*    color: #FF0000;*/
-/*    opacity: 95%;*/
-/*}*/
+#span2{
+    color: #FF0000;
+    opacity: 95%;
+}
 
-/*#img4{*/
-/*    position: absolute;*/
-/*    top: 74%;*/
-/*    right: 20%;*/
-/*}*/
+#img4{
+    position: absolute;
+    top: 74%;
+    right: 20%;
+}
 
-/*#img5{*/
-/*    position: absolute;*/
-/*    top: 81.7%;*/
-/*    left: 20%;*/
-/*}*/
+#img5{
+    position: absolute;
+    top: 81.7%;
+    left: 20%;
+}
 
-/*#qualification>section:nth-child(3)>button{*/
-/*    position: absolute;*/
-/*    background-color: #202123;*/
-/*    border: 5px solid #1DB89D;*/
-/*    color: white;*/
-/*    font-weight: bold;*/
-/*    font-size: 36px;*/
-/*    top: 94%;*/
-/*    right: 25%;*/
-/*}*/
+#qualification>section:nth-child(3)>button{
+    position: absolute;
+    background-color: #202123;
+    border: 5px solid #1DB89D;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: 94%;
+    right: 25%;
+}
 
-/*#qualification>section:nth-child(3)>div{*/
-/*    position: absolute;*/
-/*    background-color: #1DB89D;*/
-/*    bottom: 0%;*/
-/*    left: 0%;*/
-/*    width: 40%;*/
-/*    height: 0.3%;*/
-/*}*/
+#qualification>section:nth-child(3)>div{
+    position: absolute;
+    background-color: #1DB89D;
+    bottom: 0%;
+    left: 0%;
+    width: 40%;
+    height: 0.3%;
+}
 
 /* what I learnt */
 /*#learn{*/
