@@ -1,3 +1,4 @@
+/*header*/
 #pic{
     position: relative;
     background: linear-gradient(to bottom, #1db89d 0%, #202123 100%);
@@ -42,8 +43,6 @@ header>nav>ol>li>a{
     font-size: 20px;
 }
 
-
-
 #pic>div{
     width: 300%;
     height: 35%;
@@ -52,11 +51,6 @@ header>nav>ol>li>a{
     font-size: 100px;
     animation: my-animation infinite linear;
     animation-duration: 5s;
-
-    /*background-color: #ff253a;*/
-    /*animation-name: my-animation;*/
-    /*animation-duration: 70s;*/
-    /*animation-iteration-count: infinite;*/
 }
 
 @keyframes my-animation {
@@ -91,7 +85,7 @@ header>nav>ol>li>a{
     margin: auto;
 }
 
-
+/*about*/
 #about{
     position: absolute;
     background-color: #202135;
@@ -213,12 +207,22 @@ header>nav>ol>li>a{
     top: 85%;
 }
 
+/*qualification*/
 #qualification{
     position: absolute;
     background-color: #202123;
     top: 310.8%;
     width: 100%;
-    height: 200%;
+    height: 300%;
+}
+
+#qualification>section:first-child>div{
+    position: absolute;
+    background-color: #1DB89D;
+    top: 0%;
+    right: 0%;
+    width: 40%;
+    height: 0.3%;
 }
 
 #qualification>section:nth-child(1)>h6{
@@ -235,24 +239,16 @@ header>nav>ol>li>a{
     color: white;
     font-size: 64px;
     font-weight: bold;
-    top: 4%;
+    top: 3%;
     right:36%;
-}
-
-#qualification>section:nth-child(1)>div{
-    position: absolute;
-    background-color: #1DB89D;
-    width: 42%;
-    height: 0.3%;
-    right: 0%;
 }
 
 #qualification>section:nth-child(2)>#div1{
     position: absolute;
     border: 5px solid #1DB89D;
     width: 26%;
-    height: 13%;
-    top: 20%;
+    height: 9%;
+    top: 13%;
     left: 15%;
 }
 
@@ -262,7 +258,7 @@ header>nav>ol>li>a{
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-    top: 0%;
+    top: -5%;
     bottom: 0%;
     right: 0%;
     left: 0%;
@@ -274,7 +270,7 @@ header>nav>ol>li>a{
     font-size: 24px;
     opacity: 90%;
     text-align: center;
-    top: 30%;
+    top: 28%;
     bottom: 0%;
     right: 0%;
     left: 0%;
@@ -286,7 +282,7 @@ header>nav>ol>li>a{
     font-size: 24px;
     opacity: 60%;
     text-align: center;
-    top: 45%;
+    top: 49%;
     bottom: 0%;
     right: 0%;
     left: 0%;
@@ -294,36 +290,36 @@ header>nav>ol>li>a{
 
 #qualification>section:nth-child(2)>img:nth-child(1){
     position: absolute;
-    top: 19%;
-    left: 13.5%;
+    top: 12%;
+    left: 14.4%;
 }
 
 #div3{
     position: absolute;
     width: 0.5%;
-    height: 7%;
+    height: 4%;
     background-color: white;
     opacity: 50%;
-    top: 33.7%;
+    top: 22.5%;
     left: 28%;
 }
 
 #div4{
     position: absolute;
-    width: 20%;
-    height: 0.5%;
+    width: 19.5%;
+    height: 0.3%;
     background-color: white;
     opacity: 50%;
-    top: 40.7%;
+    top: 26.5%;
     left: 28%;
 }
 
 #div5{
     position: absolute;
-    width: 4%;
-    height: 4%;
+    width: 3.5%;
+    height: 2.3%;
     background-color: #1DB89D;
-    top: 38.9%;
+    top: 25.5%;
     left: 48%;
     transform: rotate(45deg);
 
@@ -331,30 +327,30 @@ header>nav>ol>li>a{
 
 #div6{
     position: absolute;
-    width: 19.3%;
-    height: 0.5%;
+    width: 19.9%;
+    height: 0.3%;
     background-color: white;
     opacity: 50%;
-    top: 40.7%;
+    top: 26.5%;
     right: 28.1%;
 }
 
 #div7{
     position: absolute;
     width: 0.5%;
-    height: 7%;
+    height: 4%;
     background-color: white;
     opacity: 50%;
     right: 28.1%;
-    top: 41.2%;
+    top: 26.8%;
 }
 
 #qualification>section:nth-child(2)>#div2{
     position: absolute;
     border: 5px solid #1DB89D;
     width: 26%;
-    height: 13%;
-    top: 48.2%;
+    height: 9%;
+    top: 30.8%;
     right: 15%;
 }
 
@@ -393,3 +389,115 @@ header>nav>ol>li>a{
     right: 0%;
     left: 0%;
 }
+
+#img2{
+    position: absolute;
+    top: 39.3%;
+    right: 14.3%;
+}
+
+#qualification>section:nth-child(3)>h3{
+    position: absolute;
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    top: 43%;
+    right:40%;
+}
+
+#qualification>section:nth-child(3)>#img3{
+    position: absolute;
+    top: 53%;
+    left: 20%;
+}
+
+#qualification>section:nth-child(3)>#h5text {
+    position: absolute;
+    width: 20%;
+    height: 4%;
+    color: white;
+    opacity: 60%;
+    font-size: 24px;
+    top: 55%;
+    right: 20%;
+}
+
+/*#h5text2{*/
+/*    position: absolute;*/
+/*    color: #1DB89D;*/
+/*    font-size: 24px;*/
+/*    top: 69%;*/
+/*    left: 20%;*/
+/*}*/
+
+/*#span1{*/
+/*    color: white;*/
+/*}*/
+
+/*#h5text3{*/
+/*    position: absolute;*/
+/*    width: 30%;*/
+/*    color: white;*/
+/*    opacity: 60%;*/
+/*    font-size: 24px;*/
+/*    top: 72.5%;*/
+/*    left: 20%;*/
+/*}*/
+
+/*#span2{*/
+/*    color: #FF0000;*/
+/*    opacity: 95%;*/
+/*}*/
+
+/*#img4{*/
+/*    position: absolute;*/
+/*    top: 74%;*/
+/*    right: 20%;*/
+/*}*/
+
+/*#img5{*/
+/*    position: absolute;*/
+/*    top: 81.7%;*/
+/*    left: 20%;*/
+/*}*/
+
+/*#qualification>section:nth-child(3)>button{*/
+/*    position: absolute;*/
+/*    background-color: #202123;*/
+/*    border: 5px solid #1DB89D;*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*    font-size: 36px;*/
+/*    top: 94%;*/
+/*    right: 25%;*/
+/*}*/
+
+/*#qualification>section:nth-child(3)>div{*/
+/*    position: absolute;*/
+/*    background-color: #1DB89D;*/
+/*    bottom: 0%;*/
+/*    left: 0%;*/
+/*    width: 40%;*/
+/*    height: 0.3%;*/
+/*}*/
+
+/* what I learnt */
+/*#learn{*/
+/*    position: absolute;*/
+/*    background-color: #202135;*/
+/*    top: 610.8%;*/
+/*    width: 100%;*/
+/*    height: 50%;*/
+/*}*/
+
+/*#learn>h4{*/
+/*    position: absolute;*/
+/*    font-size: 36px;*/
+/*    font-weight: bold;*/
+/*    color: white;*/
+/*    top: 9%;*/
+/*    left: 10%;*/
+/*}*/
+
+
+
