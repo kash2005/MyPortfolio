@@ -91,9 +91,6 @@ header>nav>ol>li>a{
     margin: auto;
 }
 
-#about{
-    position: absolute;
-}
 
 #about{
     position: absolute;
@@ -216,8 +213,183 @@ header>nav>ol>li>a{
     top: 85%;
 }
 
-/*#qualification{*/
-/*    position: absolute;*/
-/*    background-color: #202123;*/
-/*    top: 310.8%;*/
-/*}*/
+#qualification{
+    position: absolute;
+    background-color: #202123;
+    top: 310.8%;
+    width: 100%;
+    height: 200%;
+}
+
+#qualification>section:nth-child(1)>h6{
+    position: absolute;
+    color: #1DB89D;
+    font-size: 24px;
+    font-weight: bold;
+    top: 0%;
+    right: 48%;
+}
+
+#qualification>section:nth-child(1)>h3{
+    position: absolute;
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    top: 4%;
+    right:36%;
+}
+
+#qualification>section:nth-child(1)>div{
+    position: absolute;
+    background-color: #1DB89D;
+    width: 42%;
+    height: 0.3%;
+    right: 0%;
+}
+
+#qualification>section:nth-child(2)>#div1{
+    position: absolute;
+    border: 5px solid #1DB89D;
+    width: 26%;
+    height: 13%;
+    top: 20%;
+    left: 15%;
+}
+
+#qualification>section:nth-child(2)>#div1>h5:nth-child(1){
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+#qualification>section:nth-child(2)>#div1>h5:nth-child(2){
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    opacity: 90%;
+    text-align: center;
+    top: 30%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+#qualification>section:nth-child(2)>#div1>h5:nth-child(3){
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    opacity: 60%;
+    text-align: center;
+    top: 45%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+#qualification>section:nth-child(2)>img:nth-child(1){
+    position: absolute;
+    top: 19%;
+    left: 13.5%;
+}
+
+#div3{
+    position: absolute;
+    width: 0.5%;
+    height: 7%;
+    background-color: white;
+    opacity: 50%;
+    top: 33.7%;
+    left: 28%;
+}
+
+#div4{
+    position: absolute;
+    width: 20%;
+    height: 0.5%;
+    background-color: white;
+    opacity: 50%;
+    top: 40.7%;
+    left: 28%;
+}
+
+#div5{
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    background-color: #1DB89D;
+    top: 38.9%;
+    left: 48%;
+    transform: rotate(45deg);
+
+}
+
+#div6{
+    position: absolute;
+    width: 19.3%;
+    height: 0.5%;
+    background-color: white;
+    opacity: 50%;
+    top: 40.7%;
+    right: 28.1%;
+}
+
+#div7{
+    position: absolute;
+    width: 0.5%;
+    height: 7%;
+    background-color: white;
+    opacity: 50%;
+    right: 28.1%;
+    top: 41.2%;
+}
+
+#qualification>section:nth-child(2)>#div2{
+    position: absolute;
+    border: 5px solid #1DB89D;
+    width: 26%;
+    height: 13%;
+    top: 48.2%;
+    right: 15%;
+}
+
+#qualification>section:nth-child(2)>#div2>h5:nth-child(1){
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    top: -7%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+#qualification>section:nth-child(2)>#div2>h5:nth-child(2){
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    opacity: 90%;
+    text-align: center;
+    top: 26%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+#qualification>section:nth-child(2)>#div2>h5:nth-child(3){
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    opacity: 60%;
+    text-align: center;
+    top: 56%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
