@@ -838,76 +838,76 @@ body{
 }
 
 /* project */
-/*#project{*/
-/*    position: relative;*/
-/*    width: 100vw;*/
-/*    height: 100vh;*/
-/*    background-color: #202135;*/
-/*    top: 96vh;*/
-/*}*/
+#project{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #202135;
+    top: 96vh;
+}
 
-/*#project>section>h6:first-child{*/
-/*    position: absolute;*/
-/*    color: #1DB89D;*/
-/*    font-size: 24px;*/
-/*    font-weight: bold;*/
-/*    top: 0%;*/
-/*    right: 48%;*/
-/*}*/
+#project>section>h6:first-child{
+    position: absolute;
+    color: #1DB89D;
+    font-size: 24px;
+    font-weight: bold;
+    top: 0%;
+    right: 48%;
+}
 
-/*#project>section>h3{*/
-/*    position: absolute;*/
-/*    color: white;*/
-/*    font-size: 64px;*/
-/*    font-weight: bold;*/
-/*    top: 3%;*/
-/*    right:28%;*/
-/*}*/
+#project>section>h3{
+    position: absolute;
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    top: 3%;
+    right:28%;
+}
 
-/*#project1{*/
-/*    position: absolute;*/
-/*    top: 30%;*/
-/*    left: 31%;*/
-/*}*/
+#project1{
+    position: absolute;
+    top: 30%;
+    left: 31%;
+}
 
-/*#project>section>h5{*/
-/*    position: absolute;*/
-/*    color: white;*/
-/*    font-size: 24px;*/
-/*    top: 82%;*/
-/*    left: 40%;*/
-/*}*/
+#project>section>h5{
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 82%;
+    left: 40%;
+}
 
-/*#h6{*/
-/*    position: absolute;*/
-/*    color: white;*/
-/*    font-size: 24px;*/
-/*    top: 84%;*/
-/*    left: 50%;*/
-/*    opacity: 60%;*/
-/*}*/
+#h6{
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 84%;
+    left: 50%;
+    opacity: 60%;
+}
 
-/*#project2{*/
-/*    position: absolute;*/
-/*    top: 22%;*/
-/*    left: 27%;*/
-/*    transform: rotate(135deg);*/
-/*}*/
+#project2{
+    position: absolute;
+    top: 22%;
+    left: 27%;
+    transform: rotate(135deg);
+}
 
-/*#project3{*/
-/*    position: absolute;*/
-/*    top: 79%;*/
-/*    right: 26%;*/
-/*    transform: rotate(315deg);*/
-/*}*/
+#project3{
+    position: absolute;
+    top: 79%;
+    right: 26%;
+    transform: rotate(315deg);
+}
 
-/*#div11{*/
-/*    position: absolute;*/
-/*    background-color: #1DB89D;*/
-/*    bottom: 0%;*/
-/*    left: 0%;*/
-/*    width: 40%;*/
-/*    height: 1%;*/
-/*}*/
+#div11{
+    position: absolute;
+    background-color: #1DB89D;
+    bottom: 0%;
+    left: 0%;
+    width: 40%;
+    height: 1%;
+}
 
 
