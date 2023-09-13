@@ -1,0 +1,847 @@
+body{
+    overflow-x: hidden;
+}
+
+main{
+    position: relative;
+    background-color: #202123;
+    width: 100vw;
+    height: 212vh;
+}
+
+main>section>h3{
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    top: 1%;
+    left: 13%;
+}
+
+/* Assignment 1 */
+#assignment1{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 10%;
+    left: 15%;
+}
+
+#assignment1>img{
+    position: absolute;
+
+}
+
+#assignment1>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment1>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment1>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment1>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment1>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment1>div>ol>li>a{
+    color: white;
+}
+
+/* Assignment 2 */
+#assignment2{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 10%;
+    left: 40%;
+}
+
+#assignment2>img{
+    position: absolute;
+
+}
+
+#assignment2>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment2>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment2>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment2>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment2>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment2>div>ol>li>a{
+    color: white;
+}
+
+/* Assignment 3 */
+#assignment3{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 10%;
+    left: 65%;
+}
+
+#assignment3>img{
+    position: absolute;
+
+}
+
+#assignment3>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment3>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment3>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment3>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment3>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment3>div>ol>li>a{
+    color: white;
+}
+
+/* Assignment 4 */
+#assignment4{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 33%;
+    left: 15%;
+}
+
+#assignment4>img{
+    position: absolute;
+
+}
+
+#assignment4>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment4>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment4>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment4>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment4>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment4>div>ol>li>a{
+    color: white;
+}
+
+/* Assignment 5 */
+#assignment5{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 33%;
+    left: 40%;
+}
+
+#assignment5>img{
+    position: absolute;
+
+}
+
+#assignment5>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment5>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment5>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment5>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment5>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment5>div>ol>li>a{
+    color: white;
+}
+
+/* Assignment 6 */
+#assignment6{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 33%;
+    left: 65%;
+}
+
+#assignment6>img{
+    position: absolute;
+
+}
+
+#assignment6>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment6>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment6>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment6>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment6>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment6>div>ol>li>a{
+    color: white;
+}
+
+/* Assignment 7 */
+#assignment7{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 56%;
+    left: 15%;
+}
+
+#assignment7>img{
+    position: absolute;
+
+}
+
+#assignment7>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment7>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment7>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment7>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment7>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment7>div>ol>li>a{
+    color: white;
+}
+
+/* Assignment 8 */
+#assignment8{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 56%;
+    left: 40%;
+}
+
+#assignment8>img{
+    position: absolute;
+
+}
+
+#assignment8>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment8>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment8>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment8>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment8>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment8>div>ol>li>a{
+    color: white;
+}
+
+/* Assignment 9 */
+#assignment9{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 56%;
+    left: 65%;
+}
+
+#assignment9>img{
+    position: absolute;
+
+}
+
+#assignment9>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment9>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment9>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment9>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment9>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment9>div>ol>li>a{
+    color: white;
+}
+
+/* Assignment 10 */
+#assignment10{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 78.5%;
+    left: 15%;
+}
+
+#assignment10>img{
+    position: absolute;
+
+}
+
+#assignment10>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment10>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment10>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment10>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment10>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment10>div>ol>li>a{
+    color: white;
+}
+
+/* Assignment 11 */
+#assignment11{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 78.5%;
+    left: 40%;
+}
+
+#assignment11>img{
+    position: absolute;
+
+}
+
+#assignment11>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment11>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment11>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment11>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment11>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment11>div>ol>li>a{
+    color: white;
+}
+
+/* Assignment 9 */
+#assignment12{
+    position: absolute;
+    width: 300vw;
+    height: 350vh;
+    top: 78.5%;
+    left: 65%;
+}
+
+#assignment12>img{
+    position: absolute;
+
+}
+
+#assignment12>h5{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    top: -0.7%;
+    left: 1.3%;
+}
+
+#assignment12>div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #202123;
+    border-radius: 100%;
+    top: 6.3%;
+    left: 1.7%;
+}
+
+#assignment12>div>img{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#assignment12>div>ol{
+    position: absolute;
+    top: 38%;
+    left: -14%;
+
+}
+
+#assignment12>div>ol>li{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#assignment12>div>ol>li>a{
+    color: white;
+}
+
+footer{
+    position: relative;
+    top: 0vh;
+    background-color: #525252;
+}
+
+#footer1{
+    background-color: #202135;
+    width: 100vw;
+    height: 13vh;
+}
+
+#footer1>ol{
+    position: absolute;
+    left: 8%;
+    right: 8%;
+
+}
+
+#footer1>ol>li{
+    display: inline-block;
+    margin-left:40px;
+}
+
+#footer1>ol>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+}
+
+#div13{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 19.5%;
+}
+
+#div14{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 30.5%;
+}
+
+#div15{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 44%;
+}
+
+#div16{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 52.5%;
+}
+
+#div17{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 65%;
+}
+
+#div18{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 73.5%;
+}
+
+#footer2{
+    background-color: #525252;
+    width: 100vw;
+    height: 40vh;
+    bottom: -10%;
+}
+
+#footer2>ol{
+    position: absolute;
+    width: 50vw;
+    height: 10vh;
+    bottom: 32%;
+    left: 6%;
+}
+
+#footer2>ol>li{
+    list-style: none;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+#ol1{
+    position: absolute;
+    right: 35%;
+    bottom: 8%;
+
+}
+
+#ol1>li{
+    list-style: none;
+    margin-top: 25px;
+}
+
+#ol2{
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+}
+
+#ol2>li{
+    list-style: none;
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+}
+
+#div19>ol>li{
+    list-style: none;
+}
+
+#footer2>h6{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    opacity: 60%;
+    bottom: -10%;
+    left: 14%;
+}

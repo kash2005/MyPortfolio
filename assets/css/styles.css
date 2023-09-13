@@ -1050,14 +1050,7 @@ body{
     transform: rotate(315deg);
 }
 
-#div11{
-    position: absolute;
-    background-color: #1DB89D;
-    bottom: 0%;
-    left: 0%;
-    width: 40%;
-    height: 1%;
-}
+
 
 /* contact me */
 #contact{
@@ -1065,7 +1058,7 @@ body{
     background-color: #202123;
     width: 100vw;
     height: 100vh;
-    top: 93vh;
+    top: 95vh;
 }
 
 #div12{
