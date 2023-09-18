@@ -6,8 +6,16 @@ main{
     position: relative;
     background-color: #202123;
     width: 100vw;
-    height: 212vh;
+    height: 210vh;
 }
+
+
+/*section{*/
+/*    position: relative;*/
+/*    background-color: #202123;*/
+/*    width: 100vw;*/
+/*    height: 212vh;*/
+/*}*/
 
 main>section>h3{
     position: absolute;
@@ -15,22 +23,18 @@ main>section>h3{
     font-size: 36px;
     font-family: sans-serif;
     font-weight: bold;
-    top: 1%;
+    margin: 0;
+    top: 4%;
     left: 13%;
 }
 
 /* Assignment 1 */
 #assignment1{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 10%;
-    left: 15%;
-}
-
-#assignment1>img{
-    position: absolute;
-
+    left: 13%;
 }
 
 #assignment1>h5{
@@ -38,8 +42,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment1>div{
@@ -48,8 +52,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment1>div>img{
@@ -79,15 +83,10 @@ main>section>h3{
 /* Assignment 2 */
 #assignment2{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 10%;
     left: 40%;
-}
-
-#assignment2>img{
-    position: absolute;
-
 }
 
 #assignment2>h5{
@@ -95,8 +94,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment2>div{
@@ -105,8 +104,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment2>div>img{
@@ -136,15 +135,10 @@ main>section>h3{
 /* Assignment 3 */
 #assignment3{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 10%;
     left: 65%;
-}
-
-#assignment3>img{
-    position: absolute;
-
 }
 
 #assignment3>h5{
@@ -152,8 +146,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment3>div{
@@ -162,8 +156,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment3>div>img{
@@ -193,15 +187,10 @@ main>section>h3{
 /* Assignment 4 */
 #assignment4{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 33%;
-    left: 15%;
-}
-
-#assignment4>img{
-    position: absolute;
-
+    left: 13%;
 }
 
 #assignment4>h5{
@@ -209,8 +198,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment4>div{
@@ -219,8 +208,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment4>div>img{
@@ -250,15 +239,10 @@ main>section>h3{
 /* Assignment 5 */
 #assignment5{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 33%;
     left: 40%;
-}
-
-#assignment5>img{
-    position: absolute;
-
 }
 
 #assignment5>h5{
@@ -266,8 +250,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment5>div{
@@ -276,8 +260,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment5>div>img{
@@ -307,8 +291,8 @@ main>section>h3{
 /* Assignment 6 */
 #assignment6{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 33%;
     left: 65%;
 }
@@ -323,8 +307,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment6>div{
@@ -333,8 +317,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment6>div>img{
@@ -364,15 +348,10 @@ main>section>h3{
 /* Assignment 7 */
 #assignment7{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 56%;
-    left: 15%;
-}
-
-#assignment7>img{
-    position: absolute;
-
+    left: 13%;
 }
 
 #assignment7>h5{
@@ -380,8 +359,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment7>div{
@@ -390,8 +369,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment7>div>img{
@@ -421,15 +400,10 @@ main>section>h3{
 /* Assignment 8 */
 #assignment8{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 56%;
     left: 40%;
-}
-
-#assignment8>img{
-    position: absolute;
-
 }
 
 #assignment8>h5{
@@ -437,8 +411,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment8>div{
@@ -447,8 +421,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment8>div>img{
@@ -461,7 +435,6 @@ main>section>h3{
     position: absolute;
     top: 38%;
     left: -14%;
-
 }
 
 #assignment8>div>ol>li{
@@ -478,8 +451,8 @@ main>section>h3{
 /* Assignment 9 */
 #assignment9{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 56%;
     left: 65%;
 }
@@ -494,8 +467,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment9>div{
@@ -504,8 +477,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment9>div>img{
@@ -535,15 +508,10 @@ main>section>h3{
 /* Assignment 10 */
 #assignment10{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 78.5%;
     left: 15%;
-}
-
-#assignment10>img{
-    position: absolute;
-
 }
 
 #assignment10>h5{
@@ -551,8 +519,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment10>div{
@@ -561,8 +529,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment10>div>img{
@@ -592,8 +560,8 @@ main>section>h3{
 /* Assignment 11 */
 #assignment11{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 78.5%;
     left: 40%;
 }
@@ -608,8 +576,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment11>div{
@@ -618,8 +586,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment11>div>img{
@@ -646,11 +614,11 @@ main>section>h3{
     color: white;
 }
 
-/* Assignment 9 */
+/* Assignment 12 */
 #assignment12{
     position: absolute;
-    width: 300vw;
-    height: 350vh;
+    width: 300px;
+    height: 320px;
     top: 78.5%;
     left: 65%;
 }
@@ -665,8 +633,8 @@ main>section>h3{
     color: white;
     font-weight: bold;
     font-size: 36px;
-    top: -0.7%;
-    left: 1.3%;
+    bottom: 60%;
+    left: 18%;
 }
 
 #assignment12>div{
@@ -675,8 +643,8 @@ main>section>h3{
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 6.3%;
-    left: 1.7%;
+    bottom: 3%;
+    left: 25%;
 }
 
 #assignment12>div>img{
