@@ -3,14 +3,16 @@ body{
 }
 
 #home{
-    position: relative;
+    z-index: 10;
+    position: fixed;
     width: 100vw;
     height: 80px;
     background-color: #202123;
 }
 
 .gradient {
-    height:100vh;
+    /*height:100vh;*/
+    height: 80px;
     background: -moz-linear-gradient(53deg, #202123 0%, #1DB89D 50%, #202135 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #202123), color-stop(50%, #1DB89D), color-stop(100%, #202135)); /* safari4+,chrome */
     background: -webkit-linear-gradient(53deg, #202123 0%, #1DB89D 50%, #202135 100%); /* safari5.1+,chrome10+ */
@@ -815,7 +817,7 @@ body{
     text-align: center;
 }
 
-#gallery>section>button{
+#gallery>section>a>button{
     width: 188px;
     height: 64px;
     background: #1DB89D;
@@ -1106,7 +1108,7 @@ body{
     font-size: 24px;
     font-family: sans-serif;
     top: 84%;
-    left: 50%;
+    left: 47%;
     opacity: 60%;
 }
 

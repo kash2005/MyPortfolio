@@ -1,0 +1,248 @@
+body{
+    position: relative;
+    background-color: #202123;
+    width: 100vw;
+    height: 220vh;
+    overflow-x: hidden;
+}
+
+h3{
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    top: 4%;
+    left: 13%;
+}
+
+img {
+    /*width: 500px;*/
+    /*height: 450px;*/
+    margin: 5px;
+    transition: transform 1s;
+    border: 1px ;
+
+}
+img:hover {
+    transform: scale(1.1);
+}
+
+#image1{
+    position: absolute;
+    top: 11%;
+    left: 15.5%;
+}
+
+#image2{
+    position: absolute;
+    top: 11%;
+    left: 38.29%;
+}
+
+#image3{
+    position: absolute;
+    top: 11%;
+    right: 15.5%;
+}
+
+#image4{
+    position: absolute;
+    top: 43.3%;
+    left: 15.5%;
+}
+
+#image5{
+    position: absolute;
+    top: 43.3%;
+    left: 38.29%;
+}
+
+#image6{
+    position: absolute;
+    top: 43.3%;
+    right: 15.5%;
+}
+
+#image7{
+    position: absolute;
+    top: 57.6%;
+    left: 15.5%;
+}
+
+#image8{
+    position: absolute;
+    top: 57.6%;
+    left: 38.29%;
+}
+
+#image9{
+    position: absolute;
+    top: 57.6%;
+    right: 15.5%;
+}
+
+#image10{
+    position: absolute;
+    top: 72%;
+    left: 15.5%;
+}
+
+#image11{
+    position: absolute;
+    top: 72%;
+    left: 38.29%;
+}
+
+#image12{
+    position: absolute;
+    top: 72%;
+    right: 15.5%;
+}
+
+footer{
+    position: relative;
+    top: 92%;
+    background-color: #525252;
+}
+
+#footer1{
+    background-color: #202135;
+    width: 100vw;
+    height: 13vh;
+}
+
+#footer1>ol{
+    position: absolute;
+    left: 8%;
+    right: 8%;
+
+}
+
+#footer1>ol>li{
+    display: inline-block;
+    margin-left:40px;
+}
+
+#footer1>ol>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+}
+
+#div13{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 19.5%;
+}
+
+#div14{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 30.5%;
+}
+
+#div15{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 44%;
+}
+
+#div16{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 52.5%;
+}
+
+#div17{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 65%;
+}
+
+#div18{
+    position: absolute;
+    width: 0.2vw;
+    height: 6vh;
+    background-color: white;
+    top: 7%;
+    left: 73.5%;
+}
+
+#footer2{
+    background-color: #525252;
+    width: 100vw;
+    height: 40vh;
+    bottom: -10%;
+}
+
+#footer2>ol{
+    position: absolute;
+    width: 50vw;
+    height: 10vh;
+    bottom: 32%;
+    left: 6%;
+}
+
+#footer2>ol>li{
+    list-style: none;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+#ol1{
+    position: absolute;
+    right: 35%;
+    bottom: 8%;
+
+}
+
+#ol1>li{
+    list-style: none;
+    margin-top: 25px;
+}
+
+#ol2{
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+}
+
+#ol2>li{
+    list-style: none;
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+#div19>ol>li{
+    list-style: none;
+}
+
+#footer2>h6{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    opacity: 60%;
+    bottom: -10%;
+    left: 14%;
+}
