@@ -816,3 +816,60 @@ footer{
     bottom: -10%;
     left: 14%;
 }
+
+/* 1440 laptop size */
+@media all and (max-width: 1440px) {
+    #div13{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 20%;
+    }
+
+    #div14{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 31.5%;
+    }
+
+    #div15{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 45.5%;
+    }
+
+    #div16{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 55%;
+    }
+
+    #div17{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 68%;
+    }
+
+    #div18{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 77%;
+    }
+}
