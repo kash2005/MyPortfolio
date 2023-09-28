@@ -31,72 +31,84 @@ img:hover {
 
 #image1{
     position: absolute;
+    width: 350px;
     top: 11%;
     left: 15.5%;
 }
 
 #image2{
     position: absolute;
+    width: 350px;
     top: 11%;
     left: 38.29%;
 }
 
 #image3{
     position: absolute;
+    width: 350px;
     top: 11%;
     right: 15.5%;
 }
 
 #image4{
     position: absolute;
+    width: 350px;
     top: 43.3%;
     left: 15.5%;
 }
 
 #image5{
     position: absolute;
+    width: 350px;
     top: 43.3%;
     left: 38.29%;
 }
 
 #image6{
     position: absolute;
+    width: 350px;
     top: 43.3%;
     right: 15.5%;
 }
 
 #image7{
     position: absolute;
+    width: 350px;
     top: 57.6%;
     left: 15.5%;
 }
 
 #image8{
     position: absolute;
+    width: 350px;
     top: 57.6%;
     left: 38.29%;
 }
 
 #image9{
     position: absolute;
+    width: 350px;
     top: 57.6%;
     right: 15.5%;
 }
 
 #image10{
     position: absolute;
+    width: 350px;
     top: 72%;
     left: 15.5%;
 }
 
 #image11{
     position: absolute;
+    width: 350px;
     top: 72%;
     left: 38.29%;
 }
 
 #image12{
     position: absolute;
+    width: 350px;
     top: 72%;
     right: 15.5%;
 }
@@ -214,6 +226,10 @@ footer{
 
 }
 
+#ol1>li>img{
+    width: 45px;
+}
+
 #ol1>li{
     list-style: none;
     margin-top: 25px;
@@ -231,6 +247,10 @@ footer{
     color: white;
     font-size: 24px;
     font-family: sans-serif;
+}
+
+#footer2>ol>li>a>img{
+    width: 70px;
 }
 
 #div19>ol>li{
@@ -309,5 +329,265 @@ footer{
         background-color: white;
         top: 7%;
         left: 77%;
+    }
+}
+
+/* 1024 laptop size */
+@media all and (max-width: 1024px){
+    /* gallery */
+    body{
+        position: relative;
+        background-color: #202123;
+        width: 100vw;
+        height: 166vh;
+        overflow-x: hidden;
+    }
+
+    h3{
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin: 0;
+        top: 4%;
+        left: 13%;
+    }
+
+    img {
+        /*width: 500px;*/
+        /*height: 450px;*/
+        margin: 5px;
+        transition: transform 1s;
+        border: 1px ;
+
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+
+    #image1{
+        position: absolute;
+        width: 233px;
+        top: 11%;
+        left: 15.5%;
+    }
+
+    #image2{
+        position: absolute;
+        width: 233px;
+        top: 11%;
+        left: 38.29%;
+    }
+
+    #image3{
+        position: absolute;
+        width: 233px;
+        top: 11%;
+        right: 15.5%;
+    }
+
+    #image4{
+        position: absolute;
+        width: 233px;
+        top: 43.3%;
+        left: 15.5%;
+    }
+
+    #image5{
+        position: absolute;
+        width: 233px;
+        top: 43.3%;
+        left: 38.29%;
+    }
+
+    #image6{
+        position: absolute;
+        width: 233px;
+        top: 43.3%;
+        right: 15.5%;
+    }
+
+    #image7{
+        position: absolute;
+        width: 233px;
+        top: 57.6%;
+        left: 15.5%;
+    }
+
+    #image8{
+        position: absolute;
+        width: 233px;
+        top: 57.6%;
+        left: 38.29%;
+    }
+
+    #image9{
+        position: absolute;
+        width: 233px;
+        top: 57.6%;
+        right: 15.5%;
+    }
+
+    #image10{
+        position: absolute;
+        width: 233px;
+        top: 72%;
+        left: 15.5%;
+    }
+
+    #image11{
+        position: absolute;
+        width: 233px;
+        top: 72%;
+        left: 38.29%;
+    }
+
+    #image12{
+        position: absolute;
+        width: 233px;
+        top: 72%;
+        right: 15.5%;
+    }
+
+    /* footer */
+    #footer1{
+        background-color: #202135;
+        width: 100vw;
+        height: 12vh;
+    }
+
+    #footer1>ol{
+        position: absolute;
+        left: 2%;
+        right: 2%;
+        top: 3%;
+    }
+
+    #footer1>ol>li{
+        display: inline-block;
+        margin-left:35px;
+    }
+
+    #footer1>ol>li>a{
+        text-decoration: none;
+        color: white;
+        font-size: 23px;
+    }
+
+    #div13{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 16.5%;
+    }
+
+    #div14{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 29.5%;
+    }
+
+    #div15{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 45.5%;
+    }
+
+    #div16{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 56%;
+    }
+
+    #div17{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 70.5%;
+    }
+
+    #div18{
+        position: absolute;
+        width: 0.2vw;
+        height: 6vh;
+        background-color: white;
+        top: 7%;
+        left: 80.5%;
+    }
+
+    #footer2>ol{
+        position: absolute;
+        width: 50vw;
+        height: 10vh;
+        bottom: 32%;
+        left: 6%;
+    }
+
+    #footer2>ol>li{
+        list-style: none;
+        margin-left: 5%;
+        display: inline-block;
+    }
+
+    #footer2>ol>li>a>img{
+        width: 50px;
+    }
+
+    #ol1{
+        position: absolute;
+        right: 41%;
+        bottom: 8%;
+
+    }
+
+    #ol1>li{
+        list-style: none;
+        margin-top: 25px;
+    }
+
+    #ol1>li>img{
+        width: 35px;
+    }
+
+    #ol2{
+        position: absolute;
+        right: 15%;
+        bottom: 5%;
+    }
+
+    #ol2>li{
+        list-style: none;
+        margin-top: 30px;
+        color: white;
+        font-size: 22px;
+        font-family: sans-serif;
+    }
+
+    #div19>ol>li{
+        list-style: none;
+    }
+
+    #footer2>h6{
+        position: absolute;
+        color: white;
+        font-size: 22px;
+        font-family: sans-serif;
+        opacity: 60%;
+        bottom: -10%;
+        left: 14%;
     }
 }
