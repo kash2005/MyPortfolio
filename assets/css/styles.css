@@ -4,9 +4,10 @@ html{
 }
 
 body{
+    background-color: #525252;
+    width: 1520px;
     overflow-x: hidden;
     !important;
-    /*background-color: #202123;*/
 }
 
 #home{
@@ -105,7 +106,7 @@ body{
 #pic2{
     position: relative;
     width: 1520px;
-    height: 723px;
+    height: 739px;
     background-color: #202123;
 }
 
@@ -174,7 +175,7 @@ body{
     top: 0;
     left: 0;
     width: 1520px;
-    height: 723px;
+    height: 739px;
     overflow: hidden;
 }
 
@@ -312,6 +313,7 @@ body{
 /*about*/
 #about{
     position: relative;
+    top: -16px;
     width: 1520px;
     height: 739px;
     background-color: #202135;
@@ -451,10 +453,10 @@ body{
 /*qualification*/
 #qualification{
     position: relative;
+    top: -16px;
     width: 1520px;
     height: 2400px;
     background-color: #202123;
-    top: 210%;
 }
 
 #qualification>section:first-child>div{
@@ -743,6 +745,7 @@ body{
 /* what I learnt */
 #learn{
     position: relative;
+    top: -16px;
     background-color: #202135;
     width: 1520px;
     height: 350px;
@@ -800,6 +803,7 @@ body{
 /* gallery */
 #gallery{
     position: relative;
+    top: -16px;
     height: 739px;
     width: 1520px;
 
@@ -889,6 +893,7 @@ body{
 /* assignment */
 #assignment{
     position: relative;
+    top: -16px;
     width: 1520px;
     height: 739px;
     background-color: #202123;
@@ -1110,6 +1115,7 @@ body{
 /* project */
 #project{
     position: relative;
+    top: -16px;
     width: 1520px;
     height: 739px;
     background-color: #202135;
@@ -1183,6 +1189,7 @@ body{
 #contact{
     position: relative;
     background-color: #202123;
+    top: -16px;
     width: 1520px;
     height: 739px;
 }
@@ -1300,6 +1307,7 @@ body{
 
 footer{
     position: relative;
+    top: -16px;
     background-color: #525252;
 }
 
@@ -1401,7 +1409,7 @@ footer{
     height: 50px;
     bottom: 32%;
     /*left: 6%;*/
-    left: 100px;
+    left: 190px;
 }
 
 #footer2>ol>li{
@@ -1463,115 +1471,115 @@ footer{
 }
 
 /* 1440 laptop size */
-@media all and (max-width: 1440px){
+/*@media all and (max-width: 1440px){*/
 
-    /* Qualification */
-    #div5{
-        position: absolute;
-        width: 3.5%;
-        height: 2%;
-        background-color: #1DB89D;
-        top: 25.6%;
-        left: 48%;
-        transform: rotate(45deg);
+/*    !* Qualification *!*/
+/*    #div5{*/
+/*        position: absolute;*/
+/*        width: 3.5%;*/
+/*        height: 2%;*/
+/*        background-color: #1DB89D;*/
+/*        top: 25.6%;*/
+/*        left: 48%;*/
+/*        transform: rotate(45deg);*/
 
-    }
+/*    }*/
 
-    #qualification>section:nth-child(3)>button{
-        position: absolute;
-        background-color: #202123;
-        border: 5px solid #1DB89D;
-        color: white;
-        font-weight: bold;
-        font-size: 36px;
-        top: 92%;
-        right: 25%;
-    }
+/*    #qualification>section:nth-child(3)>button{*/
+/*        position: absolute;*/
+/*        background-color: #202123;*/
+/*        border: 5px solid #1DB89D;*/
+/*        color: white;*/
+/*        font-weight: bold;*/
+/*        font-size: 36px;*/
+/*        top: 92%;*/
+/*        right: 25%;*/
+/*    }*/
 
-    /* assignment */
-    #button{
-        width: 32%;
-        height: 64px;
-        background: #1DB89D;
-        color: white;
-        font-size: 36px;
-        font-family: 'Inter', sans-serif;
-        font-weight: bold;
-        position: absolute;
-        left: 35%;
-        bottom: 10%;
-    }
+/*    !* assignment *!*/
+/*    #button{*/
+/*        width: 32%;*/
+/*        height: 64px;*/
+/*        background: #1DB89D;*/
+/*        color: white;*/
+/*        font-size: 36px;*/
+/*        font-family: 'Inter', sans-serif;*/
+/*        font-weight: bold;*/
+/*        position: absolute;*/
+/*        left: 35%;*/
+/*        bottom: 10%;*/
+/*    }*/
 
-    /* project */
-    #project2{
-        position: absolute;
-        top: 22%;
-        left: 26%;
-        transform: rotate(135deg);
-    }
+/*    !* project *!*/
+/*    #project2{*/
+/*        position: absolute;*/
+/*        top: 22%;*/
+/*        left: 26%;*/
+/*        transform: rotate(135deg);*/
+/*    }*/
 
-    #project3{
-        position: absolute;
-        top: 72%;
-        right: 23%;
-        transform: rotate(315deg);
-    }
+/*    #project3{*/
+/*        position: absolute;*/
+/*        top: 72%;*/
+/*        right: 23%;*/
+/*        transform: rotate(315deg);*/
+/*    }*/
 
-    /* contact */
-    #div13{
-        position: absolute;
-        width: 0.2vw;
-        height: 6vh;
-        background-color: white;
-        top: 7%;
-        left: 20%;
-    }
+/*    !* contact *!*/
+/*    #div13{*/
+/*        position: absolute;*/
+/*        width: 0.2vw;*/
+/*        height: 6vh;*/
+/*        background-color: white;*/
+/*        top: 7%;*/
+/*        left: 20%;*/
+/*    }*/
 
-    #div14{
-        position: absolute;
-        width: 0.2vw;
-        height: 6vh;
-        background-color: white;
-        top: 7%;
-        left: 31.5%;
-    }
+/*    #div14{*/
+/*        position: absolute;*/
+/*        width: 0.2vw;*/
+/*        height: 6vh;*/
+/*        background-color: white;*/
+/*        top: 7%;*/
+/*        left: 31.5%;*/
+/*    }*/
 
-    #div15{
-        position: absolute;
-        width: 0.2vw;
-        height: 6vh;
-        background-color: white;
-        top: 7%;
-        left: 45.5%;
-    }
+/*    #div15{*/
+/*        position: absolute;*/
+/*        width: 0.2vw;*/
+/*        height: 6vh;*/
+/*        background-color: white;*/
+/*        top: 7%;*/
+/*        left: 45.5%;*/
+/*    }*/
 
-    #div16{
-        position: absolute;
-        width: 0.2vw;
-        height: 6vh;
-        background-color: white;
-        top: 7%;
-        left: 55%;
-    }
+/*    #div16{*/
+/*        position: absolute;*/
+/*        width: 0.2vw;*/
+/*        height: 6vh;*/
+/*        background-color: white;*/
+/*        top: 7%;*/
+/*        left: 55%;*/
+/*    }*/
 
-    #div17{
-        position: absolute;
-        width: 0.2vw;
-        height: 6vh;
-        background-color: white;
-        top: 7%;
-        left: 68%;
-    }
+/*    #div17{*/
+/*        position: absolute;*/
+/*        width: 0.2vw;*/
+/*        height: 6vh;*/
+/*        background-color: white;*/
+/*        top: 7%;*/
+/*        left: 68%;*/
+/*    }*/
 
-    #div18{
-        position: absolute;
-        width: 0.2vw;
-        height: 6vh;
-        background-color: white;
-        top: 7%;
-        left: 77%;
-    }
-}
+/*    #div18{*/
+/*        position: absolute;*/
+/*        width: 0.2vw;*/
+/*        height: 6vh;*/
+/*        background-color: white;*/
+/*        top: 7%;*/
+/*        left: 77%;*/
+/*    }*/
+/*}*/
 
 /*@media all and (max-width: 1024px){*/
 
