@@ -295,70 +295,157 @@ footer{
     left: 210px;
 }
 
-/*!* 1440 laptop size *!*/
-/*@media all and (max-width: 1440px) {*/
-/*    body{*/
-/*        position: relative;*/
-/*        background-color: #202123;*/
-/*        width: 100vw;*/
-/*        height: 187vh;*/
-/*        overflow-x: hidden;*/
-/*    }*/
+/* 1440 laptop size */
+@media all and (max-width: 1440px) {
+    body{
+        position: relative;
+        background-color: #202123;
+        width: 1440px;
+        height: 1490px;
+        overflow-x: hidden;
+    }
 
-/*    #div13{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 20%;*/
-/*    }*/
+    #image1{
+        position: absolute;
+        width: 319px;
+        /*top: 11%;*/
+        /*left: 15.5%;*/
+        top: 179px;
+        left: 236px;
+    }
 
-/*    #div14{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 31.5%;*/
-/*    }*/
+    #image2{
+        position: absolute;
+        width: 319px;
+        /*top: 11%;*/
+        /*left: 38.29%;*/
+        top: 179px;
+        left: 555.5px;
+    }
 
-/*    #div15{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 45.5%;*/
-/*    }*/
+    #image3{
+        position: absolute;
+        width: 319px;
+        /*top: 11%;*/
+        /*right: 15.5%;*/
+        top: 179px;
+        right: 236px;
+    }
 
-/*    #div16{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 55%;*/
-/*    }*/
+    #image4{
+        position: absolute;
+        width: 319px;
+        /*top: 43.3%;*/
+        top: 658px;
+        left: 236px;
+    }
 
-/*    #div17{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 68%;*/
-/*    }*/
+    #image5{
+        position: absolute;
+        width: 319px;
+        /*top: 43.3%;*/
+        top: 658px;
+        left: 555.5px;
+        z-index: 10;
+    }
 
-/*    #div18{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 77%;*/
-/*    }*/
-/*}*/
+    #image6{
+        z-index: 10;
+        position: absolute;
+        width: 319px;
+        /*top: 43.3%;*/
+        right: 236px;
+        top: 658px;
+    }
+
+    #image7{
+        position: absolute;
+        width: 319px;
+        /*top: 57.6%;*/
+        top: 872px;
+        left: 236px;
+    }
+
+    #image8{
+        position: absolute;
+        width: 319px;
+        /*top: 57.6%;*/
+        top: 872px;
+        left: 555.5px;
+    }
+
+    #image9{
+        position: absolute;
+        width: 319px;
+        /*top: 57.6%;*/
+        top: 872px;
+        right: 236px;
+    }
+
+    #image10{
+        position: absolute;
+        width: 319px;
+        /*top: 72%;*/
+        top: 1086px;
+        left: 236px;
+    }
+
+    #image11{
+        position: absolute;
+        width: 319px;
+        /*top: 72%;*/
+        top: 1086px;
+        left: 555.5px;
+    }
+
+    #image12{
+        position: absolute;
+        width: 319px;
+        /*top: 72%;*/
+        top: 1086px;
+        right: 236px;
+    }
+
+    footer{
+        top: 1400px;
+    }
+
+    #footer1{
+        width: 1440px;
+    }
+
+    #footer1>ol{
+        left: 107px;
+    }
+
+    #div13{
+        left: 283px;
+    }
+
+    #div14{
+        left: 449px;
+    }
+
+    #div15{
+        left: 650px;
+    }
+
+    #div16{
+        left: 785px;
+    }
+
+    #div17{
+        left: 973px;
+    }
+
+    #div18{
+        left: 1103px;
+    }
+
+    #footer2{
+        width: 1440px;
+    }
+}
 
 /*!* 1024 laptop size *!*/
 /*@media all and (max-width: 1024px){*/

@@ -929,12 +929,6 @@ body{
     left:15%;
 }
 
-/*#assgnment1{*/
-/*    position: absolute;*/
-/*    width: 300vw;*/
-/*    height: 350vh;*/
-/*}*/
-
 #assignment1>img{
     position: absolute;
     width: 300px;
@@ -991,7 +985,7 @@ body{
     position: absolute;
     width: 300px;
     top: 30%;
-    left: 40.5%;
+    left: 40.1%;
 }
 #assignment2>h5{
     position: absolute;
@@ -1000,7 +994,7 @@ body{
     font-family: sans-serif;
     font-size: 36px;
     top: 25%;
-    left: 44%;
+    left: 43%;
 }
 
 #assignment2>div{
@@ -1010,7 +1004,7 @@ body{
     background-color: #202123;
     border-radius: 100%;
     top: 52%;
-    left: 45.5%;
+    left: 45%;
 }
 
 #assignment2>div>img{
@@ -1052,7 +1046,7 @@ body{
     font-family: sans-serif;
     font-size: 36px;
     top: 25%;
-    left: 68%;
+    left: 67%;
 }
 
 #assignment3>div{
@@ -1470,116 +1464,167 @@ footer{
     left: 210px;
 }
 
-/* 1440 laptop size */
-/*@media all and (max-width: 1440px){*/
+ /*1440 laptop size */
+@media all and (max-width: 1440px) {
+    /*home*/
+    body{
+        width: 1440px;
+    }
 
-/*    !* Qualification *!*/
-/*    #div5{*/
-/*        position: absolute;*/
-/*        width: 3.5%;*/
-/*        height: 2%;*/
-/*        background-color: #1DB89D;*/
-/*        top: 25.6%;*/
-/*        left: 48%;*/
-/*        transform: rotate(45deg);*/
+    #home{
+        width: 1440px;
+        height: 80px;
+    }
 
-/*    }*/
 
-/*    #qualification>section:nth-child(3)>button{*/
-/*        position: absolute;*/
-/*        background-color: #202123;*/
-/*        border: 5px solid #1DB89D;*/
-/*        color: white;*/
-/*        font-weight: bold;*/
-/*        font-size: 36px;*/
-/*        top: 92%;*/
-/*        right: 25%;*/
-/*    }*/
+    #pic2{
+        width: 1440px;
+        height: 739px;
+    }
 
-/*    !* assignment *!*/
-/*    #button{*/
-/*        width: 32%;*/
-/*        height: 64px;*/
-/*        background: #1DB89D;*/
-/*        color: white;*/
-/*        font-size: 36px;*/
-/*        font-family: 'Inter', sans-serif;*/
-/*        font-weight: bold;*/
-/*        position: absolute;*/
-/*        left: 35%;*/
-/*        bottom: 10%;*/
-/*    }*/
+    #section1>.squares {
+        width: 1440px;
+    }
 
-/*    !* project *!*/
-/*    #project2{*/
-/*        position: absolute;*/
-/*        top: 22%;*/
-/*        left: 26%;*/
-/*        transform: rotate(135deg);*/
-/*    }*/
+/*    about*/
+    #about{
+        width: 1440px;
+    }
 
-/*    #project3{*/
-/*        position: absolute;*/
-/*        top: 72%;*/
-/*        right: 23%;*/
-/*        transform: rotate(315deg);*/
-/*    }*/
+    /*qualification*/
+    #qualification{
+        width: 1440px;
+    }
 
-/*    !* contact *!*/
-/*    #div13{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 20%;*/
-/*    }*/
+    /* what I learnt */
+    #learn{
+        width: 1440px;
+    }
 
-/*    #div14{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 31.5%;*/
-/*    }*/
+    /* gallery */
+    #gallery{
+        width: 1440px;
+    }
 
-/*    #div15{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 45.5%;*/
-/*    }*/
+    #gallery>section>#galary_photo{
+        width: 1440px;
+    }
 
-/*    #div16{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 55%;*/
-/*    }*/
+    #gallery_opacity{
+        width: 1200px;
+    }
 
-/*    #div17{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 68%;*/
-/*    }*/
+    /* assignment */
+    #assignment{
+        width: 1440px;
+    }
 
-/*    #div18{*/
-/*        position: absolute;*/
-/*        width: 0.2vw;*/
-/*        height: 6vh;*/
-/*        background-color: white;*/
-/*        top: 7%;*/
-/*        left: 77%;*/
-/*    }*/
-/*}*/
+    #assignment1>div{
+        left: 21.2%;
+    }
+
+    #assignment2>img{
+        left: 39.5%;
+    }
+    #assignment2>h5{
+        left: 42.5%;
+    }
+
+    #assignment3>h5{
+        left: 66.5%;
+    }
+
+    #assignment3>div{
+        left: 68.4%;
+    }
+
+    #button{
+        width: 30%;
+        left: 36%;
+    }
+
+    /* project */
+    #project{
+        width: 1440px;
+    }
+
+    #project>section>h6:first-child{
+        right: 47%;
+    }
+
+    #project>section>h3{
+        right:26%;
+    }
+
+    #project1{
+        left: 29%;
+    }
+
+    #project>section>h5{
+        left: 38.5%;
+    }
+
+    #h6{
+        left: 46%;
+    }
+
+    #project2{
+        left: 25%;
+    }
+
+    #project3{
+        right: 25%;
+    }
+
+    /* contact me */
+    #contact{
+        width: 1440px;
+    }
+
+    #contact>section>h3{
+        right:24%;
+    }
+
+    #contact>form{
+        width: 36%;
+    }
+
+    #footer1{
+        width: 1440px;
+    }
+
+    #footer1>ol{
+        left: 107px;
+    }
+
+    #div13{
+        left: 283px;
+    }
+
+    #div14{
+        left: 449px;
+    }
+
+    #div15{
+        left: 650px;
+    }
+
+    #div16{
+        left: 785px;
+    }
+
+    #div17{
+        left: 973px;
+    }
+
+    #div18{
+        left: 1103px;
+    }
+
+    #footer2{
+        width: 1440px;
+    }
+}
 
 /*@media all and (max-width: 1024px){*/
 
