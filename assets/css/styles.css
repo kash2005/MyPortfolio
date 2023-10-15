@@ -2268,6 +2268,7 @@ footer{
     }
 
     #home > nav > ol > li {
+        display: none;
         margin-right: 20px;
     }
 
@@ -2288,6 +2289,7 @@ footer{
     }
 
     #span3{
+        position: absolute;
         top: 13%;
         left: 40%;
     }
@@ -3004,6 +3006,7 @@ footer{
 
     #home > nav > ol > li {
         margin-right: 20px;
+        display: none;
     }
 
     #home > nav > ol > li > a {
@@ -3015,7 +3018,7 @@ footer{
     }
 
     #section1>div>h3{
-        font-size: 65px;
+        font-size: 40px;
     }
 
     #section1>div>h4{
@@ -3023,29 +3026,33 @@ footer{
     }
 
     #span3{
+        position: absolute;
         top: 13%;
         left: 40%;
     }
 
     #section1>div>div>button{
         font-size: 21px;
-        left: 40%;
+        left: 30%;
+        top: 170px;
     }
 
     #section1>div>h3>span:first-child{
-        font-size: 35px;
-        margin-top: -15px;
-        top: 13%;
-        left: 40%;
+        font-size: 25px;
+        margin-top: -50px;
     }
 
-    #section1>div>h3>span:nth-child(2){
-        font-size: 65px;
+    #section1>div>h3{
+        font-size: 40px;
+        margin-top: 20px;
     }
 
     #section1>div>h4{
-        font-size: 35px;
-        margin-top: -55px;
+        position: absolute;
+        font-size: 25px;
+        width: 250px;
+        margin-top: -27px;
+        left: 14%;
     }
 
     /*about*/
