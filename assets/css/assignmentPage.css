@@ -2403,7 +2403,7 @@ footer{
     }
 
     #footer1{
-        width: 768px;
+        width: 425px;
         height: 60px;
     }
 
@@ -2518,5 +2518,206 @@ footer{
         font-size: 16px;
         bottom: -10%;
         left: 110px;
+    }
+}
+
+@media all and (max-width: 426px){
+
+    body{
+        width: 425px;
+        height: 3650px;
+    }
+
+    main>section>h3{
+        font-size: 25px;
+        top: 1%;
+        left: 13%;
+    }
+
+    #assignment1{
+        top: 3%;
+        left: 24.5%;
+    }
+
+    /* Assignment 2 */
+    #assignment2{
+        top: 10.2%;
+        left: 24.5%;
+    }
+
+    /* Assignment 3 */
+    #assignment3{
+        top: 17.5%;
+        left: 24.5%;
+    }
+
+    /* Assignment 4 */
+    #assignment4{
+        top: 25%;
+        left: 24.5%;
+    }
+
+    /* Assignment 5 */
+    #assignment5{
+        top: 32.5%;
+        left: 24.5%;
+    }
+
+    /* Assignment 6 */
+    #assignment6{
+        top: 40%;
+        left: 24.5%;
+    }
+
+    /* Assignment 7 */
+    #assignment7{
+        top: 47.5%;
+        left: 24.5%;
+    }
+
+    /* Assignment 8 */
+    #assignment8{
+        top: 55%;
+        left: 24.5%;
+    }
+
+    /* Assignment 9 */
+    #assignment9{
+        top: 62.5%;
+        left: 24.5%;
+    }
+
+    /* Assignment 10 */
+    #assignment10{
+        top: 70%;
+        left: 24.5%;
+    }
+
+    /* Assignment 11 */
+    #assignment11{
+        top: 77.5%;
+        left: 24.5%;
+    }
+
+    /* Assignment 12 */
+    #assignment12{
+        top: 85%;
+        left: 24.5%;
+    }
+
+    footer{
+        position: relative;
+        top: 3390px;
+        background-color: #525252;
+    }
+
+    #footer1{
+        width: 425px;
+        height: 70px;
+    }
+
+    #footer1>ol{
+        left: -23px;
+        margin-top: 0px;
+        width: 380px;
+        text-align: center;
+    }
+
+    #footer1>ol>li{
+        margin-left:10px;
+    }
+
+    #footer1>ol>li>a{
+        font-size: 18px;
+    }
+
+    #div13{
+        width: 1.5px;
+        height: 20px;
+        top: 6%;
+        left: 109px;
+    }
+
+    #div14{
+        width: 1.5px;
+        height: 20px;
+        top: 6%;
+        left: 195px;
+    }
+
+    #div15{
+        width: 1.5px;
+        height: 20px;
+        top: 6%;
+        left: 305px;
+    }
+
+    #div16{
+        display: none;
+    }
+
+    #div17{
+        width: 1.5px;
+        height: 20px;
+        top: 14%;
+        left: 179px;
+    }
+
+    #div18{
+        width: 1.5px;
+        height: 20px;
+        top: 14%;
+        left: 245px;
+    }
+
+    #footer2{
+        width: 425px;
+        height: 220px;
+        bottom: -10%;
+    }
+
+    #footer2>ol{
+        width: 500px;
+        height: 50px;
+        bottom: 4%;
+        left: 32px;
+    }
+
+    #footer2>ol>li{
+        margin-left: 10px;
+    }
+
+    #footer2>ol>li>a>img{
+        width: 40px;
+    }
+
+    #ol1{
+        right: 295px;
+        bottom: 25%;
+
+    }
+
+    #ol1>li{
+        margin-top: 19px;
+    }
+
+    #ol1>li>img{
+        width: 20px;
+    }
+
+    #ol2{
+        right: 90px;
+        bottom: 19%;
+    }
+
+    #ol2>li{
+        margin-top: 18px;
+        font-size: 16px;
+    }
+
+    #footer2>h6{
+        font-size: 16px;
+        bottom: -10%;
+        left: 60px;
     }
 }
