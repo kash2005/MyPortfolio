@@ -8,144 +8,130 @@ body{
     !important;
 }
 
-/*header{*/
-/*    position: fixed;*/
-/*    width: 100%;*/
-/*    height: 80px;*/
-/*    background-color: #1DB89D;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    margin: auto;*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*    padding: 0;*/
-/*    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);*/
-/*    z-index: 999;*/
-/*}*/
-
-/*header .navBar {*/
-/*    width: fit-content;*/
-/*    position: absolute;*/
-/*    right: 0;*/
-/*    left: 0;*/
-
-/*    margin: auto;*/
-/*}*/
-
-/*header .navBar a{*/
-/*    position: relative;*/
-/*    display: inline-block;*/
-/*    font-size: 1.2rem;*/
-/*    font-family: 'Poppins',sans-serif;*/
-/*    color: white;*/
-/*    margin-left: 2rem;*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*header .navBar a:hover{*/
-/*    color:#202135;*/
-/*}*/
-
-/*#menu{*/
-/*    display: none;*/
-/*    position: relative;*/
-/*    font-size: 2rem;*/
-/*    color: white;*/
-/*    cursor: pointer;*/
-/*    right: 5%;*/
-/*}*/
-
-/*header .name{*/
-/*    display: none;*/
-/*    position: absolute;*/
-/*    color: white;*/
-/*    font-size: 1.5rem;*/
-/*    font-family: 'Poppins',sans-serif;*/
-/*    left: 6.5%;*/
-
-/*}*/
-
-/*@media all and (max-width: 768px){*/
-/*    header .name.active {*/
-/*        display: block;*/
-/*    }*/
-
-/*    #menu{*/
-/*        display: block;*/
-/*    }*/
-
-/*    .toggle-btn.active::before{*/
-/*        content: '\f00d';*/
-/*    }*/
-
-/*    header .navBar{*/
-/*        position: absolute;*/
-/*        top: 100%;*/
-/*        left: 0;*/
-/*        background-color: #1DB89D;*/
-/*        width: 100%;*/
-/*        padding: 0 5%;*/
-/*        box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);*/
-/*        transform: scale(0);*/
-/*        transition: .8s;*/
-/*        transform-origin: top center;*/
-/*        !*overflow: hidden;*!*/
-/*    }*/
-
-/*    header .navBar.active{*/
-/*        transform: scale(1);*/
-/*    }*/
-
-/*    header .navBar a{*/
-/*        display: block;*/
-/*        margin: 1.5rem 0;*/
-/*        left: 110%;*/
-/*        transition: .5s;*/
-/*        transition-delay: calc(.1s * var(--i));*/
-/*    }*/
-
-/*    header .navBar.active a{*/
-/*        left: 0;*/
-/*    }*/
-/*}*/
-
-/*@media all and (max-width: 600px) {*/
-/*    header .navBar a{*/
-/*        font-size: 1.1rem;*/
-/*    }*/
-/*}*/
-
-/*@media all and (max-width: 425px) {*/
-/*    header .name{*/
-/*        left: 9%;*/
-/*    }*/
-/*}*/
-
-
-
-header {
-    z-index: 10;
+header{
+    position: fixed;
     width: 100%;
     height: 80px;
-    position: fixed;
+    background: linear-gradient(#202123 0%, #1DB89D 0%, #202135 100%);
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    z-index: 999;
 }
 
-header > h1 {
-    z-index: 90;
+header .navBar {
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+header .navBar a{
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+header .navBar a:hover{
+    color:#202135;
+    transition-delay: 0.2s;
+}
+
+#menu{
+    display: none;
+    position: relative;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    right: 5%;
+}
+
+header .name{
+    display: none;
     position: absolute;
     color: white;
-    top: 20%;
-    left: 5%;
-    font-family: 'PT Sans';
-    font-size: 45px;
-    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Poppins',sans-serif;
+    left: 6.5%;
 }
 
+@media all and (max-width: 768px){
+    header .name.active {
+        display: block;
+    }
 
-.gradient {
+    #menu{
+        display: block;
+    }
+
+    .toggle-btn.active::before{
+        content: '\f00d';
+    }
+
+    header .navBar a:hover{
+        color: #1DB89D;
+        transition-delay: 0.2s;
+    }
+
+    header .navBar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: transparent;
+        border: 5px solid #1DB89D;
+        border-radius: 1%;
+        width: 100%;
+        padding: 0 5%;
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, .3);
+        transform: scale(0);
+        transition: .8s;
+        transform-origin: top center;
+        overflow: hidden;
+    }
+
+    header .navBar.active{
+        transform: scale(1);
+    }
+
+    header .navBar a{
+        display: block;
+        margin: 1.5rem 0;
+        left: 110%;
+        transition: .5s;
+        transition-delay: calc(.1s * var(--i));
+    }
+
+    header .navBar.active a{
+        left: 0;
+    }
+}
+
+@media all and (max-width: 600px) {
+    header .navBar a{
+        font-size: 1.1rem;
+    }
+}
+
+@media all and (max-width: 425px) {
+    header .name{
+        left: 9%;
+    }
+}
+
+header .gradient {
     height: 80px;
+    width: 100%;
     background: -moz-linear-gradient(53deg, #202123 0%, #1DB89D 50%, #202135 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #202123), color-stop(50%, #1DB89D), color-stop(100%, #202135)); /* safari4+,chrome */
     background: -webkit-linear-gradient(53deg, #202123 0%, #1DB89D 50%, #202135 100%); /* safari5.1+,chrome10+ */
@@ -206,28 +192,6 @@ header > h1 {
     100% {
         background-position: 0% 50%;
     }
-}
-
-header > nav > ol > li {
-    display: inline-block;
-    margin-right: 25px;
-}
-
-header > nav > ol > li > a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: sans-serif;
-}
-
-header > nav {
-    width: fit-content;
-    position: absolute;
-    top: 17%;
-    right: 0;
-    left: 0;
-    margin: auto;
 }
 
 #home {
@@ -1423,24 +1387,7 @@ footer{
 
  /*1440 laptop size */
 @media all and (max-width: 1440px) {
-    home
-    header > h1 {
-        top: 22%;
-        font-size: 42px;
-    }
-
-    header > nav > ol > li {
-        margin-right: 20px;
-    }
-
-    header > nav > ol > li > a {
-        font-size: 19px;
-    }
-
-    header > nav {
-        top: 18%;
-    }
-
+    /*home*/
     #home > section > div > h3 {
         font-size: 90px;
     }
@@ -1879,26 +1826,9 @@ footer{
 }
 
 @media all and (max-width: 1200px){
-    /*header .navBar a{*/
-    /*    font-size: 1.2rem;*/
-    /*    margin-left: 1rem;*/
-    /*}*/
-
-    header > h1 {
-        top: 23%;
-        font-size: 40px;
-    }
-
-    header > nav > ol > li {
-        margin-right: 20px;
-    }
-
-    header > nav > ol > li > a {
-        font-size: 18px;
-    }
-
-    header > nav {
-        top: 19%;
+    header .navBar a{
+        font-size: 1.2rem;
+        margin-left: 1rem;
     }
 
     #home > section > div > h3 {
@@ -1958,31 +1888,9 @@ footer{
 }
 
 @media all and (max-width: 1024px) {
-    /*header .navBar a{*/
-    /*    font-size: 1.1rem;*/
-    /*    margin-left: 1rem;*/
-    /*}*/
-
-    header > h1 {
-        top: 15%;
-        left: 5%;
-        font-size: 36px;
-    }
-
-    header > nav > ol > li {
-        margin-right: 15px;
-    }
-
-    header > nav > ol > li > a {
-        font-size: 17px;
-    }
-
-    header > nav {
-        top: 8%;
-    }
-
-    .gradient {
-        height: 60px;
+    header .navBar a{
+        font-size: 1.1rem;
+        margin-left: 1rem;
     }
 
     #home > section > div > h3 {
@@ -2466,17 +2374,9 @@ footer{
 }
 
 @media all and (max-width: 896px){
-    /*header .navBar a{*/
-    /*    font-size: 1.1rem;*/
-    /*    margin-left: 0.6rem;*/
-    /*}*/
-
-    header > h1 {
-        font-size: 34px;
-    }
-
-    header > nav > ol > li > a {
-        font-size: 15px;
+    header .navBar a{
+        font-size: 1.1rem;
+        margin-left: 0.6rem;
     }
 
     #home > section > div > h3 {
@@ -2861,28 +2761,6 @@ footer{
 }
 
 @media all and (max-width: 768px){
-    header > h1 {
-        top: 29%;
-        left: 5%;
-        font-size: 30px;
-    }
-
-    header > nav > ol > li {
-        margin-right: 15px;
-    }
-
-    header > nav > ol > li > a {
-        font-size: 15px;
-    }
-
-    header > nav {
-        top: 20%;
-    }
-
-    .gradient {
-        height: 80px;
-    }
-
     #home{
         height: 1024px;
     }
@@ -3442,28 +3320,6 @@ footer{
 
 /*425 mobile size*/
 @media all and (max-width: 426px){
-    header > h1 {
-        top: 29%;
-        left: 5%;
-        font-size: 30px;
-    }
-
-    header > nav > ol > li {
-        margin-right: 15px;
-    }
-
-    header > nav > ol > li > a {
-        font-size: 15px;
-    }
-
-    header > nav {
-        top: 20%;
-    }
-
-    .gradient {
-        height: 60px;
-    }
-
     #home{
         height: 739px;
     }
