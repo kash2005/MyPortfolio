@@ -5,7 +5,7 @@ html{
 body{
     position: relative;
     background-color: #202123;
-    width: 1520px;
+    width: 100%;
     height: 1625px;
     overflow-x: hidden;
     !important;
@@ -23,8 +23,6 @@ h3{
 }
 
 img {
-    /*width: 500px;*/
-    /*height: 450px;*/
     margin: 5px;
     transition: transform 1s;
     border: 1px ;
@@ -34,105 +32,82 @@ img:hover {
     transform: scale(1.1);
 }
 
-#image1{
+.img{
     position: absolute;
     width: 350px;
-    /*top: 11%;*/
-    /*left: 15.5%;*/
-    top: 179px;
-    left: 236px;
+}
+
+#image1{
+    position: absolute;
+    top: 11%;
+    left: 15.5%;
 }
 
 #image2{
     position: absolute;
-    width: 350px;
-    /*top: 11%;*/
-    /*left: 38.29%;*/
-    top: 179px;
-    left: 580px;
+    top: 11%;
+    left: 38.29%;
 }
 
 #image3{
     position: absolute;
-    width: 350px;
-    /*top: 11%;*/
-    /*right: 15.5%;*/
-    top: 179px;
-    right: 236px;
+    top: 11%;
+    right: 15.5%;
 }
 
 #image4{
     position: absolute;
-    width: 350px;
-    /*top: 43.3%;*/
-    top: 704px;
-    left: 236px;
+    top: 43.3%;
+    left: 15.5%;
 }
 
 #image5{
     position: absolute;
-    width: 350px;
-    /*top: 43.3%;*/
-    top: 704px;
-    left: 580px;
-    z-index: 10;
+    top: 43.3%;
+    left: 38.29%;
 }
 
 #image6{
-    z-index: 10;
     position: absolute;
-    width: 350px;
-    /*top: 43.3%;*/
-    right: 236px;
-    top: 704px;
+    top: 43.3%;
+    right: 15.5%;
 }
 
 #image7{
     position: absolute;
-    width: 350px;
-    /*top: 57.6%;*/
-    top: 937px;
-    left: 236px;
+    top: 57.6%;
+    left: 15.5%;
 }
 
 #image8{
     position: absolute;
-    width: 350px;
-    /*top: 57.6%;*/
-    top: 937px;
-    left: 580px;
+    top: 57.6%;
+    left: 38.29%;
 }
 
 #image9{
     position: absolute;
     width: 350px;
-    /*top: 57.6%;*/
-    top: 937px;
-    right: 236px;
+    top: 57.6%;
+    right: 15.5%;
 }
 
 #image10{
     position: absolute;
-    width: 350px;
-    /*top: 72%;*/
-    top: 1170px;
-    left: 236px;
+    top: 72%;
+    left: 15.5%;
 }
 
 #image11{
     position: absolute;
-    width: 350px;
-    /*top: 72%;*/
-    top: 1170px;
-    left: 580px;
+    top: 72%;
+    left: 38.29%;
 }
 
 #image12{
     position: absolute;
-    width: 350px;
-    /*top: 72%;*/
-    top: 1170px;
-    right: 236px;
+    top: 72%;
+    right: 15.5%;
 }
 
 footer{
@@ -143,15 +118,12 @@ footer{
 
 #footer1{
     background-color: #202135;
-    width: 1520px;
     height: 100px;
 }
 
 #footer1>ol{
     position: absolute;
-    /*left: 8%;*/
     left: 120px;
-    /*right: 8%;*/
 
 }
 
@@ -166,69 +138,55 @@ footer{
     font-size: 30px;
 }
 
-#div13{
+.dash{
     position: absolute;
     width: 3px;
     height: 45px;
     background-color: white;
     top: 7%;
-    /*left: 19.5%;*/
+}
+
+#div13{
+    position: absolute;
     left: 295px;
 }
 
 #div14{
     position: absolute;
-    width: 3px;
-    height: 45px;
-    background-color: white;
-    top: 7%;
-    /*left: 30.5%;*/
     left: 460px;
 }
 
 #div15{
     position: absolute;
-    width: 3px;
-    height: 45px;
-    background-color: white;
-    top: 7%;
-    /*left: 44%;*/
     left: 665px;
 }
 
 #div16{
     position: absolute;
-    width: 3px;
-    height: 45px;
-    background-color: white;
-    top: 7%;
-    /*left: 52.5%;*/
     left: 795px;
 }
 
 #div17{
     position: absolute;
-    width: 3px;
-    height: 45px;
-    background-color: white;
-    top: 7%;
-    /*left: 65%;*/
     left: 985px;
 }
 
 #div18{
     position: absolute;
-    width: 3px;
-    height: 45px;
-    background-color: white;
-    top: 7%;
-    /*left: 73.5%;*/
     left: 1115px;
+}
+
+#center{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 #footer2{
     background-color: #525252;
-    width: 1520px;
     height: 280px;
     bottom: -10%;
 }
@@ -238,13 +196,11 @@ footer{
     width: 500px;
     height: 50px;
     bottom: 32%;
-    /*left: 6%;*/
-    left: 170px;
+    left: 190px;
 }
 
 #footer2>ol>li{
     list-style: none;
-    /*margin-left: 5%;*/
     margin-left: 10px;
     display: inline-block;
 }
@@ -255,15 +211,14 @@ footer{
 
 #ol1{
     position: absolute;
-    /*right: 35%;*/
-    right: 600px;
-    bottom: 6%;
+    right: 550px;
+    bottom: 8%;
 
 }
 
 #ol1>li{
     list-style: none;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 #ol1>li>img{
@@ -272,14 +227,13 @@ footer{
 
 #ol2{
     position: absolute;
-    /*right: 15%;*/
-    right: 280px;
+    right: 220px;
     bottom: 5%;
 }
 
 #ol2>li{
     list-style: none;
-    margin-top: 35px;
+    margin-top: 30px;
     color: white;
     font-size: 24px;
     font-family: sans-serif;
@@ -296,7 +250,6 @@ footer{
     font-family: sans-serif;
     opacity: 60%;
     bottom: -10%;
-    /*left: 14%;*/
     left: 210px;
 }
 
@@ -305,262 +258,223 @@ footer{
     body{
         position: relative;
         background-color: #202123;
-        width: 1440px;
         height: 1490px;
         overflow-x: hidden;
     }
 
+    .img{
+        width: 320px;
+    }
     #image1{
-        position: absolute;
-        width: 319px;
-        /*top: 11%;*/
-        /*left: 15.5%;*/
-        top: 179px;
-        left: 236px;
+        top: 11%;
+        left: 16.3%;
     }
 
     #image2{
-        position: absolute;
-        width: 319px;
-        /*top: 11%;*/
-        /*left: 38.29%;*/
-        top: 179px;
-        left: 555.5px;
+        top: 11%;
+        left: 38.6%;
     }
 
     #image3{
-        position: absolute;
-        width: 319px;
-        /*top: 11%;*/
-        /*right: 15.5%;*/
-        top: 179px;
-        right: 236px;
+        top: 11%;
+        right: 16.3%;
     }
 
     #image4{
-        position: absolute;
-        width: 319px;
-        /*top: 43.3%;*/
-        top: 658px;
-        left: 236px;
+        top: 43.3%;
+        left: 16.3%;
     }
 
     #image5{
-        position: absolute;
-        width: 319px;
-        /*top: 43.3%;*/
-        top: 658px;
-        left: 555.5px;
-        z-index: 10;
+        top: 43.3%;
+        left: 38.6%;
     }
 
     #image6{
-        z-index: 10;
-        position: absolute;
-        width: 319px;
-        /*top: 43.3%;*/
-        right: 236px;
-        top: 658px;
+        top: 43.3%;
+        right: 16.3%;
     }
 
     #image7{
-        position: absolute;
-        width: 319px;
-        /*top: 57.6%;*/
-        top: 872px;
-        left: 236px;
+        top: 57.6%;
+        left: 16.3%;
     }
 
     #image8{
-        position: absolute;
-        width: 319px;
-        /*top: 57.6%;*/
-        top: 872px;
-        left: 555.5px;
+        top: 57.6%;
+        left: 38.6%;
     }
 
     #image9{
-        position: absolute;
-        width: 319px;
-        /*top: 57.6%;*/
-        top: 872px;
-        right: 236px;
+        right: 16.3%;
+        top: 57.6%;
     }
 
     #image10{
-        position: absolute;
-        width: 319px;
-        /*top: 72%;*/
-        top: 1086px;
-        left: 236px;
+        top: 72%;
+        left: 16.3%;
     }
 
     #image11{
-        position: absolute;
-        width: 319px;
-        /*top: 72%;*/
-        top: 1086px;
-        left: 555.5px;
+        top: 72%;
+        left: 38.6%;
     }
 
     #image12{
-        position: absolute;
-        width: 319px;
-        /*top: 72%;*/
-        top: 1086px;
-        right: 236px;
+        top: 72%;
+        right: 16.3%;
     }
 
     footer{
         top: 1400px;
     }
 
-    #footer1{
-        width: 1440px;
+    #footer1>ol{
+        left: 230px;
     }
 
-    #footer1>ol{
+    #footer1>ol>li{
+        margin-left:20px;
+    }
+
+    #footer1>ol>li>a{
+        font-size: 25px;
+    }
+
+    #footer2>ol{
+        bottom: 32%;
         left: 107px;
     }
 
+    #footer2>ol>li>a>img{
+        width: 65px;
+    }
+
+    #ol1{
+        right: 550px;
+        bottom: 8%;
+    }
+
+    #ol1>li{
+        list-style: none;
+        margin-top: 15px;
+    }
+
+    #ol1>li>img{
+        width: 45px;
+    }
+
+    #ol2{
+        position: absolute;
+        right: 220px;
+        bottom: 5%;
+    }
+
+    #ol2>li{
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    #footer2>h6{
+        font-size: 25px;
+        bottom: -10%;
+        left: 170px;
+    }
+
     #div13{
-        left: 283px;
+        left: 363px;
     }
 
     #div14{
-        left: 449px;
+        left: 489px;
     }
 
     #div15{
-        left: 650px;
+        left: 645px;
     }
 
     #div16{
-        left: 785px;
+        left: 745px;
     }
 
     #div17{
-        left: 973px;
+        left: 887px;
     }
 
     #div18{
-        left: 1103px;
-    }
-
-    #footer2{
-        width: 1440px;
+        left: 983px;
     }
 }
 
 /* 1024 laptop size */
 @media all and (max-width: 1024px) {
     body{
-        position: relative;
-        background-color: #202123;
-        width: 1024px;
         height: 1300px;
-        overflow-x: hidden;
+    }
+
+    .img{
+        width: 233px;
     }
 
     #image1{
-        position: absolute;
-        width: 233px;
-        /*top: 11%;*/
-        /*left: 15.5%;*/
-        top: 179px;
-        left: 143px;
+        top: 16.5%;
+        left: 15.5%;
     }
 
     #image2{
-        position: absolute;
-        width: 233px;
-        /*top: 11%;*/
-        /*left: 38.29%;*/
-        top: 179px;
-        left: 375.5px;
+        top: 16.5%;
+        left: 38.29%;
     }
 
     #image3{
-        position: absolute;
-        width: 233px;
-        /*top: 11%;*/
-        /*right: 15.5%;*/
-        top: 179px;
-        right: 173px;
+        top: 16.5%;
+        right: 15.5%;
     }
 
     #image4{
-        position: absolute;
-        width: 233px;
-        /*top: 43.3%;*/
-        top: 528px;
-        left: 143px;
+        top: 43.3%;
+        left: 15.5%;
     }
 
     #image5{
-        position: absolute;
-        width: 233px;
-        /*top: 43.3%;*/
-        top: 528px;
-        left: 375.5px;
-        z-index: 10;
+        top: 43.3%;
+        left: 38.29%;
     }
 
     #image6{
-        z-index: 10;
-        position: absolute;
-        width: 233px;
-        /*top: 43.3%;*/
-        right: 173px;
-        top: 528px;
+        top: 43.3%;
+        right: 15.5%;
     }
 
     #image7{
-        position: absolute;
-        width: 233px;
-        /*top: 57.6%;*/
-        top: 683px;
-        left: 143px;
+        top: 55.2%;
+        left: 15.5%;
     }
 
     #image8{
-        position: absolute;
-        width: 233px;
-        /*top: 57.6%;*/
-        top: 683px;
-        left: 375.5px;
+        top: 55.2%;
+        left: 38.29%;
     }
 
     #image9{
-        position: absolute;
+        top: 55.2%;
+        right: 15.5%;
         width: 233px;
-        /*top: 57.6%;*/
-        top: 683px;
-        right: 173px;
     }
 
     #image10{
-        position: absolute;
-        width: 233px;
-        /*top: 72%;*/
-        top: 838px;
-        left: 143px;
+        top: 67%;
+        left: 15.5%;
     }
 
     #image11{
-        position: absolute;
-        width: 233px;
-        /*top: 72%;*/
-        top: 838px;
-        left: 375.5px;
+        top: 67%;
+        left: 38.29%;
     }
 
     #image12{
-        position: absolute;
-        width: 233px;
-        /*top: 72%;*/
-        top: 838px;
-        right: 173px;
+        top: 67%;
+        right: 15.5%;
     }
 
     footer{
@@ -568,60 +482,55 @@ footer{
     }
 
     #footer1{
-        width: 1024px;
         height: 90px;
     }
 
     #footer1>ol{
-        left: 20px;
+        left: 105px;
     }
 
     #footer1>ol>li{
-        margin-left:35px;
+        margin-left:20px;
     }
 
     #footer1>ol>li>a{
-        font-size: 23px;
+        font-size: 20px;
     }
 
     #div13{
-        left: 170px;
+        left: 225px;
     }
 
     #div14{
-        left: 300px;
+        left: 330px;
     }
 
     #div15{
-        left: 465px;
+        left: 460px;
     }
 
     #div16{
-        left: 572px;
+        left: 542px;
     }
 
     #div17{
-        left: 720px;
+        left: 665px;
     }
 
     #div18{
-        left: 825px;
+        left: 745px;
     }
 
     #footer2{
-        background-color: #525252;
-        width: 1024px;
-        height: 280px;
+        height: 250px;
         bottom: -10%;
     }
 
     #footer2>ol{
-        position: absolute;
         width: 500px;
         height: 50px;
         bottom: 32%;
-        /*left: 6%;*/
-        left: 100px;
+        left: 50px;
     }
 
     #footer2>ol>li{
@@ -629,20 +538,17 @@ footer{
     }
 
     #footer2>ol>li>a>img{
-        width: 50px;
+        width: 45px;
     }
 
     #ol1{
-        position: absolute;
-        /*right: 35%;*/
-        right: 450px;
-        bottom: 10%;
+        right: 400px;
+        bottom: 12.5%;
 
     }
 
     #ol1>li{
-        list-style: none;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     #ol1>li>img{
@@ -650,9 +556,7 @@ footer{
     }
 
     #ol2{
-        position: absolute;
-        /*right: 15%;*/
-        right: 150px;
+        right: 110px;
         bottom: 5%;
     }
 
@@ -664,131 +568,90 @@ footer{
     #footer2>h6{
         font-size: 22px;
         bottom: -10%;
-        left: 150px;
+        left: 100px;
     }
 }
 
 @media all and (max-width: 768px){
     body{
-        position: relative;
-        background-color: #202123;
-        width: 768px;
-        height: 1105px;
-        overflow-x: hidden;
+        height: 970px;
+    }
+
+    .img{
+        position: absolute;
+        width: 173px;
     }
 
     #image1{
-        position: absolute;
-        width: 173px;
-        /*top: 11%;*/
-        /*left: 15.5%;*/
-        top: 149px;
-        left: 120px;
+        top: 16.5%;
+        left: 15.5%;
     }
 
     #image2{
-        position: absolute;
-        width: 173px;
-        /*top: 11%;*/
-        /*left: 38.29%;*/
-        top: 149px;
-        left: 292.5px;
+        top: 16.5%;
+        left: 38.10%;
     }
 
     #image3{
-        position: absolute;
-        width: 173px;
-        /*top: 11%;*/
-        /*right: 15.5%;*/
-        top: 149px;
-        right: 120px;
+        top: 16.5%;
+        right: 15.5%;
     }
 
     #image4{
-        position: absolute;
-        width: 173px;
-        /*top: 43.3%;*/
-        top: 408px;
-        left: 120px;
+        top: 43.3%;
+        left: 15.5%;
     }
 
     #image5{
-        position: absolute;
-        width: 173px;
-        /*top: 43.3%;*/
-        top: 408px;
-        left: 292.5px;
-        z-index: 10;
+        top: 43.3%;
+        left: 38.10%;
     }
 
     #image6{
-        z-index: 10;
-        position: absolute;
-        width: 173px;
-        /*top: 43.3%;*/
-        right: 120px;
-        top: 408px;
+        top: 43.3%;
+        right: 15.5%;
     }
 
     #image7{
-        position: absolute;
-        width: 173px;
-        /*top: 57.6%;*/
-        top: 523px;
-        left: 120px;
+        top: 55.2%;
+        left: 15.5%;
     }
 
     #image8{
-        position: absolute;
-        width: 173px;
-        /*top: 57.6%;*/
-        top: 523px;
-        left: 292.5px;
+        top: 55.2%;
+        left: 38.10%;
     }
 
     #image9{
-        position: absolute;
+        top: 55.2%;
+        right: 15.5%;
         width: 173px;
-        /*top: 57.6%;*/
-        top: 523px;
-        right: 120px;
     }
 
     #image10{
-        position: absolute;
-        width: 173px;
-        /*top: 72%;*/
-        top: 638px;
-        left: 120px;
+        top: 67%;
+        left: 15.5%;
     }
 
     #image11{
-        position: absolute;
-        width: 173px;
-        /*top: 72%;*/
-        top: 638px;
-        left: 292.5px;
+        top: 67%;
+        left: 38.10%;
     }
 
     #image12{
-        position: absolute;
-        width: 173px;
-        /*top: 72%;*/
-        top: 638px;
-        right: 120px;
+        top: 67%;
+        right: 15.5%;
     }
-
     footer{
         top: 830px;
     }
 
     #footer1{
-        width: 768px;
         height: 60px;
     }
 
     #footer1>ol{
-        left: 15px;
+        left: 40px;
         margin-top: 1px;
     }
 
@@ -797,68 +660,53 @@ footer{
     }
 
     #footer1>ol>li>a{
-        font-size: 21px;
+        font-size: 17px;
+    }
+
+    .dash{
+        width: 2px;
+        height: 30px;
+        top: 5%;
     }
 
     #div13{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 124px;
+        left: 137px;
     }
 
     #div14{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 222px;
+        left: 221px;
     }
 
     #div15{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 347px;
+        left: 325px;
     }
 
     #div16{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 425px;
+        left: 391px;
     }
 
     #div17{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 539px;
+        left: 484px;
     }
 
     #div18{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 612px;
+        left: 548px;
     }
 
     #footer2{
-        width: 768px;
-        height: 220px;
+        height: 190px;
         bottom: -10%;
     }
 
     #footer2>ol{
-        position: absolute;
         width: 500px;
         height: 50px;
-        bottom: 32%;
-        /*left: 6%;*/
-        left: 40px;
+        bottom: 22%;
+        left: 15px;
     }
 
     #footer2>ol>li{
-        margin-left: 5px;
+        margin-left: 8px;
     }
 
     #footer2>ol>li>a>img{
@@ -866,15 +714,12 @@ footer{
     }
 
     #ol1{
-        position: absolute;
-        /*right: 35%;*/
-        right: 343px;
-        bottom: 10%;
+        right: 355px;
+        bottom: 5%;
 
     }
 
     #ol1>li{
-        list-style: none;
         margin-top: 10px;
     }
 
@@ -883,10 +728,8 @@ footer{
     }
 
     #ol2{
-        position: absolute;
-        /*right: 15%;*/
-        right: 100px;
-        bottom: 5%;
+        right: 110px;
+        bottom: -3%;
     }
 
     #ol2>li{
@@ -897,7 +740,7 @@ footer{
     #footer2>h6{
         font-size: 16px;
         bottom: -10%;
-        left: 110px;
+        left: 60px;
     }
 }
 
@@ -905,7 +748,6 @@ footer{
     body{
         position: relative;
         background-color: #202123;
-        width: 425px;
         height: 1105px;
         overflow-x: hidden;
     }

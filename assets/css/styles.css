@@ -3,31 +3,148 @@ html{
 }
 
 body{
-    background-color: #525252;
-    width: 1520px;
     overflow-x: hidden;
+    width: 100%;
     !important;
 }
 
-#home{
+/*header{*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    height: 80px;*/
+/*    background-color: #1DB89D;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: auto;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding: 0;*/
+/*    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);*/
+/*    z-index: 999;*/
+/*}*/
+
+/*header .navBar {*/
+/*    width: fit-content;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    left: 0;*/
+
+/*    margin: auto;*/
+/*}*/
+
+/*header .navBar a{*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    font-size: 1.2rem;*/
+/*    font-family: 'Poppins',sans-serif;*/
+/*    color: white;*/
+/*    margin-left: 2rem;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*header .navBar a:hover{*/
+/*    color:#202135;*/
+/*}*/
+
+/*#menu{*/
+/*    display: none;*/
+/*    position: relative;*/
+/*    font-size: 2rem;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*    right: 5%;*/
+/*}*/
+
+/*header .name{*/
+/*    display: none;*/
+/*    position: absolute;*/
+/*    color: white;*/
+/*    font-size: 1.5rem;*/
+/*    font-family: 'Poppins',sans-serif;*/
+/*    left: 6.5%;*/
+
+/*}*/
+
+/*@media all and (max-width: 768px){*/
+/*    header .name.active {*/
+/*        display: block;*/
+/*    }*/
+
+/*    #menu{*/
+/*        display: block;*/
+/*    }*/
+
+/*    .toggle-btn.active::before{*/
+/*        content: '\f00d';*/
+/*    }*/
+
+/*    header .navBar{*/
+/*        position: absolute;*/
+/*        top: 100%;*/
+/*        left: 0;*/
+/*        background-color: #1DB89D;*/
+/*        width: 100%;*/
+/*        padding: 0 5%;*/
+/*        box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);*/
+/*        transform: scale(0);*/
+/*        transition: .8s;*/
+/*        transform-origin: top center;*/
+/*        !*overflow: hidden;*!*/
+/*    }*/
+
+/*    header .navBar.active{*/
+/*        transform: scale(1);*/
+/*    }*/
+
+/*    header .navBar a{*/
+/*        display: block;*/
+/*        margin: 1.5rem 0;*/
+/*        left: 110%;*/
+/*        transition: .5s;*/
+/*        transition-delay: calc(.1s * var(--i));*/
+/*    }*/
+
+/*    header .navBar.active a{*/
+/*        left: 0;*/
+/*    }*/
+/*}*/
+
+/*@media all and (max-width: 600px) {*/
+/*    header .navBar a{*/
+/*        font-size: 1.1rem;*/
+/*    }*/
+/*}*/
+
+/*@media all and (max-width: 425px) {*/
+/*    header .name{*/
+/*        left: 9%;*/
+/*    }*/
+/*}*/
+
+
+
+header {
     z-index: 10;
-    position: fixed;
-    width: 1520px;
+    width: 100%;
     height: 80px;
-    background-color: #202123;
+    position: fixed;
 }
 
-#home>h1{
+header > h1 {
+    z-index: 90;
     position: absolute;
     color: white;
-    top: -15%;
+    top: 20%;
     left: 5%;
     font-family: 'PT Sans';
     font-size: 45px;
+    margin: 0;
 }
 
+
 .gradient {
-    /*height:100vh;*/
     height: 80px;
     background: -moz-linear-gradient(53deg, #202123 0%, #1DB89D 50%, #202135 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #202123), color-stop(50%, #1DB89D), color-stop(100%, #202135)); /* safari4+,chrome */
@@ -35,51 +152,68 @@ body{
     background: -o-linear-gradient(53deg, #202123 0%, #1DB89D 50%, #202135 100%); /* opera 11.10+ */
     background: -ms-linear-gradient(53deg, #202123 0%, #1DB89D 50%, #202135 100%); /* ie10+ */
     background: linear-gradient(37deg, #202123 0%, #1DB89D 50%, #202135 100%); /* w3c */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1DB89D', endColorstr='#202123',GradientType=0 ); /* ie6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1DB89D', endColorstr='#202123', GradientType=0); /* ie6-9 */
     background-size: 200% 200%;
     -webkit-animation: gradient_animation 5s ease infinite;
     -moz-animation: gradient_animation 5s ease infinite;
     animation: gradient_animation 5s ease infinite;
 }
 
+
 @keyframes gradient_animation {
     0% {
-        background-position: 0% 50%; }
+        background-position: 0% 50%;
+    }
     50% {
-        background-position: 100% 50%; }
+        background-position: 100% 50%;
+    }
     100% {
-        background-position: 0% 50%; } }
+        background-position: 0% 50%;
+    }
+}
 
 @-webkit-keyframes gradient_animation {
     0% {
-        background-position: 0% 50%; }
+        background-position: 0% 50%;
+    }
     50% {
-        background-position: 100% 50%; }
+        background-position: 100% 50%;
+    }
     100% {
-        background-position: 0% 50%; } }
+        background-position: 0% 50%;
+    }
+}
 
 @-moz-keyframes gradient_animation {
     0% {
-        background-position: 0% 50%; }
+        background-position: 0% 50%;
+    }
     50% {
-        background-position: 100% 50%; }
+        background-position: 100% 50%;
+    }
     100% {
-        background-position: 0% 50%; } }
+        background-position: 0% 50%;
+    }
+}
 
 @-ms-keyframes gradient_animation {
     0% {
-        background-position: 0% 50%; }
+        background-position: 0% 50%;
+    }
     50% {
-        background-position: 100% 50%; }
+        background-position: 100% 50%;
+    }
     100% {
-        background-position: 0% 50%; } }
+        background-position: 0% 50%;
+    }
+}
 
-#home>nav>ol>li{
+header > nav > ol > li {
     display: inline-block;
     margin-right: 25px;
 }
 
-#home>nav>ol>li>a{
+header > nav > ol > li > a {
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -87,29 +221,68 @@ body{
     font-family: sans-serif;
 }
 
-#home>nav{
+header > nav {
     width: fit-content;
     position: absolute;
-    top: 0;
+    top: 17%;
     right: 0;
     left: 0;
     margin: auto;
-    margin-top: 10px;
 }
 
-
-#pic>div>h1{
-    display: inline;
-}
-
-#pic2{
+#home {
     position: relative;
-    width: 1520px;
+    width: 100%;
     height: 739px;
     background-color: #202123;
 }
 
-#section1>div{
+.container {
+    position: absolute;
+    display: none;
+    top: 40%;
+    left: 50%;
+    margin-left: -64.5px;
+    margin-top: -85.5px;
+}
+
+.ghost {
+    animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+    50% {
+        transform: translate(0, 20px);
+    }
+}
+.shadowFrame {
+    width: 130px;
+    margin-top: 15px;
+}
+.shadow {
+    animation: shrink 3s ease-out infinite;
+    transform-origin: center center;
+    ellipse {
+        transform-origin: center center;
+    }
+}
+
+@keyframes shrink {
+    0% {
+        width: 90%;
+        margin: 0 5%;
+    }
+    50% {
+        width: 60%;
+        margin: 0 18%;
+    }
+    100% {
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+#home > section > div {
     width: fit-content;
     height: fit-content;
     position: absolute;
@@ -120,7 +293,8 @@ body{
     margin: auto;
 }
 
-#section1>div>h3{
+#home > section > div > h3 {
+    justify-content: center;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 96px;
@@ -128,52 +302,44 @@ body{
     color: #1DB89D;
 }
 
-#section1>div>h4{
-    text-align: center;
-}
-
-#section1>div>div>button{
-    text-align: center;
+#home > section > div > div > button {
     font-size: 36px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     background-color: transparent;
     color: white;
     border: 2px solid #1DB89D;
-    border-right: 10px solid #1DB89D ;
+    border-right: 10px solid #1DB89D;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     position: absolute;
     left: 40%;
 }
 
-#section1>div>h3>span:first-child{
+#home > section > div > h3 > span:first-child {
     font-size: 48px;
     font-family: 'Inter', sans-serif;
     color: white;
     font-weight: 400;
 }
 
-#section1>div>h3>span:nth-child(2){
-    font-size: 96px;
-    font-family: 'Inter',sans-serif;
-    font-weight: 800;
-}
-
-#section1>div>h4{
+#home > section > div > h4 {
+    justify-content: center;
+    text-align: center;
     font-size: 48px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: white;
     opacity: 50%;
     margin-top: -70px;
 }
 
-#section1>.squares {
+.squares {
     position: absolute;
     top: 0;
     left: 0;
-    width: 1520px;
+    padding-left: 0;
+    width: 100%;
     height: 739px;
     overflow: hidden;
 }
@@ -197,7 +363,7 @@ body{
 }
 
 .squares li:nth-child(2) {
-    left: 10%;
+    left: 5%;
     width: 70px;
     height: 70px;
     animation-delay: 0s;
@@ -295,6 +461,30 @@ body{
     animation-duration: 11s;
 }
 
+.squares li:nth-child(15) {
+    left: 5%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 5s;
+}
+
+.squares li:nth-child(16) {
+    left: 10%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 2s;
+    animation-duration: 17s;
+}
+
+.squares li:nth-child(17) {
+    left: 7%;
+    width: 70px;
+    height: 70px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
 @keyframes animate {
     0% {
         transform: translateY(0px) rotate(0deg);
@@ -309,16 +499,16 @@ body{
     }
 }
 
-/*about*/
+/* about */
 #about{
     position: relative;
     top: -16px;
-    width: 1520px;
+    width: 100%;
     height: 739px;
     background-color: #202135;
 }
 
-#about_topic>div{
+.leftDiv{
     position: absolute;
     background-color: #1DB89D;
     top: 0%;
@@ -327,24 +517,24 @@ body{
     height: 1%;
 }
 
-#about>section:nth-child(1)>h6{
+.topic1{
     position: absolute;
     color: #1DB89D;
     font-size: 24px;
     font-weight: bold;
     font-family: sans-serif;
-    right: 15%;
     top: 0%;
+    right: 15%;
 }
 
-#about>section:nth-child(1)>h3{
+.topic2{
     position: absolute;
     color: white;
     font-size: 64px;
     font-weight: bold;
     font-family: sans-serif;
-    right: 15%;
     top: 6%;
+    right: 15%;
 }
 
 #about>section:nth-child(2)>p{
@@ -371,7 +561,7 @@ body{
     left: 20%;
 }
 #about>section:nth-child(2)>ul>li:nth-child(1)>span:nth-child(2){
-    margin-left: 25px;
+    margin-left: 18px;
 }
 
 #about>section:nth-child(2)>ul>li:nth-child(2){
@@ -379,7 +569,7 @@ body{
     left: 60%;
 }
 #about>section:nth-child(2)>ul>li:nth-child(2)>span:nth-child(2){
-    margin-left: 25px;
+    margin-left: 21px;
 }
 
 #about>section:nth-child(2)>ul>li:nth-child(3){
@@ -419,7 +609,7 @@ body{
     left: 20%;
 }
 #about>section:nth-child(2)>ul>li:nth-child(7)>span:nth-child(2){
-    margin-left: 75px;
+    margin-left: 79px;
 }
 
 #about>section:nth-child(2)>ul>li:nth-child(8){
@@ -427,25 +617,24 @@ body{
     left: 60%;
 }
 #about>section:nth-child(2)>ul>li:nth-child(8)>span:nth-child(2){
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
-#about>section:nth-child(2)>ul>li>.first{
+.first{
     color: white;
     opacity: 50%;
 }
-
-#about>section:nth-child(2)>ul>li>.two{
+.two{
     color: white;
 }
 
 #about>section:nth-child(2)>div{
     position: absolute;
-    right: 40%;
+    right: 43%;
     top: 85%;
 }
 
-#about_social_media_icon>a>img{
+.about_social_media_icon>a>img{
     width: 50px;
 }
 
@@ -453,12 +642,12 @@ body{
 #qualification{
     position: relative;
     top: -16px;
-    width: 1520px;
+    width: 100%;
     height: 2400px;
     background-color: #202123;
 }
 
-#qualification>section:first-child>div{
+.rightDiv{
     position: absolute;
     background-color: #1DB89D;
     top: 0%;
@@ -469,20 +658,12 @@ body{
 
 #qualification>section:nth-child(1)>h6{
     position: absolute;
-    color: #1DB89D;
-    font-size: 24px;
-    font-weight: bold;
-    font-family: sans-serif;
     top: 0%;
     right: 48%;
 }
 
 #qualification>section:nth-child(1)>h3{
     position: absolute;
-    color: white;
-    font-size: 64px;
-    font-weight: bold;
-    font-family: sans-serif;
     top: 3%;
     right:36%;
 }
@@ -650,10 +831,6 @@ body{
 
 #qualification>section:nth-child(3)>h3{
     position: absolute;
-    color: white;
-    font-size: 64px;
-    font-weight: bold;
-    font-family: sans-serif;
     top: 43%;
     right:40%;
 }
@@ -729,7 +906,7 @@ body{
     font-weight: bold;
     font-size: 36px;
     top: 94%;
-    right: 25%;
+    right: 20%;
 }
 
 #qualification>section:nth-child(3)>div{
@@ -746,7 +923,7 @@ body{
     position: relative;
     top: -16px;
     background-color: #202135;
-    width: 1520px;
+    width: 100%;
     height: 350px;
 }
 
@@ -760,37 +937,17 @@ body{
     left: 10%;
 }
 
-#div8>img:nth-child(1){
-    width: 96px;
-}
-
-#div8>img:nth-child(2){
-    width: 96px;
-}
-
-#div8>img:nth-child(3){
-    width: 96px;
-}
-
-#div8>img:nth-child(4){
-    width: 96px;
-}
-
-#div8>img:nth-child(5){
-    width: 96px;
-}
-
-#div8>img:nth-child(6){
+.skill{
     width: 96px;
 }
 
 #learn>#div8{
     position: absolute;
-    left: 30%;
+    left: 29%;
     top: 50%;
 }
 
-#learn>#div9{
+#learn>div:last-child{
     position: absolute;
     background-color: #1DB89D;
     bottom: 0%;
@@ -804,30 +961,21 @@ body{
     position: relative;
     top: -16px;
     height: 739px;
-    width: 1520px;
+    width: 100%;
 
 }
 
-#gallery>section>#galary_photo{
+#galary_photo{
     background-image: url("../images/gallery.jpg");
     background-size: cover;
     background-position: center;
-    width: 1520px;
+    width: 100%;
     height: 739px;
 }
 
-#galary_photo>{
-    display: block;
-    position: absolute;
-    width: 1440px;
-    height: 700px;
-    background: black;
-    bottom: 0;
-    z-index: 99;
-}
-
 #gallery_opacity{
-    width: 1270px;
+    /*width: 1270px;*/
+    width: 83%;
     height: 590px;
     background: black;
     opacity: 40%;
@@ -840,28 +988,18 @@ body{
 }
 
 #gallery>section>h4{
-    width: fit-content;
-    height: fit-content;
     position: absolute;
     top: 10%;
     font-size: 75px;
     font-family: 'Allura', cursive;
     left: 43%;
     color: white;
-    text-align: center;
 }
 
 #gallery>section>h3{
-    width: fit-content;
-    height: fit-content;
-    color: white;
-    font-size: 64px;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
     position: absolute;
     top: 32%;
     left: 40%;
-    text-align: center;
 }
 
 #gallery>section>a>button{
@@ -886,205 +1024,103 @@ body{
     position: absolute;
     top: 64%;
     left: 44.3%;
-    text-align: center;
 }
 
 /* assignment */
 #assignment{
     position: relative;
     top: -16px;
-    width: 1520px;
+    width: 100%;
     height: 739px;
     background-color: #202123;
 }
 
-#assignment>div:nth-child(1){
-    position: absolute;
-    background-color: #1DB89D;
-    top: 0%;
-    left: 0%;
-    width: 40%;
-    height: 1%;
-}
-
-
 #assignment>section>h6{
     position: absolute;
-    color: #1DB89D;
-    font-size: 24px;
-    font-family: sans-serif;
-    font-weight: bold;
     top: 0%;
     left: 15%;
 }
 
 #assignment>section>h3{
     position: absolute;
-    color: white;
-    font-size: 64px;
-    font-family: sans-serif;
-    font-weight: bold;
     top: 3%;
     left:15%;
 }
 
-#assignment1>img{
+#assignment1{
     position: absolute;
-    width: 300px;
     top: 30%;
     left: 16%;
 }
 
-#assignment1>h5{
+.rec{
+    position: absolute;
+    width: 300px;
+    height: 320px;
+}
+
+.assignmentPic{
+    position: absolute;
+    width: 300px;
+}
+
+.text{
     position: absolute;
     color: white;
     font-weight: bold;
-    font-family: sans-serif;
     font-size: 36px;
-    top: 25%;
-    left: 19.5%;
+    bottom: 60%;
+    left: 18%;
 }
 
-#assignment1>div{
+.circle{
     position: absolute;
     width: 150px;
     height: 150px;
     background-color: #202123;
     border-radius: 100%;
-    top: 52%;
-    left: 20.5%;
+    bottom: 3%;
+    left: 25%;
 }
 
-#assignment1>div>img{
+.assignmentPic2{
     position: absolute;
     width: 40px;
     top: 13%;
     left: 35%;
 }
 
-#assignment1>div>ol{
+.text2{
     position: absolute;
     top: 38%;
     left: -14%;
-
 }
 
-#assignment1>div>ol>li{
+.text3{
     text-align: center;
     font-size: 25px;
     list-style: none;
     text-decoration: none;
 }
 
-#assignment1>div>ol>li>a{
+.text4{
     color: white;
 }
 
-#assignment2>img{
+#assignment2{
     position: absolute;
-    width: 300px;
     top: 30%;
     left: 40.1%;
 }
-#assignment2>h5{
+
+#assignment3{
     position: absolute;
-    color: white;
-    font-weight: bold;
-    font-family: sans-serif;
-    font-size: 36px;
-    top: 25%;
-    left: 43%;
-}
-
-#assignment2>div{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    background-color: #202123;
-    border-radius: 100%;
-    top: 52%;
-    left: 45%;
-}
-
-#assignment2>div>img{
-    position: absolute;
-    width: 40px;
-    top: 13%;
-    left: 35%;
-}
-
-#assignment2>div>ol{
-    position: absolute;
-    top: 38%;
-    left: -14%;
-
-}
-
-#assignment2>div>ol>li{
-    text-align: center;
-    font-size: 25px;
-    list-style: none;
-    text-decoration: none;
-}
-
-#assignment2>div>ol>li>a{
-    color: white;
-}
-
-#assignment3>img{
-    position: absolute;
-    width: 300px;
     top: 30%;
-    right: 16%;
-}
-
-#assignment3>h5{
-    position: absolute;
-    color: white;
-    font-weight: bold;
-    font-family: sans-serif;
-    font-size: 36px;
-    top: 25%;
-    left: 67%;
-}
-
-#assignment3>div{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    background-color: #202123;
-    border-radius: 100%;
-    top: 52%;
-    left: 69.5%;
-}
-
-#assignment3>div>img{
-    position: absolute;
-    width: 40px;
-    top: 13%;
-    left: 35%;
-}
-
-#assignment3>div>ol{
-    position: absolute;
-    top: 38%;
-    left: -14%;
-
-}
-
-#assignment3>div>ol>li{
-    text-align: center;
-    font-size: 25px;
-    list-style: none;
-    text-decoration: none;
-}
-
-#assignment3>div>ol>li>a{
-    color: white;
+    left: 65%;
 }
 
 #button{
-    width: 27%;
+    width: 450px;
     height: 64px;
     background: #1DB89D;
     color: white;
@@ -1092,7 +1128,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     position: absolute;
-    left: 37%;
+    left: 34%;
     bottom: 10%;
 }
 
@@ -1109,27 +1145,19 @@ body{
 #project{
     position: relative;
     top: -16px;
-    width: 1520px;
+    width: 100%;
     height: 739px;
     background-color: #202135;
 }
 
 #project>section>h6:first-child{
     position: absolute;
-    color: #1DB89D;
-    font-size: 24px;
-    font-weight: bold;
-    font-family: sans-serif;
     top: 0%;
     right: 48%;
 }
 
 #project>section>h3{
     position: absolute;
-    color: white;
-    font-size: 64px;
-    font-family: sans-serif;
-    font-weight: bold;
     top: 3%;
     right:28%;
 }
@@ -1160,58 +1188,22 @@ body{
     opacity: 60%;
 }
 
-#project2{
-    position: absolute;
-    width: 100px;
-    top: 22%;
-    left: 27%;
-    transform: rotate(135deg);
-}
-
-#project3{
-    position: absolute;
-    width: 100px;
-    top: 79%;
-    right: 26%;
-    transform: rotate(315deg);
-}
-
-
-
 /* contact me */
 #contact{
     position: relative;
     background-color: #202123;
     top: -16px;
-    width: 1520px;
     height: 739px;
-}
-
-#div12{
-    position: absolute;
-    background-color: #1DB89D;
-    top: 0%;
-    left: 0%;
-    width: 40%;
-    height: 1%;
 }
 
 #contact>section>h6{
     position: absolute;
-    color: #1DB89D;
-    font-size: 24px;
-    font-family: sans-serif;
-    font-weight: bold;
     top: 0%;
     right: 48%;
 }
 
 #contact>section>h3{
     position: absolute;
-    color: white;
-    font-size: 64px;
-    font-family: sans-serif;
-    font-weight: bold;
     top: 3%;
     right:28%;
 }
@@ -1235,7 +1227,7 @@ body{
     left: 16%;
 }
 
-#input1{
+.field{
     position: absolute;
     background-color: #202135;
     border-radius: 25px;
@@ -1244,37 +1236,25 @@ body{
     font-family: sans-serif;
     text-align: left;
     width: 460px;
+    left: 5%;
+}
+
+#input1{
+    position: absolute;
     height: 48px;
     top: 10%;
-    left: 5%;
 }
 
 #input2{
     position: absolute;
-    background-color: #202135;
-    border-radius: 25px;
-    border: 2px solid #1DB89D;
-    font-size: 32px;
-    font-family: sans-serif;
-    text-align: left;
-    width: 460px;
     height: 48px;
     top: 35%;
-    left: 5%;
 }
 
 #contact>form>textarea{
     position: absolute;
-    background-color: #202135;
-    border-radius: 25px;
-    border: 2px solid #1DB89D;
-    font-size: 32px;
-    font-family: sans-serif;
-    text-align: left;
-    width: 460px;
     height: 65px;
     top: 60%;
-    left: 5%;
 }
 
 #contact>form>button{
@@ -1306,15 +1286,12 @@ footer{
 
 #footer1{
     background-color: #202135;
-    width: 1520px;
     height: 100px;
 }
 
 #footer1>ol{
     position: absolute;
-    /*left: 8%;*/
     left: 120px;
-    /*right: 8%;*/
 
 }
 
@@ -1329,69 +1306,55 @@ footer{
     font-size: 30px;
 }
 
-#div13{
+.dash{
     position: absolute;
     width: 3px;
     height: 45px;
     background-color: white;
     top: 7%;
-    /*left: 19.5%;*/
+}
+
+#div13{
+    position: absolute;
     left: 295px;
 }
 
 #div14{
     position: absolute;
-    width: 3px;
-    height: 45px;
-    background-color: white;
-    top: 7%;
-    /*left: 30.5%;*/
     left: 460px;
 }
 
 #div15{
     position: absolute;
-    width: 3px;
-    height: 45px;
-    background-color: white;
-    top: 7%;
-    /*left: 44%;*/
     left: 665px;
 }
 
 #div16{
     position: absolute;
-    width: 3px;
-    height: 45px;
-    background-color: white;
-    top: 7%;
-    /*left: 52.5%;*/
     left: 795px;
 }
 
 #div17{
     position: absolute;
-    width: 3px;
-    height: 45px;
-    background-color: white;
-    top: 7%;
-    /*left: 65%;*/
     left: 985px;
 }
 
 #div18{
     position: absolute;
-    width: 3px;
-    height: 45px;
-    background-color: white;
-    top: 7%;
-    /*left: 73.5%;*/
     left: 1115px;
+}
+
+#center{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 #footer2{
     background-color: #525252;
-    width: 1520px;
     height: 280px;
     bottom: -10%;
 }
@@ -1401,13 +1364,11 @@ footer{
     width: 500px;
     height: 50px;
     bottom: 32%;
-    /*left: 6%;*/
     left: 190px;
 }
 
 #footer2>ol>li{
     list-style: none;
-    /*margin-left: 5%;*/
     margin-left: 10px;
     display: inline-block;
 }
@@ -1418,7 +1379,6 @@ footer{
 
 #ol1{
     position: absolute;
-    /*right: 35%;*/
     right: 550px;
     bottom: 8%;
 
@@ -1435,7 +1395,6 @@ footer{
 
 #ol2{
     position: absolute;
-    /*right: 15%;*/
     right: 220px;
     bottom: 5%;
 }
@@ -1459,99 +1418,99 @@ footer{
     font-family: sans-serif;
     opacity: 60%;
     bottom: -10%;
-    /*left: 14%;*/
     left: 210px;
 }
 
  /*1440 laptop size */
 @media all and (max-width: 1440px) {
-    /*home*/
-    body{
-        width: 1440px;
+    home
+    header > h1 {
+        top: 22%;
+        font-size: 42px;
     }
 
-    #home{
-        width: 1440px;
-        height: 80px;
+    header > nav > ol > li {
+        margin-right: 20px;
     }
 
-
-    #pic2{
-        width: 1440px;
+    header > nav > ol > li > a {
+        font-size: 19px;
     }
 
-    #section1>.squares {
-        width: 1440px;
+    header > nav {
+        top: 18%;
     }
 
-    /*about*/
-    #about{
-        width: 1440px;
+    #home > section > div > h3 {
+        font-size: 90px;
     }
 
-    /*qualification*/
-    #qualification{
-        width: 1440px;
+    #home > section > div > div > button {
+        font-size: 30px;
+    }
+
+    #home > section > div > h3 > span:first-child {
+        font-size: 42px;
+    }
+
+    #home > section > div > h4 {
+        font-size: 42px;
     }
 
     /* what I learnt */
-    #learn{
-        width: 1440px;
+    #learn>#div8{
+        left: 29%;
     }
 
     /* gallery */
-    #gallery{
-        width: 1440px;
+    #gallery>section>h4{
+        left: 41%;
     }
 
-    #gallery>section>#galary_photo{
-        width: 1440px;
+    #gallery>section>h3{
+        left: 38%;
     }
 
-    #gallery_opacity{
-        width: 1200px;
+    #gallery>section>a>button{
+        left: 44%;
+    }
+
+    #gallery>section>h6{
+        left: 43%;
     }
 
     /* assignment */
-    #assignment{
-        width: 1440px;
+    .rec{
+        width: 255px;
+        height: 275px;
     }
 
-    #assignment1>div{
-        left: 21.2%;
+    .assignmentPic{
+        width: 255px;
     }
 
-    #assignment2>img{
-        left: 39.5%;
-    }
-    #assignment2>h5{
-        left: 42.5%;
-    }
-
-    #assignment3>h5{
-        left: 66.5%;
+    .text{
+        font-size: 36px;
+        bottom: 55%;
+        left: 14%;
     }
 
-    #assignment3>div{
-        left: 68.4%;
+    .circle{
+        bottom: -3%;
+        left: 22%;
     }
 
     #button{
-        width: 30%;
-        left: 36%;
+        left: 35%;
     }
 
     /* project */
-    #project{
-        width: 1440px;
-    }
-
     #project>section>h6:first-child{
         right: 47%;
     }
 
     #project>section>h3{
-        right:26%;
+        right:25%;
     }
 
     #project1{
@@ -1566,134 +1525,489 @@ footer{
         left: 46%;
     }
 
-    #project2{
-        left: 25%;
-    }
-
-    #project3{
-        right: 25%;
-    }
-
     /* contact me */
-    #contact{
-        width: 1440px;
-    }
-
     #contact>section>h3{
         right:24%;
+    }
+
+    .field{
+        width: 400px;
+        left: 9%;
     }
 
     #contact>form{
         width: 36%;
     }
 
-    #footer1{
-        width: 1440px;
+    #footer1>ol{
+        left: 230px;
     }
 
-    #footer1>ol{
+    #footer1>ol>li{
+        margin-left:20px;
+    }
+
+    #footer1>ol>li>a{
+        font-size: 25px;
+    }
+
+    #footer2>ol{
+        bottom: 32%;
         left: 107px;
     }
 
+    #footer2>ol>li>a>img{
+        width: 65px;
+    }
+
+    #ol1{
+        right: 550px;
+        bottom: 8%;
+    }
+
+    #ol1>li{
+        list-style: none;
+        margin-top: 25px;
+    }
+
+    #ol1>li>img{
+        width: 45px;
+    }
+
+    #ol2{
+        position: absolute;
+        right: 220px;
+        bottom: 5%;
+    }
+
+    #ol2>li{
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    #footer2>h6{
+        font-size: 25px;
+        bottom: -10%;
+        left: 170px;
+    }
+
     #div13{
-        left: 283px;
+        left: 363px;
     }
 
     #div14{
-        left: 449px;
+        left: 489px;
     }
 
     #div15{
-        left: 650px;
+        left: 645px;
     }
 
     #div16{
-        left: 785px;
+        left: 745px;
     }
 
     #div17{
-        left: 973px;
+        left: 887px;
     }
 
     #div18{
-        left: 1103px;
+        left: 983px;
+    }
+}
+
+@media all and (max-width: 1282px){
+    /*about*/
+    .topic1{
+        font-size: 23px;
     }
 
-    #footer2{
-        width: 1440px;
+    .topic2{
+        font-size: 60px;
+    }
+
+    #about > section:nth-child(2) > p {
+        font-size: 30px;
+    }
+
+    #about > section:nth-child(2) > ul > li {
+        font-size: 19px;
+    }
+
+    #about > section:nth-child(2) > ul > li:nth-child(1) {
+        top: 55%;
+    }
+
+    #about > section:nth-child(2) > ul > li:nth-child(2) {
+        top: 55%;
+    }
+
+    #about > section:nth-child(2) > ul > li:nth-child(3) {
+        top: 62%;
+    }
+
+    #about > section:nth-child(2) > ul > li:nth-child(4) {
+        top: 62%;
+    }
+
+    #about > section:nth-child(2) > ul > li:nth-child(5) {
+        top: 69%;
+    }
+
+    #about > section:nth-child(2) > ul > li:nth-child(6) {
+        top: 69%;
+    }
+
+    #about > section:nth-child(2) > ul > li:nth-child(7) {
+        top: 76%;
+    }
+
+    #about > section:nth-child(2) > ul > li:nth-child(8) {
+        top: 76%;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(1)>span:nth-child(2){
+        margin-left: 30px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(2)>span:nth-child(2){
+        margin-left: 30px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(3)>span:nth-child(2){
+        margin-left: 83px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(4)>span:nth-child(2){
+        margin-left: 50px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(5)>span:nth-child(2){
+        margin-left: 53px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(6)>span:nth-child(2){
+        margin-left: 66px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(7)>span:nth-child(2){
+        margin-left: 75px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(8)>span:nth-child(2){
+        margin-left: 33px;
+    }
+
+    /*qualification*/
+    #qualification {
+        height: 1850px;
+    }
+
+    #qualification > section:nth-child(1) > h6 {
+        right: 45%;
+    }
+
+    #qualification > section:nth-child(1) > h3 {
+        right: 30%;
+    }
+
+    #qualification > section:nth-child(2) > #div1 > h5:nth-child(1) {
+        font-size: 19px;
+        top: 5%;
+    }
+
+    #qualification > section:nth-child(2) > #div1 > h5:nth-child(2) {
+        font-size: 19px;
+        top: 36%;
+    }
+
+    #qualification > section:nth-child(2) > #div1 > h5:nth-child(3) {
+        font-size: 19px;
+        top: 56%;
+    }
+
+    #qualification > section:nth-child(2) > img:nth-child(1) {
+        top: 11%;
+    }
+
+    #div5 {
+        top: 25.25%;
+        left: 47.4%;
+    }
+
+    #qualification > section:nth-child(2) > #div2 > h5:nth-child(1) {
+        font-size: 19px;
+        top: -4%;
+    }
+
+    #qualification > section:nth-child(2) > #div2 > h5:nth-child(2) {
+        font-size: 19px;
+        top: 26%;
+    }
+
+    #qualification > section:nth-child(2) > #div2 > h5:nth-child(3) {
+        font-size: 19px;
+        top: 58%;
+    }
+
+    #img2 {
+        width: 70px;
+    }
+
+    #qualification > section:nth-child(3) > h3 {
+        right: 35%;
+    }
+
+    #qualification > section:nth-child(3) > #img3 {
+        width: 350px;
+        height: 300px;
+    }
+
+    #qualification > section:nth-child(3) > #h5text {
+        font-size: 21px;
+    }
+
+    #h5text2 {
+        font-size: 21px;
+    }
+
+    #span1 {
+        color: white;
+    }
+
+    #h5text3 {
+        font-size: 21px;
+        top: 72.5%;
+        left: 20%;
+    }
+
+    #span2 {
+        color: #FF0000;
+        opacity: 95%;
+    }
+
+    #img4 {
+        width: 230px;
+    }
+
+    #img5 {
+        width: 310px;
+        top: 85%;
+    }
+
+    #qualification > section:nth-child(3) > button {
+        top: 93.5%;
+        right: 20%;
+        font-size: 35px;
+    }
+
+    /* what I learnt */
+    #learn>#div8{
+        left: 25%;
+    }
+
+    /* project */
+    #project>section>h3{
+        right:24.5%;
+    }
+
+    #project1{
+        left: 25%;
+    }
+
+    #project>section>h5{
+        left: 34.5%;
+    }
+
+    #h6{
+        left: 44%;
+    }
+
+    /* contact   */
+    .field{
+        width: 350px;
+        left: 9%;
+    }
+
+    #footer1>ol{
+        left: 130px;
+    }
+
+    #footer2>ol{
+        left: 107px;
+    }
+
+    #ol1{
+        right: 445px;
+    }
+
+    #ol1>li{
+        margin-top: 23px;
+    }
+
+    #ol1>li>img{
+        width: 45px;
+    }
+
+    #ol2{
+        right: 130px;
+    }
+
+    #div13{
+        left: 263px;
+    }
+
+    #div14{
+        left: 389px;
+    }
+
+    #div15{
+        left: 545px;
+    }
+
+    #div16{
+        left: 645px;
+    }
+
+    #div17{
+        left: 787px;
+    }
+
+    #div18{
+        left: 883px;
+    }
+}
+
+@media all and (max-width: 1200px){
+    /*header .navBar a{*/
+    /*    font-size: 1.2rem;*/
+    /*    margin-left: 1rem;*/
+    /*}*/
+
+    header > h1 {
+        top: 23%;
+        font-size: 40px;
+    }
+
+    header > nav > ol > li {
+        margin-right: 20px;
+    }
+
+    header > nav > ol > li > a {
+        font-size: 18px;
+    }
+
+    header > nav {
+        top: 19%;
+    }
+
+    #home > section > div > h3 {
+        font-size: 85px;
+    }
+
+    #home > section > div > div > button {
+        font-size: 25px;
+    }
+
+    #home > section > div > h3 > span:first-child {
+        font-size: 38px;
+    }
+
+    #home > section > div > h4 {
+        font-size: 38px;
+    }
+
+    /* what I learnt */
+    #learn>#div8{
+        left: 24%;
+    }
+    /*assignment*/
+    #button{
+        left: 30%;
+    }
+
+    /* project */
+    #project>section>h3{
+        right:22.5%;
+    }
+
+    #project1{
+        left: 23.5%;
+    }
+
+    #project>section>h5{
+        left: 33.5%;
+    }
+
+    #h6{
+        left: 43%;
+    }
+
+    /* contact   */
+    .field{
+        width: 320px;
+        left: 9%;
+    }
+
+    #contact>img{
+        width: 300px;
+        height: 250px;
+        right: 16%;
+        top: 50%;
     }
 }
 
 @media all and (max-width: 1024px) {
-    body {
-        width: 1024px;
+    /*header .navBar a{*/
+    /*    font-size: 1.1rem;*/
+    /*    margin-left: 1rem;*/
+    /*}*/
+
+    header > h1 {
+        top: 15%;
+        left: 5%;
+        font-size: 36px;
     }
 
-    #home {
-        width: 1024px;
-        height: 60px;
+    header > nav > ol > li {
+        margin-right: 15px;
     }
 
-    #pic2 {
-        width: 1024px;
+    header > nav > ol > li > a {
+        font-size: 17px;
     }
 
-    #section1 > .squares {
-        width: 1024px;
+    header > nav {
+        top: 8%;
     }
 
     .gradient {
         height: 60px;
     }
 
-    #home > h1 {
-        top: -30%;
-    }
-
-    #home > nav > ol > li {
-        margin-right: 20px;
-    }
-
-    #home > nav > ol > li > a {
-        font-size: 17px;
-    }
-
-    #home > nav {
-        margin-top: 5px;
-    }
-
-    #section1 > div > h3 {
+    #home > section > div > h3 {
         font-size: 65px;
     }
 
-    #section1 > div > div > button {
-        font-size: 32px;
+    #home > section > div > div > button {
+        font-size: 25px;
     }
 
-    #section1 > div > h3 > span:first-child {
-        font-size: 40px;
+    #home > section > div > h3 > span:first-child {
+        font-size: 35px;
     }
 
-    #section1 > div > h3 > span:nth-child(2) {
-        font-size: 96px;
-    }
-
-    #section1 > div > h4 {
-        font-size: 40px;
+    #home > section > div > h4 {
         margin-top: -40px;
+        font-size: 35px;
     }
 
     /*about*/
-    #about {
-        width: 1024px;
-    }
-
-    #about > section:nth-child(1) > h6 {
+    .topic1{
         font-size: 22px;
     }
 
-
-    #about > section:nth-child(1) > h3 {
+    .topic2{
         font-size: 55px;
     }
 
@@ -1707,57 +2021,78 @@ footer{
 
     #about > section:nth-child(2) > ul > li:nth-child(1) {
         top: 55%;
-        left: 20%;
     }
 
     #about > section:nth-child(2) > ul > li:nth-child(2) {
         top: 55%;
-        left: 60%;
     }
 
     #about > section:nth-child(2) > ul > li:nth-child(3) {
         top: 62%;
-        left: 20%;
     }
 
     #about > section:nth-child(2) > ul > li:nth-child(4) {
         top: 62%;
-        left: 60%;
     }
 
     #about > section:nth-child(2) > ul > li:nth-child(5) {
         top: 69%;
-        left: 20%;
     }
 
     #about > section:nth-child(2) > ul > li:nth-child(6) {
         top: 69%;
-        left: 60%;
     }
 
     #about > section:nth-child(2) > ul > li:nth-child(7) {
         top: 76%;
-        left: 20%;
     }
 
     #about > section:nth-child(2) > ul > li:nth-child(8) {
         top: 76%;
-        left: 60%;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(1)>span:nth-child(2){
+        margin-left: 10px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(2)>span:nth-child(2){
+        margin-left: 15px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(3)>span:nth-child(2){
+        margin-left: 63px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(4)>span:nth-child(2){
+        margin-left: 35px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(5)>span:nth-child(2){
+        margin-left: 34px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(6)>span:nth-child(2){
+        margin-left: 50px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(7)>span:nth-child(2){
+        margin-left: 55px;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(8)>span:nth-child(2){
+        margin-left: 20px;
     }
 
     /*qualification*/
     #qualification {
         height: 1850px;
-        width: 1024px;
     }
 
     #qualification > section:nth-child(1) > h6 {
-        font-size: 22px;
         right: 45%;
     }
 
     #qualification > section:nth-child(1) > h3 {
-        font-size: 55px;
         right: 30%;
     }
 
@@ -1772,7 +2107,7 @@ footer{
     }
 
     #qualification > section:nth-child(2) > #div1 > h5:nth-child(3) {
-       font-size: 18px;
+        font-size: 18px;
         top: 56%;
     }
 
@@ -1813,7 +2148,6 @@ footer{
     }
 
     #qualification > section:nth-child(3) > h3 {
-        font-size: 55px;
         right: 35%;
     }
 
@@ -1857,52 +2191,38 @@ footer{
     #qualification > section:nth-child(3) > button {
         top: 93.5%;
         right: 20%;
+        font-size: 30px;
     }
 
     /* what I learnt */
-    #learn{
-        width: 1024px;
-    }
-
-    #learn>h4{
-        font-size: 36px;
-        top: 9%;
-        left: 10%;
-    }
-
     #learn>#div8{
-        left: 20%;
+        left: 19.5%;
     }
 
     /* gallery */
     #gallery{
-        width: 1024px;
+        height: 700px;
     }
 
-    #gallery>section>#galary_photo{
-        width: 1024px;
-    }
-
-    #galary_photo>{
-        width: 1000px;
+    #galary_photo{
         height: 700px;
     }
 
     #gallery_opacity{
-        width: 850px;
         height: 570px;
     }
+
 
     #gallery>section>h4{
         top: 10%;
         font-size: 75px;
-        left: 39%;
+        left: 36%;
     }
 
     #gallery>section>h3{
         font-size: 55px;
         top: 32%;
-        left: 36%;
+        left: 33%;
     }
 
     #gallery>section>a>button{
@@ -1910,196 +2230,101 @@ footer{
         height: 55px;
         font-size: 32px;
         top: 54%;
-        left: 42%;
+        left: 39%;
     }
 
     #gallery>section>h6{
         font-size: 28px;
         top: 60%;
-        left: 41%;
+        left: 38%;
     }
 
     /* assignment */
     #assignment{
-        width: 1024px;
+        height: 600px;
     }
-
-    #assignment>section>h6{
-        font-size: 22px;
-    }
-
-    #assignment>section>h3{
-        font-size: 55px;
-    }
-
-    #assignment1>img{
-        width: 220px;
+    
+    #assignment1{
         top: 35%;
-        left: 16%;
+        left: 15%;
     }
 
-    #assignment1>h5{
-        font-size: 30px;
-        top: 30%;
-        left: 18%;
+    .rec{
+        width: 180px;
+        height: 320px;
     }
 
-    #assignment1>div{
-        width: 120px;
-        height: 120px;
-        top: 52%;
-        left: 21%;
+    .assignmentPic{
+        width: 180px;
     }
 
-    #assignment1>div>img{
+    .text{
+        font-size: 27px;
+        bottom: 70%;
+        left: 11%;
+    }
+
+    .circle{
+        width: 110px;
+        height: 110px;
+        bottom: 35%;
+        left: 20%;
+    }
+
+    .assignmentPic2{
         width: 35px;
         top: 13%;
         left: 35%;
     }
 
-    #assignment1>div>ol{
+    .text2{
         top: 38%;
-        left: -20%;
+        left: -25%;
     }
 
-    #assignment1>div>ol>li{
-        font-size: 20px;
+    .text3{
+        font-size: 19px;
     }
 
-    #assignment2>img{
-        width: 220px;
+    #assignment2{
         top: 35%;
-        left: 39.3%;
+        left: 40%;
     }
 
-    #assignment2>h5{
-        font-size: 30px;
-        top: 30%;
-        left: 41.5%;
-    }
-
-    #assignment2>div{
-        width: 120px;
-        height: 120px;
-        top: 52%;
-        left: 44.5%;
-    }
-
-    #assignment2>div>img{
-        width: 35px;
-        top: 13%;
-        left: 35%;
-    }
-
-    #assignment2>div>ol{
-        top: 38%;
-        left: -20%;
-    }
-
-    #assignment2>div>ol>li{
-        font-size: 20px;
-    }
-
-    #assignment3>img{
-        width: 220px;
+    #assignment3{
         top: 35%;
-        right: 16%;
-    }
-
-    #assignment3>h5{
-        font-size: 30px;
-        top: 30%;
-        left: 64.5%;
-    }
-
-    #assignment3>div{
-        width: 120px;
-        height: 120px;
-        top: 52%;
-        left: 67.5%;
-    }
-
-    #assignment3>div>img{
-        width: 35px;
-        top: 13%;
-        left: 35%;
-    }
-
-    #assignment3>div>ol{
-        top: 38%;
-        left: -20%;
-    }
-
-    #assignment3>div>ol>li{
-        font-size: 20px;
+        left: 65%;
     }
 
     #button{
-        width: 36%;
         height: 60px;
         font-size: 32px;
         left: 30%;
     }
 
     /*project*/
-    #project{
-        width: 1024px;
-    }
-
-    #project>section>h6:first-child{
-        font-size: 22px;
-        top: 0%;
-        right: 48%;
-    }
-
-    #project>section>h3{
-        font-size: 55px;
-        top: 3%;
-        right:20%;
-    }
-
     #project1{
         width: 500px;
         top: 30%;
-        left: 25.5%;
+        left: 24%;
     }
 
     #project>section>h5{
-        font-size: 22px;
         top: 82%;
-        left: 35%;
+        left: 31%;
     }
 
     #h6{
-        font-size: 22px;
         top: 84%;
-        left: 44%;
-    }
-
-    #project2{
-        width: 90px;
-        top: 22%;
-        left: 20%;
-    }
-
-    #project3{
-        width: 90px;
-        top: 70%;
-        right: 20%;
+        left: 42%;
     }
 
     /* contact me */
-    #contact{
-        width: 1024px;
-    }
-
     #contact>section>h6{
-        font-size: 22px;
         right: 45%;
     }
 
     #contact>section>h3{
-        font-size: 55px;
         right:18%;
     }
 
@@ -2109,28 +2334,29 @@ footer{
         left: 18%;
     }
 
-    #input1{
+    #contact>form{
+      width: 35%;
+    }
+
+    .field{
+        width: 280px;
         font-size: 30px;
-        width: 330px;
+        left: 7%;
+    }
+
+    #input1{
         height: 48px;
         top: 10%;
-        left: 5%;
     }
 
     #input2{
-        font-size: 30px;
-        width: 330px;
         height: 48px;
         top: 35%;
-        left: 5%;
     }
 
     #contact>form>textarea{
-        font-size: 30px;
-        width: 330px;
         height: 65px;
         top: 60%;
-        left: 5%;
     }
 
     #contact>form>button{
@@ -2142,56 +2368,54 @@ footer{
     }
 
     #contact>img{
-        width: 300px;
-        height: 250px;
+        width: 250px;
+        height: 200px;
         right: 16%;
-        top: 49%;
+        top: 54%;
     }
 
     #footer1{
-        width: 1024px;
         height: 90px;
     }
 
     #footer1>ol{
-        left: 20px;
+        left: 105px;
     }
 
     #footer1>ol>li{
-        margin-left:35px;
+        margin-left:20px;
     }
 
     #footer1>ol>li>a{
-        font-size: 23px;
+        font-size: 20px;
     }
 
     #div13{
-        left: 170px;
+        left: 225px;
     }
 
     #div14{
-        left: 300px;
+        left: 330px;
     }
 
     #div15{
-        left: 465px;
+        left: 460px;
     }
 
     #div16{
-        left: 572px;
+        left: 542px;
     }
 
     #div17{
-        left: 720px;
+        left: 665px;
     }
 
     #div18{
-        left: 825px;
+        left: 745px;
     }
 
     #footer2{
-        width: 1024px;
-        height: 280px;
+        height: 250px;
         bottom: -10%;
     }
 
@@ -2199,7 +2423,7 @@ footer{
         width: 500px;
         height: 50px;
         bottom: 32%;
-        left: 100px;
+        left: 50px;
     }
 
     #footer2>ol>li{
@@ -2207,11 +2431,11 @@ footer{
     }
 
     #footer2>ol>li>a>img{
-        width: 50px;
+        width: 45px;
     }
 
     #ol1{
-        right: 450px;
+        right: 400px;
         bottom: 12.5%;
 
     }
@@ -2225,7 +2449,7 @@ footer{
     }
 
     #ol2{
-        right: 150px;
+        right: 110px;
         bottom: 5%;
     }
 
@@ -2237,174 +2461,110 @@ footer{
     #footer2>h6{
         font-size: 22px;
         bottom: -10%;
-        left: 150px;
+        left: 100px;
     }
 }
 
-@media all and (max-width: 768px){
-    body {
-        width: 768px;
+@media all and (max-width: 896px){
+    /*header .navBar a{*/
+    /*    font-size: 1.1rem;*/
+    /*    margin-left: 0.6rem;*/
+    /*}*/
+
+    header > h1 {
+        font-size: 34px;
     }
 
-    #home {
-        width: 768px;
-        height: 60px;
+    header > nav > ol > li > a {
+        font-size: 15px;
     }
 
-    #pic2 {
-        width: 768px;
+    #home > section > div > h3 {
+        font-size: 63px;
     }
 
-    #section1 > .squares {
-        width: 768px;
-    }
-
-    .gradient {
-        height: 60px;
-    }
-
-    #home > h1 {
-        top: -30%;
-    }
-
-    #home > nav > ol > li {
-        display: none;
-        margin-right: 20px;
-    }
-
-    #home > nav > ol > li > a {
-        font-size: 17px;
-    }
-
-    #home > nav {
-        margin-top: 5px;
-    }
-
-    #section1>div>h3{
-        font-size: 65px;
-     }
-
-    #section1>div>h4{
-        text-align: center;
-    }
-
-    #span3{
+    #home > section > div > h3 > span:first-child {
         position: absolute;
-        top: 13%;
+        font-size: 32px;
+        top: 7%;
         left: 40%;
     }
 
-    #section1>div>div>button{
-        font-size: 21px;
-        left: 40%;
-    }
-
-    #section1>div>h3>span:first-child{
-        font-size: 35px;
-        margin-top: -15px;
-        top: 13% !important;
-        left: 40% !important;
-    }
-
-    #section1>div>h3>span:nth-child(2){
-        font-size: 65px;
-    }
-
-    #section1>div>h4{
-        font-size: 35px;
-        margin-top: -55px;
+    #home > section > div > h4 {
+        font-size: 32px;
     }
 
     /*about*/
-    #about{
-        top: -16px;
-        width: 768px;
-        height: 739px;
+    .topic1{
+        font-size: 19px;
     }
 
-    #about>section:nth-child(1)>h6{
-        font-size: 15px;
-        right: 15%;
+    .topic2{
+        font-size: 50px;
     }
 
-    #about>section:nth-child(1)>h3{
-        font-size: 45px;
-        right: 15%;
-        top: 6%;
+    #about > section:nth-child(2) > p {
+        font-size: 24px;
     }
 
-    #about>section:nth-child(2)>p{
-        font-size: 20px;
-        width: 65%;
-        right: 15%;
-        top: 27%;
-    }
-
-    #about>section:nth-child(2)>ul>li{
+    #about > section:nth-child(2) > ul > li {
         font-size: 15px;
     }
 
-    #about>section:nth-child(2)>ul>li:nth-child(1){
+    #about > section:nth-child(2) > ul > li:nth-child(1) {
         top: 55%;
-        left: 20%;
     }
 
-    #about>section:nth-child(2)>ul>li:nth-child(2){
+    #about > section:nth-child(2) > ul > li:nth-child(2) {
         top: 55%;
-        left: 62%;
     }
 
-    #about>section:nth-child(2)>ul>li:nth-child(3){
+    #about > section:nth-child(2) > ul > li:nth-child(3) {
         top: 62%;
-        left: 20%;
     }
-     #about>section:nth-child(2)>ul>li:nth-child(4){
-         top: 62%;
-         left: 62%;
-     }
 
-    #about>section:nth-child(2)>ul>li:nth-child(5){
+    #about > section:nth-child(2) > ul > li:nth-child(4) {
+        top: 62%;
+    }
+
+    #about > section:nth-child(2) > ul > li:nth-child(5) {
         top: 69%;
-        left: 20%;
     }
 
-    #about>section:nth-child(2)>ul>li:nth-child(6){
+    #about > section:nth-child(2) > ul > li:nth-child(6) {
         top: 69%;
-        left: 62%;
     }
 
-    #about>section:nth-child(2)>ul>li:nth-child(7){
+    #about > section:nth-child(2) > ul > li:nth-child(7) {
         top: 76%;
-        left: 20%;
     }
 
-    #about>section:nth-child(2)>ul>li:nth-child(8){
+    #about > section:nth-child(2) > ul > li:nth-child(8) {
         top: 76%;
-        left: 62%;
     }
 
     #about>section:nth-child(2)>ul>li:nth-child(1)>span:nth-child(2){
-        margin-left: 7px;
+        margin-left: 5px;
     }
 
     #about>section:nth-child(2)>ul>li:nth-child(2)>span:nth-child(2){
-        margin-left: 18px;
+        margin-left: 5px;
     }
 
     #about>section:nth-child(2)>ul>li:nth-child(3)>span:nth-child(2){
-        margin-left: 50px;
+        margin-left: 53px;
     }
 
     #about>section:nth-child(2)>ul>li:nth-child(4)>span:nth-child(2){
-        margin-left: 39px;
+        margin-left: 24px;
     }
 
     #about>section:nth-child(2)>ul>li:nth-child(5)>span:nth-child(2){
-        margin-left: 25px;
+        margin-left: 24px;
     }
 
     #about>section:nth-child(2)>ul>li:nth-child(6)>span:nth-child(2){
-        margin-left: 52px;
+        margin-left: 40px;
     }
 
     #about>section:nth-child(2)>ul>li:nth-child(7)>span:nth-child(2){
@@ -2412,31 +2572,19 @@ footer{
     }
 
     #about>section:nth-child(2)>ul>li:nth-child(8)>span:nth-child(2){
-        margin-left: 23px;
-    }
-
-    #about>section:nth-child(2)>div{
-        right: 25%;
-        top: 85%;
-    }
-
-    #about_social_media_icon>a>img{
-        width: 45px;
+        margin-left: 10px;
     }
 
     /*qualification*/
     #qualification {
         height: 1450px;
-        width: 768px;
     }
 
     #qualification > section:nth-child(1) > h6 {
-        font-size: 15px;
         right: 48%;
     }
 
     #qualification > section:nth-child(1) > h3 {
-        font-size: 45px;
         right: 28%;
         top: 2%;
     }
@@ -2474,18 +2622,18 @@ footer{
 
     #div4 {
         top: 24.5%;
-        width: 18.4%;
+        width: 18.7%;
     }
 
     #div5 {
         width: 42px;
         height: 42px;
         top: 23.20%;
-        left: 47.4%;
+        left: 47.6%;
     }
 
     #div6 {
-        width: 18.4%;
+        width: 18.7%;
         top: 24.5%;
     }
 
@@ -2518,7 +2666,6 @@ footer{
     }
 
     #qualification > section:nth-child(3) > h3 {
-        font-size: 45px;
         right: 33%;
         top: 41%;
     }
@@ -2558,67 +2705,454 @@ footer{
     #qualification > section:nth-child(3) > button {
         top: 93%;
         right: 20%;
-        font-size: 21px;
+        font-size: 20px;
     }
 
-    /* what i learnt*/
-    #learn{
-        width: 768px;
-        height: 350px;
-    }
-
+    /* what I learnt */
     #learn>h4{
+        font-size: 33px;
+    }
+
+    .skill{
+        width: 85px;
+    }
+
+    #learn>#div8{
+        left: 16%;
+    }
+
+/*    assignment*/
+    #button{
+        width: 400px;
+        left: 27%;
+    }
+
+    /*project*/
+    #project>section>h3{
+        right: 19%;
+    }
+
+    #project1{
+        width: 500px;
+        top: 30%;
+        left: 22%;
+    }
+
+    #project>section>h5{
+        top: 82%;
+        left: 30%;
+    }
+
+    #h6{
+        top: 84%;
+        left: 41%;
+    }
+
+    /* contact */
+    #contact>form{
+        width: 35%;
+    }
+
+    .field{
+        width: 240px;
+        font-size: 30px;
+        left: 7%;
+    }
+
+    #contact>form>button{
+        width: 38%;
+    }
+
+    #contact>img{
+        width: 230px;
+        height: 180px;
+        top: 54%;
+    }
+
+    #footer1{
+        height: 90px;
+    }
+
+    #footer1>ol{
+        left: 30px;
+    }
+
+    #footer1>ol>li{
+        margin-left:20px;
+    }
+
+    #footer1>ol>li>a{
+        font-size: 20px;
+    }
+
+    #div13{
+        left: 150px;
+    }
+
+    #div14{
+        left: 255px;
+    }
+
+    #div15{
+        left: 385px;
+    }
+
+    #div16{
+        left: 470px;
+    }
+
+    #div17{
+        left: 590px;
+    }
+
+    #div18{
+        left: 670px;
+    }
+
+    #footer2{
+        height: 250px;
+        bottom: -10%;
+    }
+
+    #footer2>ol{
+        width: 500px;
+        height: 50px;
+        bottom: 32%;
+        left: 30px;
+    }
+
+    #footer2>ol>li{
+        margin-left: 10px;
+    }
+
+    #footer2>ol>li>a>img{
+        width: 45px;
+    }
+
+    #ol1{
+        right: 370px;
+        bottom: 12.5%;
+
+    }
+
+    #ol1>li{
+        margin-top: 27px;
+    }
+
+    #ol1>li>img{
+        width: 35px;
+    }
+
+    #ol2{
+        right: 80px;
+        bottom: 5%;
+    }
+
+    #ol2>li{
+        margin-top: 22px;
+        font-size: 24px;
+    }
+
+    #footer2>h6{
+        font-size: 22px;
+        bottom: -10%;
+        left: 60px;
+    }
+}
+
+@media all and (max-width: 768px){
+    header > h1 {
+        top: 29%;
+        left: 5%;
+        font-size: 30px;
+    }
+
+    header > nav > ol > li {
+        margin-right: 15px;
+    }
+
+    header > nav > ol > li > a {
+        font-size: 15px;
+    }
+
+    header > nav {
+        top: 20%;
+    }
+
+    .gradient {
+        height: 80px;
+    }
+
+    #home{
+        height: 1024px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    #home > section > div{
+        top: 30%
+    }
+
+    #home > section > div > h3 {
+        font-size: 60px;
+    }
+
+    #home > section > div > div > button {
+        position: absolute;
+        font-size: 22px;
+        left: 36%;
+        bottom: -50%;
+    }
+
+    #home > section > div > h3 > span:first-child {
+        position: absolute;
+        font-size: 30px;
+        top: 7%;
+        left: 40%;
+    }
+
+    #home > section > div > h4 {
+        position: absolute;
+        width: 300px;
+        margin-top: -50px;
+        font-size: 30px;
+        left: 20%;
+        right: 20%;
+    }
+
+    .squares {
+        height: 1024px;
+    }
+
+    /*about*/
+    #about{
+        height: 1024px;
+    }
+
+    .topic1{
+        font-size: 15px;
+    }
+
+    .topic2{
+        font-size: 45px;
+    }
+
+    #about > section:nth-child(2) > p {
         font-size: 21px;
-        top: 9%;
-        left: 10%;
+        right: 18%;
+        top: 20%;
     }
 
-    #div8>img:nth-child(1){
-        width: 75px;
+    #about>section:nth-child(2)>ul>li{
+        font-size: 16px;
     }
 
-    #div8>img:nth-child(2){
-        width: 75px;
+    #about>section:nth-child(2)>ul>li:nth-child(1){
+        top: 39%;
+        left: 20%;
     }
 
-    #div8>img:nth-child(3){
-        width: 75px;
+    #about>section:nth-child(2)>ul>li:nth-child(2){
+        top: 45%;
+        left: 20%;
     }
 
-    #div8>img:nth-child(4){
-        width: 75px;
+    #about>section:nth-child(2)>ul>li:nth-child(3){
+        top: 51%;
+        left: 20%;
+    }
+    #about>section:nth-child(2)>ul>li:nth-child(4){
+        top: 57%;
+        left: 20%;
     }
 
-    #div8>img:nth-child(5){
-        width: 75px;
+    #about>section:nth-child(2)>ul>li:nth-child(5){
+        top: 64%;
+        left: 20%;
     }
 
-    #div8>img:nth-child(6){
+    #about>section:nth-child(2)>ul>li:nth-child(6){
+        top: 70%;
+        left: 20%;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(7){
+        top: 76%;
+        left: 20%;
+    }
+
+    #about>section:nth-child(2)>ul>li:nth-child(8){
+        top: 81%;
+        left: 20%;
+    }
+
+    #about>section:nth-child(2)>div{
+        right: 35%;
+        top: 90%;
+    }
+
+    .about_social_media_icon>a>img{
+        width: 45px;
+    }
+
+    /*qualification*/
+    #qualification {
+        height: 1450px;
+    }
+
+    #qualification > section:nth-child(1) > h6 {
+        right: 48%;
+    }
+
+    #qualification > section:nth-child(1) > h3 {
+        right: 28%;
+        top: 2%;
+    }
+
+    #qualification>section:nth-child(2)>#div1{
+        width: 26%;
+        height: 9%;
+        top: 11%;
+        left: 15%;
+    }
+
+    #qualification > section:nth-child(2) > #div1 > h5:nth-child(1) {
+        font-size: 15px;
+        top: 5%;
+    }
+
+    #qualification > section:nth-child(2) > #div1 > h5:nth-child(2) {
+        font-size: 15px;
+        top: 36%;
+    }
+
+    #qualification > section:nth-child(2) > #div1 > h5:nth-child(3) {
+        font-size: 15px;
+        top: 56%;
+    }
+
+    #qualification > section:nth-child(2) > img:nth-child(1) {
+        top: 10%;
+        width: 60px;
+    }
+
+    #div3{
+        top: 20.5%;
+    }
+
+    #div4 {
+        top: 24.5%;
+        width: 18.7%;
+    }
+
+    #div5 {
+        width: 42px;
+        height: 42px;
+        top: 23.20%;
+        left: 47.6%;
+    }
+
+    #div6 {
+        width: 18.7%;
+        top: 24.5%;
+    }
+
+    #div7{
+        top: 24.8%;
+    }
+
+    #qualification>section:nth-child(2)>#div2{
+        top: 28.8%;
+    }
+
+    #qualification > section:nth-child(2) > #div2 > h5:nth-child(1) {
+        font-size: 15px;
+        top: -4%;
+    }
+
+    #qualification > section:nth-child(2) > #div2 > h5:nth-child(2) {
+        font-size: 15px;
+        top: 26%;
+    }
+
+    #qualification > section:nth-child(2) > #div2 > h5:nth-child(3) {
+        font-size: 15px;
+        top: 58%;
+    }
+
+    #img2 {
+        width: 60px;
+        top: 36.3%;
+    }
+
+    #qualification > section:nth-child(3) > h3 {
+        right: 33%;
+        top: 41%;
+    }
+
+    #qualification > section:nth-child(3) > #img3 {
+        width: 250px;
+        height: 200px;
+        top: 50%;
+    }
+
+    #qualification > section:nth-child(3) > #h5text {
+        font-size: 15px;
+        top: 52%;
+    }
+
+    #h5text2 {
+        font-size: 15px;
+        top: 69%;
+    }
+
+    #h5text3 {
+        font-size: 15px;
+        top: 72%;
+        left: 20%;
+    }
+
+    #img4 {
+        width: 180px;
+        top: 73%;
+    }
+
+    #img5 {
+        width: 250px;
+        top: 84%;
+    }
+
+    #qualification > section:nth-child(3) > button {
+        top: 93%;
+        right: 20%;
+        font-size: 20px;
+    }
+
+    /* what I learnt */
+    #learn>h4{
+        font-size: 33px;
+    }
+
+    .skill{
         width: 75px;
     }
 
     #learn>#div8{
-        left: 20%;
-        top: 50%;
+        left: 17%;
     }
 
-    /*gallery*/
+    /* gallery */
     #gallery{
-        width: 768px;
         height: 652px;
     }
 
-    #gallery>section>#galary_photo{
-        width: 768px;
-    }
-
-    #galary_photo>{
-        width: 768px;
-        height: 700px;
+    #galary_photo{
+        height: 652px;
     }
 
     #gallery_opacity{
-        width: 590px;
         height: 550px;
     }
 
@@ -2648,110 +3182,74 @@ footer{
         left: 39%;
     }
 
-    /*assignment*/
+    /* assignment */
     #assignment{
-        width: 768px;
-        height: 730px;
+        height: 600px;
     }
 
-    #assignment>section>h6{
-        font-size: 15px;
+    #assignment1{
+        position: absolute;
+        top: 30%;
         left: 15%;
     }
 
-    #assignment>section>h3{
-        font-size: 45px;
-        left:15%;
+    .rec{
+        width: 250px;
+        height: 300px;
     }
 
-
-    #assignment1>img{
+    .assignmentPic{
         width: 220px;
-        top: 35%;
-        left: 16%;
     }
 
-    #assignment1>h5{
+    .text{
         font-size: 30px;
-        top: 30%;
-        left: 18%;
+        bottom: 60%;
+        left: 11%;
     }
 
-    #assignment1>div{
+    .circle{
         width: 120px;
         height: 120px;
-        top: 52%;
-        left: 21%;
+        bottom: 25%;
+        left: 20%;
     }
 
-    #assignment1>div>img{
+    .assignmentPic2{
         width: 35px;
         top: 13%;
         left: 35%;
     }
 
-    #assignment1>div>ol{
+    .text2{
+        position: absolute;
         top: 38%;
         left: -20%;
     }
 
-    #assignment1>div>ol>li{
+    .text3{
         font-size: 20px;
     }
 
-    #assignment2>img{
-        width: 220px;
-        top: 35%;
-        left: 54%;
-    }
-
-    #assignment2>h5{
-        font-size: 30px;
+    #assignment2{
         top: 30%;
-        left: 56.5%;
+        left: 55%;
     }
 
-    #assignment2>div{
-        width: 120px;
-        height: 120px;
-        top: 52%;
-        left: 60.5%;
-    }
-
-    #assignment2>div>img{
-        width: 35px;
-        top: 13%;
-        left: 35%;
-    }
-
-    #assignment2>div>ol{
-        top: 38%;
-        left: -20%;
-    }
-
-    #assignment3>img{
-        display: none;
-    }
-
-    #assignment3>h5{
-        display: none;
-    }
-
-    #assignment3>div{
+    #assignment3{
         display: none;
     }
 
     #button{
-        width: 35%;
+        width: 300px;
         height: 45px;
         font-size: 21px;
-        left: 32%;
+        left: 30%;
         bottom: 10%;
     }
 
     /* project */
     #project{
-        width: 768px;
         height: 739px;
     }
 
@@ -2760,7 +3258,6 @@ footer{
     }
 
     #project>section>h3{
-        font-size: 45px;
         right: 16%;
     }
 
@@ -2783,34 +3280,18 @@ footer{
         opacity: 60%;
     }
 
-    #project2{
-        width: 90px;
-        top: 24%;
-        left: 13%;
-    }
-
-    #project3{
-        width: 90px;
-        top: 68%;
-        right: 15%;
-    }
-
     /* contact */
     #contact{
-        width: 768px;
-        height: 739px;
+        height: 600px;
     }
 
     #contact>section>h6{
-        font-size: 15px;
         right: 45%;
     }
 
     #contact>section>h3{
-        font-size: 45px;
         right:15%;
     }
-
 
     #contact>h5{
         font-size: 21px;
@@ -2825,28 +3306,25 @@ footer{
         left: 16%;
     }
 
-    #input1{
+    .field{
         font-size: 21px;
         width: 236px;
+        left: 5%;
+    }
+
+    #input1{
         height: 48px;
         top: 10%;
-        left: 5%;
     }
 
     #input2{
-        font-size: 21px;
-        width: 236px;
         height: 48px;
         top: 35%;
-        left: 5%;
     }
 
     #contact>form>textarea{
-        font-size: 21px;
-        width:  236px;
         height: 65px;
         top: 60%;
-        left: 5%;
     }
 
     #contact>form>button{
@@ -2865,12 +3343,11 @@ footer{
     }
 
     #footer1{
-        width: 768px;
         height: 60px;
     }
 
     #footer1>ol{
-        left: 15px;
+        left: 40px;
         margin-top: 1px;
     }
 
@@ -2879,61 +3356,48 @@ footer{
     }
 
     #footer1>ol>li>a{
-        font-size: 21px;
+        font-size: 17px;
+    }
+
+    .dash{
+        width: 2px;
+        height: 30px;
+        top: 5%;
     }
 
     #div13{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 124px;
+        left: 137px;
     }
 
     #div14{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 222px;
+        left: 221px;
     }
 
     #div15{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 347px;
+        left: 325px;
     }
 
     #div16{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 425px;
+        left: 391px;
     }
 
     #div17{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 539px;
+        left: 484px;
     }
 
     #div18{
-        width: 1.5px;
-        height: 30px;
-        top: 5%;
-        left: 612px;
+        left: 548px;
     }
 
     #footer2{
-        width: 768px;
-        height: 220px;
+        height: 190px;
         bottom: -10%;
     }
 
     #footer2>ol{
         width: 500px;
         height: 50px;
-        bottom: 32%;
+        bottom: 22%;
         left: 50px;
     }
 
@@ -2947,7 +3411,7 @@ footer{
 
     #ol1{
         right: 355px;
-        bottom: 12.5%;
+        bottom: 5.5%;
 
     }
 
@@ -2961,7 +3425,7 @@ footer{
 
     #ol2{
         right: 110px;
-        bottom: 5%;
+        bottom: -3%;
     }
 
     #ol2>li{
@@ -2972,93 +3436,81 @@ footer{
     #footer2>h6{
         font-size: 16px;
         bottom: -10%;
-        left: 110px;
+        left: 60px;
     }
 }
 
 /*425 mobile size*/
 @media all and (max-width: 426px){
-    body {
-        width: 425px;
+    header > h1 {
+        top: 29%;
+        left: 5%;
+        font-size: 30px;
     }
 
-    #home {
-        width: 425px;
-        height: 60px;
-        position: relative;
+    header > nav > ol > li {
+        margin-right: 15px;
     }
 
-    #pic2{
-        width: 425px;
+    header > nav > ol > li > a {
+        font-size: 15px;
     }
 
-    #section1 > .squares {
-        width: 425px;
+    header > nav {
+        top: 20%;
     }
 
     .gradient {
         height: 60px;
     }
 
-    #home > h1 {
-        top: -30%;
+    #home{
+        height: 739px;
     }
 
-    #home > nav > ol > li {
-        margin-right: 20px;
-        display: none;
+    .container {
+        display: block;
+        top: 30%;
     }
 
-    #home > nav > ol > li > a {
-        font-size: 17px;
+    #home > section > div{
+        top: 30%
     }
 
-    #home > nav {
-        margin-top: 5px;
+    #home > section > div > h3 {
+        font-size: 60px;
     }
 
-    #section1>div>h3{
-        font-size: 40px;
-    }
-
-    #section1>div>h4{
-        text-align: center;
-    }
-
-    #span3{
+    #home > section > div > div > button {
         position: absolute;
-        top: 13%;
+        font-size: 21px;
+        left: 36%;
+        bottom: -50%;
+    }
+
+    #home > section > div > h3 > span:first-child {
+        position: absolute;
+        font-size: 30px;
+        top: 7%;
         left: 40%;
     }
 
-    #section1>div>div>button{
-        font-size: 21px;
-        left: 30%;
-        top: 170px;
-    }
-
-    #section1>div>h3>span:first-child{
-        font-size: 25px;
-        margin-top: -50px;
-    }
-
-    #section1>div>h3{
-        font-size: 40px;
-        margin-top: 20px;
-    }
-
-    #section1>div>h4{
+    #home > section > div > h4 {
         position: absolute;
-        font-size: 25px;
-        width: 250px;
-        margin-top: -27px;
-        left: 14%;
+        width: 300px;
+        margin-top: -50px;
+        font-size: 30px;
+        left: 20%;
+        right: 20%;
+    }
+
+    .squares {
+        height: 739px;
     }
 
     /*about*/
     #about{
         top: -16px;
-        width: 425px;
         height: 739px;
     }
 
@@ -3135,7 +3587,6 @@ footer{
     /*qualification*/
     #qualification {
         height: 1200px;
-        width: 425px;
     }
 
     #qualification > section:nth-child(1) > h6 {
@@ -3286,7 +3737,6 @@ footer{
 
     /* what i learnt*/
     #learn{
-        width: 425px;
         height: 350px;
     }
 
@@ -3334,7 +3784,6 @@ footer{
 
     /*gallery*/
     #gallery{
-        width: 425px;
         height: 652px;
     }
 
@@ -3380,7 +3829,6 @@ footer{
 
     /*assignment*/
     #assignment{
-        width: 425px;
         height: 570px;
     }
 
@@ -3465,7 +3913,6 @@ footer{
 
     /* project */
     #project{
-        width: 425px;
         height: 480px;
     }
 
@@ -3518,7 +3965,6 @@ footer{
 
     /* contact */
     #contact{
-        width: 425px;
         height: 559px;
     }
 
@@ -3591,7 +4037,6 @@ footer{
     }
 
     #footer1{
-        width: 425px;
         height: 70px;
     }
 
@@ -3650,7 +4095,6 @@ footer{
     }
 
     #footer2{
-        width: 425px;
         height: 220px;
         bottom: -10%;
     }
@@ -3703,30 +4147,8 @@ footer{
 }
 
 @media all and (max-width: 376px) {
-    body {
-        width: 375px;
-    }
 
-    #home {
-        width: 375px;
-        height: 60px;
-    }
-
-    #pic2 {
-        width: 375px;
-    }
 }
 @media all and (max-width: 320px) {
-    body {
-        width: 320px;
-    }
 
-    #home {
-        width: 320px;
-        height: 60px;
-    }
-
-    #pic2 {
-        width: 320px;
-    }
 }
