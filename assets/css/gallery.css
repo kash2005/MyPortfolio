@@ -758,14 +758,17 @@ footer{
         left: 13%;
     }
 
-    #image1{
+    .img{
+        position: absolute;
         width: 158px;
+    }
+
+    #image1{
         top: 119px;
         left: 50px;
     }
 
     #image2{
-        width: 158px;
         top: 119px;
         left: 208px;
     }
@@ -775,13 +778,11 @@ footer{
     }
 
     #image4{
-        width: 158px;
         top: 355px;
         left: 50px;
     }
 
     #image5{
-        width: 158px;
         top: 460px;
         left: 50px;
         z-index: 10;
@@ -789,24 +790,18 @@ footer{
 
     #image6{
         z-index: 10;
-        position: absolute;
-        width: 158px;
         /*top: 43.3%;*/
         left: 208px;
         top: 355px;
     }
 
     #image7{
-        position: absolute;
-        width: 158px;
         /*top: 57.6%;*/
         top: 460px;
         left: 208px;
     }
 
     #image8{
-        position: absolute;
-        width: 158px;
         /*top: 57.6%;*/
         top: 565px;
         left: 50px;
@@ -817,22 +812,17 @@ footer{
     }
 
     #image10{
-        width:  158px;
         top: 670px;
         left: 50px;
     }
 
     #image11{
-        position: absolute;
-        width: 158px;
         /*top: 72%;*/
         top: 565px;
         left: 208px;
     }
 
     #image12{
-        position: absolute;
-        width: 158px;
         /*top: 72%;*/
         top: 670px;
         left: 208px;
@@ -843,7 +833,6 @@ footer{
     }
 
     #footer1{
-        width: 425px;
         height: 70px;
     }
 
@@ -862,23 +851,22 @@ footer{
         font-size: 18px;
     }
 
-    #div13{
+    .dash{
         width: 1.5px;
         height: 20px;
+    }
+
+    #div13{
         top: 6%;
         left: 109px;
     }
 
     #div14{
-        width: 1.5px;
-        height: 20px;
         top: 6%;
         left: 195px;
     }
 
     #div15{
-        width: 1.5px;
-        height: 20px;
         top: 6%;
         left: 305px;
     }
@@ -888,21 +876,16 @@ footer{
     }
 
     #div17{
-        width: 1.5px;
-        height: 20px;
         top: 14%;
         left: 179px;
     }
 
     #div18{
-        width: 1.5px;
-        height: 20px;
         top: 14%;
         left: 245px;
     }
 
     #footer2{
-        width: 425px;
         height: 220px;
         bottom: -10%;
     }
@@ -910,8 +893,8 @@ footer{
     #footer2>ol{
         width: 500px;
         height: 50px;
-        bottom: 4.5%;
-        left: 16px;
+        bottom: 4%;
+        left: 32px;
     }
 
     #footer2>ol>li{
@@ -924,12 +907,12 @@ footer{
 
     #ol1{
         right: 295px;
-        bottom: 22%;
+        bottom: 23%;
 
     }
 
     #ol1>li{
-        margin-top: 11px;
+        margin-top: 10px;
     }
 
     #ol1>li>img{
@@ -950,5 +933,302 @@ footer{
         font-size: 16px;
         bottom: -10%;
         left: 60px;
+    }
+}
+
+@media all and (max-width: 376px){
+    body{
+        position: relative;
+        background-color: #202123;
+        height: 1000px;
+        overflow-x: hidden;
+    }
+
+    h3{
+        font-size: 25px;
+        top: 4%;
+        left: 13%;
+    }
+
+    .img{
+        position: absolute;
+        width: 135px;
+    }
+
+    #image1{
+        top: 119px;
+        left: 48px;
+    }
+
+    #image2{
+        top: 119px;
+        left: 183px;
+    }
+
+    #image3{
+        display: none;
+    }
+
+    #image4{
+        top: 321px;
+        left: 48px;
+    }
+
+    #image5{
+        top: 411px;
+        left: 48px;
+        z-index: 10;
+    }
+
+    #image6{
+        z-index: 10;
+        /*top: 43.3%;*/
+        left: 183px;
+        top: 321px;
+    }
+
+    #image7{
+        /*top: 57.6%;*/
+        top: 411px;
+        left: 183px;
+    }
+
+    #image8{
+        /*top: 57.6%;*/
+        top: 501px;
+        left: 48px;
+    }
+
+    #image9{
+        display: none;
+    }
+
+    #image10{
+        top: 591px;
+        left: 48px;
+    }
+
+    #image11{
+        /*top: 72%;*/
+        top: 501px;
+        left: 183px;
+    }
+
+    #image12{
+        /*top: 72%;*/
+        top: 591px;
+        left: 183px;
+    }
+
+    footer{
+        top: 730px;
+    }
+
+    #footer1>ol{
+        left: -38px;
+        width: 350px;
+    }
+
+    #footer1>ol>li>a{
+        font-size: 15px;
+    }
+
+    #div13{
+        left: 93px;
+    }
+
+    #div14{
+        left: 169px;
+    }
+
+    #div15{
+        left: 261px;
+    }
+
+    #div17{
+        top: 13%;
+        left: 155px;
+    }
+
+    #div18{
+        top: 13%;
+        left: 211px;
+    }
+
+    #footer2>ol{
+        left: 8px;
+    }
+
+    #ol1{
+        right: 260px;
+        bottom: 25%;
+    }
+
+    #footer2>ol>li{
+        margin-left: 2px;
+    }
+
+    #ol1>li{
+        margin-top: 10px;
+    }
+
+    #ol1>li>img{
+        width: 20px;
+    }
+
+    #ol2{
+        right: 66px;
+        bottom: 20%;
+    }
+
+    #footer2>h6{
+        font-size: 15px;
+        left: 45px;
+    }
+}
+
+@media all and (max-width: 320px){
+    body{
+        position: relative;
+        background-color: #202123;
+        height: 900px;
+        overflow-x: hidden;
+    }
+
+    h3{
+        font-size: 25px;
+        top: 4%;
+        left: 13%;
+    }
+
+    .img{
+        position: absolute;
+        width: 110px;
+    }
+
+    #image1{
+        top: 119px;
+        left: 48px;
+    }
+
+    #image2{
+        top: 119px;
+        left: 158px;
+    }
+
+    #image4{
+        top: 284px;
+        left: 48px;
+    }
+
+    #image5{
+        top: 357px;
+        left: 48px;
+        z-index: 10;
+    }
+
+    #image6{
+        z-index: 10;
+        /*top: 43.3%;*/
+        left: 158px;
+        top: 284px;
+    }
+
+    #image7{
+        /*top: 57.6%;*/
+        top: 357px;
+        left: 158px;
+    }
+
+    #image8{
+        /*top: 57.6%;*/
+        top: 430px;
+        left: 48px;
+    }
+
+    #image9{
+        display: none;
+    }
+
+    #image10{
+        top: 503px;
+        left: 48px;
+    }
+
+    #image11{
+        /*top: 72%;*/
+        top: 430px;
+        left: 158px;
+    }
+
+    #image12{
+        /*top: 72%;*/
+        top: 503px;
+        left: 158px;
+    }
+
+    footer{
+        top: 630px;
+    }
+
+    #footer1>ol{
+        left: -60px;
+    }
+
+    #div13{
+        left: 72px;
+    }
+
+    #div14{
+        left: 147px;
+    }
+
+    #div15{
+        left: 241px;
+    }
+
+    #div17{
+        left: 131px;
+    }
+
+    #div18{
+        left: 189px;
+    }
+
+    #footer2>ol{
+        left: 3px;
+    }
+
+    #footer2>ol>li{
+        margin-left: 0px;
+    }
+
+    #footer2>ol>li>a>img{
+        width: 35px;
+    }
+
+    #ol1{
+        right: 230px;
+        bottom: 24%;
+    }
+
+    #ol1>li{
+        margin-top: 6px;
+    }
+
+    #ol2{
+        right: 40px;
+        bottom: 20%;
+    }
+
+    #ol2>li{
+        margin-top: 17px;
+        font-size: 15px;
+    }
+
+    #footer2>h6{
+        font-size: 14px;
+        bottom: -7%;
+        left: 27px;
     }
 }
