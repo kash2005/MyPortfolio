@@ -10,194 +10,173 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@500&display=swap" rel="stylesheet">
 
 </head>
 <body>
+<header class="sticky scroll-scale">
+    <div class="logo"><span>K</span>ashmi</div>
+    <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#qualification" class="active">Qualification</a></li>
+        <li><a href="#assignment" class="active">Assignment</a></li>
+        <li><a href="#project" class="active">Project</a></li>
+        <li><a href="#contact" class="active">Contact</a></li>
+    </ul>
+    <div id="menu-icon" class="bx bx-menu"></div>
+</header>
 
-    <header>
-        <div class="gradient"></div>
+<!-- home section -->
+<section id="home" class="home">
 
-        <img src="" alt="" class="logo">
-
-        <h5 class="name">Myportfolio</h5>
-
-        <i class="fa-solid fa-bars toggle-btn" id="menu"></i>
-
-        <nav class="navBar">
-            <a href="#home" style="--i:0;">Home</a>
-            <a href="#about" style="--i:1;">About</a>
-            <a href="#qualification" style="--i:2;">Qualification</a>
-            <a href="#gallery" style="--i:3;">Gallery</a>
-            <a href="#assignment" style="--i:4;">Assignment</a>
-            <a href="#project" style="--i:5;">Project</a>
-            <a href="#contact" style="--i:6;">Contact</a>
-        </nav>
-    </header>
-
-    <main id="home">
-    <div class="container">
-        <svg class="ghost" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-             width="127.433px" height="132.743px" viewBox="0 0 127.433 132.743" enable-background="new 0 0 127.433 132.743"
-             xml:space="preserve">
-<path fill="#FFF6F4" d="M116.223,125.064c1.032-1.183,1.323-2.73,1.391-3.747V54.76c0,0-4.625-34.875-36.125-44.375
-	s-66,6.625-72.125,44l-0.781,63.219c0.062,4.197,1.105,6.177,1.808,7.006c1.94,1.811,5.408,3.465,10.099-0.6
-	c7.5-6.5,8.375-10,12.75-6.875s5.875,9.75,13.625,9.25s12.75-9,13.75-9.625s4.375-1.875,7,1.25s5.375,8.25,12.875,7.875
-	s12.625-8.375,12.625-8.375s2.25-3.875,7.25,0.375s7.625,9.75,14.375,8.125C114.739,126.01,115.412,125.902,116.223,125.064z"/>
-            <circle fill="#013E51" cx="86.238" cy="57.885" r="6.667"/>
-            <circle fill="#013E51" cx="40.072" cy="57.885" r="6.667"/>
-            <path fill="#013E51" d="M71.916,62.782c0.05-1.108-0.809-2.046-1.917-2.095c-0.673-0.03-1.28,0.279-1.667,0.771
-	c-0.758,0.766-2.483,2.235-4.696,2.358c-1.696,0.094-3.438-0.625-5.191-2.137c-0.003-0.003-0.007-0.006-0.011-0.009l0.002,0.005
-	c-0.332-0.294-0.757-0.488-1.235-0.509c-1.108-0.049-2.046,0.809-2.095,1.917c-0.032,0.724,0.327,1.37,0.887,1.749
-	c-0.001,0-0.002-0.001-0.003-0.001c2.221,1.871,4.536,2.88,6.912,2.986c0.333,0.014,0.67,0.012,1.007-0.01
-	c3.163-0.191,5.572-1.942,6.888-3.166l0.452-0.453c0.021-0.019,0.04-0.041,0.06-0.061l0.034-0.034
-	c-0.007,0.007-0.015,0.014-0.021,0.02C71.666,63.771,71.892,63.307,71.916,62.782z"/>
-            <circle fill="#FCEFED" stroke="#FEEBE6" stroke-miterlimit="10" cx="18.614" cy="99.426" r="3.292"/>
-            <circle fill="#FCEFED" stroke="#FEEBE6" stroke-miterlimit="10" cx="95.364" cy="28.676" r="3.291"/>
-            <circle fill="#FCEFED" stroke="#FEEBE6" stroke-miterlimit="10" cx="24.739" cy="93.551" r="2.667"/>
-            <circle fill="#FCEFED" stroke="#FEEBE6" stroke-miterlimit="10" cx="101.489" cy="33.051" r="2.666"/>
-            <circle fill="#FCEFED" stroke="#FEEBE6" stroke-miterlimit="10" cx="18.738" cy="87.717" r="2.833"/>
-            <path fill="#FCEFED" stroke="#FEEBE6" stroke-miterlimit="10" d="M116.279,55.814c-0.021-0.286-2.323-28.744-30.221-41.012
-	c-7.806-3.433-15.777-5.173-23.691-5.173c-16.889,0-30.283,7.783-37.187,15.067c-9.229,9.736-13.84,26.712-14.191,30.259
-	l-0.748,62.332c0.149,2.133,1.389,6.167,5.019,6.167c1.891,0,4.074-1.083,6.672-3.311c4.96-4.251,7.424-6.295,9.226-6.295
-	c1.339,0,2.712,1.213,5.102,3.762c4.121,4.396,7.461,6.355,10.833,6.355c2.713,0,5.311-1.296,7.942-3.962
-	c3.104-3.145,5.701-5.239,8.285-5.239c2.116,0,4.441,1.421,7.317,4.473c2.638,2.8,5.674,4.219,9.022,4.219
-	c4.835,0,8.991-2.959,11.27-5.728l0.086-0.104c1.809-2.2,3.237-3.938,5.312-3.938c2.208,0,5.271,1.942,9.359,5.936
-	c0.54,0.743,3.552,4.674,6.86,4.674c1.37,0,2.559-0.65,3.531-1.932l0.203-0.268L116.279,55.814z M114.281,121.405
-	c-0.526,0.599-1.096,0.891-1.734,0.891c-2.053,0-4.51-2.82-5.283-3.907l-0.116-0.136c-4.638-4.541-7.975-6.566-10.82-6.566
-	c-3.021,0-4.884,2.267-6.857,4.667l-0.086,0.104c-1.896,2.307-5.582,4.999-9.725,4.999c-2.775,0-5.322-1.208-7.567-3.59
-	c-3.325-3.528-6.03-5.102-8.772-5.102c-3.278,0-6.251,2.332-9.708,5.835c-2.236,2.265-4.368,3.366-6.518,3.366
-	c-2.772,0-5.664-1.765-9.374-5.723c-2.488-2.654-4.29-4.395-6.561-4.395c-2.515,0-5.045,2.077-10.527,6.777
-	c-2.727,2.337-4.426,2.828-5.37,2.828c-2.662,0-3.017-4.225-3.021-4.225l0.745-62.163c0.332-3.321,4.767-19.625,13.647-28.995
-	c3.893-4.106,10.387-8.632,18.602-11.504c-0.458,0.503-0.744,1.165-0.744,1.898c0,1.565,1.269,2.833,2.833,2.833
-	c1.564,0,2.833-1.269,2.833-2.833c0-1.355-0.954-2.485-2.226-2.764c4.419-1.285,9.269-2.074,14.437-2.074
-	c7.636,0,15.336,1.684,22.887,5.004c26.766,11.771,29.011,39.047,29.027,39.251V121.405z"/>
-</svg>
-
-
-
-        <p class="shadowFrame"><svg version="1.1" class="shadow" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="61px" y="20px"
-	 width="122.436px" height="39.744px" viewBox="0 0 122.436 39.744" enable-background="new 0 0 122.436 39.744"
-	 xml:space="preserve">
-<ellipse fill="#1DB89D" cx="61.128" cy="19.872" rx="49.25" ry="8.916"/>
-    </svg></p>
-    </div>
-    <section>
-        <div>
-            <h3><span id="span3">Hey,I'm</span> Kashmi Fernando.</h3>
-            <h4>I’m UI/UX Designer. I’m 18 years old.</h4>
-            <div>
-                <button class="">see my cv</button>
-            </div>
+    <div class="home-content scroll-top">
+        <h1>Hey,I'm <span class="main-text">Kashmi Fernando.</span></h1>
+        <div class="change-text">
+            <h3 class="me">And I’m &nbsp;</h3>
+            <h3>
+                <span class="word">Web&nbsp;Designer .</span>
+                <span class="word">Frontend&nbsp;Designer .</span>
+                <span class="word">UI/UX&nbsp;Develpoer .</span>
+                <span class="word">Backend&nbsp;Developer .</span>
+            </h3>
         </div>
-        <ul class="squares">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </section>
-</main>
-<main id="about">
+        <h1  class="age">I’m 18 years old.</h1>
+    </div>
+    <button class="btn scroll-top"><a href="#contact">Hire Me Now!</a></button>
+    <div class="social-icons">
+        <a href="https://web.facebook.com/kashmi%20fernando?_rdc=1&_rdr"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/kash_fernando/"><i class='bx bxl-instagram' ></i></a>
+        <a href="https://www.linkedin.com/in/kashmi-fernando-31976427b"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://github.com/kash2005"><i class='bx bxl-github' ></i></a>
+        <a href="https://wa.me/+94740872265"><i class='bx bxl-whatsapp' ></i></a>
+    </div>
+    <ul class="squares">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</section>
 
-    <section>
-        <div class="leftDiv"></div>
-        <h6 class="topic1">About me</h6>
-        <h3 class="topic2">Who am I .............</h3>
-    </section>
-    <section>
+<!-- about section -->
+<section id="about" class="about">
+    <div class="about-img scroll-scale">
+        <div class="img-box">
+            <img src="assets/images/copy2.png" alt="">
+        </div>
+    </div>
+    <div class="about-content scroll-bottom">
+        <div class="topic-content">
+            <h6 class="topic1">About me</h6>
+            <h3 class="topic2">Who am I .............</h3>
+        </div>
         <p>I wish to design and develop software according to daily updating
             new technologies. Therefore my vision is to provide high quality
             services to my clients in the future.</p>
-        <ul>
-            <li><span class="first">First Name : </span><span class="two">Kashmi</span></li>
-            <li><span class="first">Last Name : </span><span class="two">Fernando</span></li>
-            <li><span class="first">Age : </span> <span class="two">18</span></li>
-            <li><span class="first">National : </span><span class="two">Buddhist</span></li>
-            <li><span class="first">Address : </span><span class="two">Panadura</span></li>
-            <li><span class="first">Phone : </span><span class="two">0740872265</span></li>
-            <li><span class="first">Email : </span><span class="two">kashmifernando3@gmail.com</span></li>
-            <li><span class="first">Languages : </span><span class="two">Sinhala</span></li>
-        </ul>
-        <div class="about_social_media_icon">
-            <a href="https://github.com/kash2005"><img src="assets/images/icons8-github-90.png" alt="github"></a>
-            <a href="https://www.instagram.com/kash_fernando/"><img src="assets/images/icons8-instagram-90.png" alt="instagram"></a>
-            <a href="https://wa.me/+94740872265"><img src="assets/images/icons8-whatsapp-90.png" alt="whatsapp"></a>
-            <a href="https://www.linkedin.com/in/kashmi-fernando-31976427b"><img
-                    src="assets/images/icons8-linkedin-90.png" alt="linkedin"></a>
-            <a href="https://web.facebook.com/kashmi%20fernando?_rdc=1&_rdr"><img
-                    src="assets/images/icons8-facebook-90.png" alt="facebook"></a>
-        </div>
-    </section>
-</main>
+        <button class="btn2"><a href="assets/pdf/My_cv.pdf">Download CV</a></button>
+    </div>
 
-<main id="qualification">
+</section>
 
-    <section>
+<!-- qualification -->
+<section class="scroll" id="qualification">
+
+    <div class="topic-content2 scroll-scale">
         <h6 class="topic1">Qualification</h6>
         <h3 class="topic2">Education , Skill</h3>
-        <div class="rightDiv"></div>
-    </section>
-    <section>
-        <img src="assets/images/icons8-education-100.png"  alt="education">
-        <div id="div1">
-            <h5>G.C.E Ordinary Level <br>Examination</h5>
-            <h5>Agamethi Balika Vidyalaya</h5>
-            <h5>2011 to 2022</h5>
+    </div>
+
+    <div class="scroll__view no-skrollr" id="scrollslider" data-current="1">
+        <div class="scroll__content scroll__hero is-alwayssticky">
+            <div class="scroll__sectionwrapper section__hero">
+                <div class="rectangles">
+                    <div class="rectangle rectangle-1" data-anchor-target="#scrollslider" data-0p-top="background: #B3CC35; left: 38.327%; top: 29.239%; transform: translate(-50%, -50%) rotate(-24deg);" data-_distance-top="background: #B3CC35; left: 34.398%; top: 50.665%; transform: translate(-50%, -50%) rotate(27deg);" data-_distance2-top="background: #6EA644; left: 42.4%; top: 56.9%; transform: translate(-50%, -50%) rotate(0deg);" data-_distance3-top="background: #6EA644; left: 36.5%; top: 56.8%; transform: translate(-50%, -50%) rotate(0deg);"></div>
+                    <div class="rectangle rectangle-2" data-anchor-target="#scrollslider" data-0p-top="background: #A4C339; left: 62.575%; top: 30.343%; transform: translate(-50%, -50%) rotate(88deg);" data-_distance-top="background: #A4C339; left: 44.698%; top: 50.665%; transform: translate(-50%, -50%) rotate(27deg);" data-_distance2-top="background: #6EA644; left: 49.9%; top: 49.3%; transform: translate(-50%, -50%) rotate(90deg);" data-_distance3-top="background: #6EA644; left: 44%; top: 49.2%; transform: translate(-50%, -50%) rotate(90deg);"></div>
+                    <div class="rectangle rectangle-3" data-anchor-target="#scrollslider" data-0p-top="background: #92B93D; left: 50.543%; top: 49.013%; transform: translate(-50%, -50%) rotate(32deg);" data-_distance-top="background: #92B93D; left: 54.898%; top: 50.665%; transform: translate(-50%, -50%) rotate(27deg);" data-_distance2-top="background: #6EA644; left: 57.6%; top: 56.9%; transform: translate(-50%, -50%) rotate(180deg);" data-_distance3-top="background: #6EA644; left: 55.8%; top: 56.9%; transform: translate(-50%, -50%) rotate(180deg);"></div>
+                    <div class="rectangle rectangle-4" data-anchor-target="#scrollslider" data-0p-top="background: #80B040; left: 44.362%; top: 70.482%; transform: translate(-50%, -50%) rotate(75deg);" data-_distance-top="background: #80B040; left: 65.298%; top: 50.665%; transform: translate(-50%, -50%) rotate(27deg);" data-_distance2-top="background: #6EA644; left: 50%; top: 64.4%; transform: translate(-50%, -50%) rotate(270deg);" data-_distance3-top="background: #6EA644; left: 44%; top: 64.5%; transform: translate(-50%, -50%) rotate(270deg);"></div>
+                    <div class="rectangle rectangle-5" data-anchor-target="#scrollslider" data-0p-top="background: #B3CC35; left: 38.327%; top: 29.239%; transform: translate(-50%, -50%) rotate(-24deg); opacity: 0;" data-_distance-top="background: #B3CC35; left: 34.398%; top: 50.665%; transform: translate(-50%, -50%) rotate(27deg); opacity: 0;" data-_distance2-top="background: #6EA644; left: 49.9%; top: 49.3%; transform: translate(-50%, -50%) rotate(90deg); opacity: 0;" data-_distance3-top="background: #6EA644; left: 58.4%; top: 49.2; transform: translate(-50%, -50%) rotate(90deg); opacity: 1;"></div>
+                    <div class="rectangle rectangle-6" data-anchor-target="#scrollslider" data-0p-top="background: #A4C339; left: 62.575%; top: 30.343%; transform: translate(-50%, -50%) rotate(88deg); opacity: 0;" data-_distance-top="background: #A4C339; left: 44.698%; top: 50.665%; transform: translate(-50%, -50%) rotate(27deg); opacity: 0;" data-_distance2-top="background: #6EA644; left: 49.9%; top: 49.3%; transform: translate(-50%, -50%) rotate(90deg); opacity: 0;" data-_distance3-top="background: #6EA644; left: 66.1%; top: 56.9%; transform: translate(-50%, -50%) rotate(180deg); opacity: 1;"></div>
+                    <div class="rectangle rectangle-7" data-anchor-target="#scrollslider" data-0p-top="background: #92B93D; left: 50.543%; top: 49.013%; transform: translate(-50%, -50%) rotate(32deg); opacity: 0;" data-_distance-top="background: #92B93D; left: 54.898%; top: 50.665%; transform: translate(-50%, -50%) rotate(27deg); opacity: 0;" data-_distance2-top="background: #6EA644; left: 50%; top: 64.4%; transform: translate(-50%, -50%) rotate(270deg); opacity: 0;" data-_distance3-top="background: #6EA644; left: 58.4%; top: 64.5%; transform: translate(-50%, -50%) rotate(270deg); opacity: 1;"></div>
+                    <div class="rectangle rectangle-8 rectangle--alt" data-anchor-target="#scrollslider" data-0p-top="background: #C1D430; left: 28.038%; top: 44.5%; transform: translate(-50%, -50%) rotate(-73deg);" data-_distance-top="background: #C1D430; left: 24.898%; top: 50.665%; transform: translate(-50%, -50%) rotate(27deg);" data-_distance2-top="background: #92B93D; left: 44.456%; top: 41.827%; transform: translate(-50%, -50%) rotate(45deg);" data-_distance3-top="background: #92B93D; left: 38.529%; top: 41.8%; transform: translate(-50%, -50%) rotate(45deg);"></div>
+                    <div class="rectangle rectangle-9 rectangle--alt" data-anchor-target="#scrollslider" data-0p-top="background: #6EA644; left: 70.912%; top: 59.376%; transform: translate(-50%, -50%) rotate(-207deg);" data-_distance-top="background: #6EA644; left: 74.998%; top: 50.665%; transform: translate(-50%, -50%) rotate(27deg);" data-_distance2-top="background: #92B93D; left: 55.327%; top: 41.756%; transform: translate(-50%, -50%) rotate(-45deg);" data-_distance3-top="background: #92B93D; left: 49.327%; top: 41.656%; transform: translate(-50%, -50%) rotate(-45deg);"></div>
+                    <div class="rectangle rectangle-10 rectangle--alt" data-anchor-target="#scrollslider" data-0p-top="background: #D0DD2C; left: 28.038%; top: 44.5%; transform: translate(-50%, -50%) rotate(-73deg) scaleY(1); opacity: 0;" data-_distance-top="background: #D0DD2C; left: 44.898%; top: 39.265%; transform: translate(-50%, -50%) rotate(27deg) scaleY(1); opacity: 0;" data-_distance2-top="background: #D0DD2C; left: 55.327%; top: 41.756%; transform: translate(-50%, -50%) rotate(-45deg) scaleY(1); opacity: 0;" data-_distance3-top="background: #D0DD2C; left: 51.698%; top: 38.149%; transform: translate(-50%, -50%) rotate(0) scaleY(.5); opacity: 1;"></div>
+                    <div class="rectangle rectangle-11 rectangle--alt" data-anchor-target="#scrollslider" data-0p-top="background: #92B93D; left: 70.912%; top: 59.376%; transform: translate(-50%, -50%) rotate(-207deg) scaleY(1); opacity: 0;" data-_distance-top="background: #92B93D; left: 54.998%; top: 39.265%; transform: translate(-50%, -50%) rotate(27deg) scaleY(1); opacity: 0;" data-_distance2-top="background: #92B93D; left: 55.327%; top: 41.756%; transform: translate(-50%, -50%) rotate(-45deg) scaleY(1); opacity: 0;" data-_distance3-top="background: #92B93D; left: 62%; top: 48.098%; transform: translate(-50%, -50%) rotate(90deg) scaleY(.75); opacity: 1;"></div>
+                </div>
+            </div>
         </div>
-
-        <img id="img2" src="assets/images/icons8-education-100.png" alt="education">
-        <div id="div2">
-            <h5>Doing Diploma in Software Engineering</h5>
-            <h5>Institute of Java Software Engineering</h5>
-            <h5>since 2022</h5>
+        <div class="scroll__overlays scroll-scale" id="scrolloverlays">
+            <div class="scroll__content is-desktopsticky">
+                <div class="scroll__sectionwrapper">
+                    <div class="scroll__text">
+                        <h1>Education</h1>
+                        <ul>
+                            <li>G.C.E Ordinary Level Examination</li>
+                            <li>Agamethi Balika Vidyalaya</li>
+                            <li>2011 to 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll__content is-desktopsticky">
+                <div class="scroll__sectionwrapper">
+                    <div class="scroll__text">
+                        <h1>Education</h1>
+                        <ul>
+                            <li>Doing Diploma in Software Engineering</li>
+                            <li>Institute of Java Software Engineering</li>
+                            <li>2011 to 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll__content is-desktopsticky">
+                <div class="scroll__sectionwrapper">
+                    <div class="scroll__text">
+                        <h1>Extra Activities</h1>
+                        <p>I was a prefect guy at Agamethi
+                            Balika Vidyalaya. As a prefect I
+                            did my best for my school.I did
+                            volleyball as a sport at school. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll__content is-desktopsticky">
+                <div class="scroll__sectionwrapper">
+                    <div class="scroll__text">
+                        <h1>Innovesta</h1>
+                        <p>Innovesta was held on our first semester.
+                            That was grate experience I ever had. Our
+                            team was won <span>Best Work Place Award</span>.
+                            We did project for Zoo. Our project name
+                            is project Jaguar.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
 
-        <div id="div3"></div>
-        <div id="div4"></div>
-        <div id="div5"></div>
-        <div id="div6"></div>
-        <div id="div7" ></div>
-
-    </section>
-    <section>
-        <h3 class="topic2">Experience</h3>
-        <h5 id="h5text">I was a prefect guy at Agamethi
-            Balika Vidyalaya. As a prefect I
-            did my best for my school.I did
-            volleyball as a sport at school. </h5>
-        <img id="img3" src="assets/images/WhatsApp%20Image%202023-07-02%20at%2011.12%203.png" alt="prefect img">
-        <h5 id="h5text2">Innovesta <span id="span1">(First Semester)</span></h5>
-        <h5 id="h5text3">Innovesta was held on our first semester.
-            That was grate experience I ever had. Our
-            team was won <span id="span2">Best Work Place Award</span>.
-            We did project for Zoo. Our project name
-            is project Jaguar.</h5>
-        <a href=""><img id="img4" src="assets/images/WhatsApp%20Image%202023-07-01%20at%2001.56%202.png" ></a>
-        <a href=""><img id="img5" src="assets/images/WhatsApp%20Image%202023-07-20%20at%2011.38.23.jpg" ></a>
-        <button>Project Jaguar</button>
-        <div></div>
-    </section>
-</main>
-<main id="learn">
-    <h4>What I learn</h4>
-    <div id="div8">
+<!-- learn -->
+<div class="learn">
+    <h4 class="scroll-scale">What I learn</h4>
+    <div class="learn-content scroll-top">
         <img src="assets/images/icons8-java-96.png" alt="java" class="skill">
         <img src="assets/images/icons8-mysql-96.png" alt="mysql" class="skill">
         <img src="assets/images/icons8-figma-96.png"  alt="figma" class="skill">
@@ -206,133 +185,399 @@
         <img src="assets/images/icons8-css-96.png" alt="css" class="skill">
     </div>
     <div></div>
-</main>
-<main id="gallery">
-    <section>
-        <div id="gallery_opacity"></div>
-        <a href="galleryPage.html"><button>Gallery</button></a></h>
-        <h3 class="topic2">My Fav Pics</h3>
-        <h4>Amazing</h4>
-        <h6>see the gallery</h6>
-<!--        <a href=""><img src="assets/images/WhatsApp%20Image%202023-07-11%20at%2019.16%202.png" width="100%" height="" alt="gallery"></a>-->
-        <div id="galary_photo"></div>
-    </section>
-</main>
-<main id="assignment">
-    <div class="leftDiv"></div>
-    <section>
+</div>
+
+<!-- gallery -->
+<div class="gallery" id="gallery">
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="topic-content3 scroll-scale">
+                    <h6 class="topic1">Gallery</h6>
+                    <h3 class="topic2">My Pics</h3>
+                </div>
+                <div class="container-general scroll-scale">
+                    <div class="gallery-wrap wrap-effect-1">
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- assignment -->
+<section class="assignment" id="assignment">
+    <div class="topic-content4 scroll-scale">
         <h6 class="topic1">Assignment</h6>
         <h3 class="topic2">See Assignments</h3>
-        <div id="assignment1" class="rec">
-            <img src="assets/images/photo-1456513080510-7bf3a84b82f8%208.png" alt="assignment" class="assignmentPic">
-            <h5 class="text">Assigment 1</h5>
-            <div class="circle">
-                <img src="assets/images/icons8-education-100.png" alt="assignment" class="assignmentPic2">
-                <ol class="text2">
-                    <li class="text3"><a href="" class="text4">github link</a></li>
-                    <li class="text3"><a href="" class="text4">view</a></li>
-                </ol>
-            </div>
+    </div>
+    <div id="card1" class="card scroll-bottom">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px" width="38px"
+                 version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#1DB89D"></stop>
+          <stop offset="95%" stop-color="#202135"></stop>
+      </linearGradient>
+                <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+        c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,
+        67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,
+        38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,
+        178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,
+        53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,
+        10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
         </div>
-        <div id="assignment2" class="rec">
-            <img src="assets/images/photo-1456513080510-7bf3a84b82f8%208.png" alt="assignment" class="assignmentPic">
-            <h5 class="text">Assigment 2</h5>
-            <div class="circle">
-                <img src="assets/images/icons8-education-100.png" alt="assignment" class="assignmentPic2">
-                <ol class="text2">
-                    <li class="text3"><a href="" class="text4">github link</a></li>
-                    <li class="text3"><a href="" class="text4">view</a></li>
-                </ol>
-            </div>
+        <a class="link" href="https://github.com/kash2005/MyPortfolio"><i class='bx bxl-github' ></i></a>
+        <p class="title">Assignment 1</p>
+        <p class="title2">Designing part of this portfolio web site.Create the requirement Document, Site map, Wireframe, Mockup Design</p>
+        <ul class="list">
+            <li><a href="https://docs.google.com/document/d/1JahiiVoPVdqAokS0rccdCevQ5DWRZqp7ooxB0uf217k/edit?usp=sharing">Requrirment Document</a></li>
+            <li><a href="https://www.gloomaps.com/2lXknyHgCF">site map</a></li>
+            <li><a href="https://drive.google.com/file/d/10z4Y0wXV78_PaIdj0qAzqe19e8bBRPcm/view?usp=sharing">wireframe</a></li>
+            <li><a href="https://www.figma.com/file/aR3xbP4MRcWs6CXTOJj1Xx/My-Portfolio?type=design&node-id=50%3A104&mode=design&t=ie4T69w175Kqih9i-1">Mockup</a></li>
+        </ul>
+    </div>
+
+    <div id="card2" class="card scroll-top">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px"
+                 width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#1DB89D"></stop>
+          <stop offset="95%" stop-color="#202135"></stop>
+      </linearGradient>
+                <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+        c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,
+        67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,
+        38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,
+        178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,
+        53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,
+        10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
         </div>
-        <div id="assignment3" class="rec">
-            <img src="assets/images/photo-1456513080510-7bf3a84b82f8%208.png" alt="assignment"class="assignmentPic">
-            <h5 class="text">Assigment 3</h5>
-            <div class="circle">
-                <img src="assets/images/icons8-education-100.png" alt="assignment" class="assignmentPic2">
-                <ol class="text2">
-                    <li class="text3"><a href="" class="text4">github link</a></li>
-                    <li class="text3"><a href="" class="text4">view</a></li>
-                </ol>
-            </div>
+        <a class="link" href="https://github.com/kash2005/MyPortfolio/tree/structure"><i class='bx bxl-github' ></i></a>
+        <p class="title">Assignment 2</p>
+        <p class="title2">Build the structure of this portfolio website using html.</p>
+    </div>
+
+    <div id="card3" class="card scroll-bottom">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px"
+                 width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#1DB89D"></stop>
+          <stop offset="95%" stop-color="#202135"></stop>
+      </linearGradient>
+                <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+        c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,
+        67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,
+        38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,
+        178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,
+        53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,
+        10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
         </div>
-        <a href="assignmentPage.html">
-            <button id="button">see other assignments</button>
-        </a>
-    </section>
-    <div id="div10"></div>
-</main>
-<main id="project">
-    <section>
+        <a class="link" href="https://github.com/kash2005/Assignment3"><i class='bx bxl-github' ></i></a>
+        <p class="title">Assignment 3</p>
+        <p class="title2">The assignment that based on css styling and posintioning.There are 6 cases in this assignment.</p>
+        <ul class="list">
+            <li><a href="assets/assignments/Assignment3/01_case/index.html">case 01 - creative art</a></li>
+            <li><a href="assets/assignments/Assignment3/02_case/index.html">case 02 - sample web page</a></li>
+            <li><a href="assets/assignments/Assignment3/03_case/index.html">case 03 - fix position</a></li>
+            <li><a href="assets/assignments/Assignment3/04_case/index.html">case 04 - sticky position</a></li>
+            <li><a href="assets/assignments/Assignment3/05_case/index.html">case 05 - grid layout l</a></li>
+            <li><a href="assets/assignments/Assignment3/06_case/index.html">case 06 - grid layout ll</a></li>
+        </ul>
+    </div>
+
+    <div id="card4" class="card scroll-top">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px"
+                 width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#1DB89D"></stop>
+          <stop offset="95%" stop-color="#202135"></stop>
+      </linearGradient>
+                <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+        c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,
+        67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,
+        38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,
+        178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,
+        53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,
+        10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
+        </div>
+        <a class="link" href="https://github.com/kash2005/Assignment4"><i class='bx bxl-github' ></i></a>
+        <p class="title">Assignment 4</p>
+        <p class="title2">The assignment that based on css animation.There are 6 cases in this assignment.</p>
+        <ul class="list">
+            <li><a href="assets/assignments/Assignment%204/case_01/index.html">case 01 - dashboard navigation</a></li>
+            <li><a href="assets/assignments/Assignment%204/case_02/index.html">case 02 - hover animation</a></li>
+            <li><a href="assets/assignments/Assignment%204/case_03/index.html">case 03 - rotating animation</a></li>
+            <li><a href="assets/assignments/Assignment%204/case_04/index.html">case 04 - water drop animation</a></li>
+            <li><a href="assets/assignments/Assignment%204/case_05/index.html">case 05 - image slider</a></li>
+            <li><a href="assets/assignments/Assignment%204/case_06/index.html">case 06 - car animation</a></li>
+        </ul>
+    </div>
+    <div id="card5" class="card scroll-bottom">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px"
+                 width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#1DB89D"></stop>
+          <stop offset="95%" stop-color="#202135"></stop>
+      </linearGradient>
+                <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+        c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,
+        67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,
+        38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,
+        178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,
+        53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,
+        10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
+        </div>
+        <a class="link" href="https://github.com/kash2005/MyPortfolio/tree/styles"><i class='bx bxl-github' ></i></a>
+        <p class="title">Assignment 5</p>
+        <p class="title2">Styles this portfolio website using css.</p>
+    </div><div id="card6" class="card scroll-top">
+    <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px"
+             width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#1DB89D"></stop>
+          <stop offset="95%" stop-color="#202135"></stop>
+      </linearGradient>
+            <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+        c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,
+        67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,
+        38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,
+        178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,
+        53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,
+        10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
+    </div>
+    <a class="link" href="https://github.com/kash2005/Assignment_6"><i class='bx bxl-github' ></i></a>
+    <p class="title">Assignment 6</p>
+    <p class="title2">This POS solution combines user-friendly interfaces with powerful backend capabilities,
+        providing a seamless and efficient sales process.</p>
+</div>
+    <div id="card7" class="card scroll-bottom">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px"
+                 width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#1DB89D"></stop>
+          <stop offset="95%" stop-color="#202135"></stop>
+      </linearGradient>
+                <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+        c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,
+        67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,
+        38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,
+        178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,
+        53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,
+        10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
+        </div>
+        <a class="link" href="https://github.com/kash2005/Assignment_6"><i class='bx bxl-github' ></i></a>
+        <p class="title">Assignment 7</p>
+        <p class="title2">This POS solution combines user-friendly interfaces with powerful backend capabilities,
+            providing a seamless and efficient sales process.</p>
+    </div>
+    <div id="card8" class="card scroll-top">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px"
+                 width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#1DB89D"></stop>
+          <stop offset="95%" stop-color="#202135"></stop>
+      </linearGradient>
+                <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+        c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,
+        67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,
+        38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,
+        178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,
+        53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,
+        10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
+        </div>
+        <a class="link" href="https://github.com/kash2005/Assignment_8"><i class='bx bxl-github' ></i></a>
+        <p class="title">Assignment 8</p>
+        <p class="title2">The assignment that based on js animation.There are 2 cases in this assignment.</p>
+        <ul class="list">
+            <li><a href="assets/assignments/Assignment8/case_01/index.html">case 01 - Javascript Queue</a></li>
+            <li><a href="assets/assignments/Assignment8/case_02/index.html">case 02 - Javascript Queue</a></li>
+        </ul>
+    </div>
+    <div id="card9" class="card scroll-bottom">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px" width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#1DB89D"></stop>
+          <stop offset="95%" stop-color="#202135"></stop>
+      </linearGradient>
+                <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+        c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,
+        67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,
+        38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,
+        178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,
+        53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,
+        10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
+        </div>
+        <a class="link" href="https://github.com/kash2005/Assignment_9"><i class='bx bxl-github' ></i></a>
+        <p class="title">Assignment 9</p>
+        <p class="title2">The assignment that based on js animation.</p>
+        <ul class="list">
+            <li><a href="assets/assignments/Assignment9/assignment/index.html">Knight Rider</a></li>
+        </ul>
+    </div>
+</section>
+
+<!-- project -->
+<section id="project" class="project">
+    <div class="topic-content5 scroll-scale">
         <h6 class="topic1">Project</h6>
-        <h3 class="topic2">Recent Works That I Did</h3>
-        <img id="project1" src="assets/images/Screenshot%202023-03-25%20104047.png" alt="hardware">
-        <h5>Hardware Management System</h5>
-        <a href=""><h6 id="h6">github link</h6></a>
-        <div id="div11"></div>
-    </section>
-</main>
-<main id="contact">
-    <div id="div12" class="leftDiv"></div>
-    <section>
-        <h6 class="topic1">Contact Me</h6>
-        <h3 class="topic2">Have You Any Question ?</h3>
-    </section>
-    <h5>Get In Touch</h5>
-    <form>
-            <input id="input1" type="name" id="name" placeholder="Name" class="field"><br><br>
-            <input id="input2" type="email" id="email" placeholder="Email" class="field"><br><br>
-            <textarea name="message" id="message" cols="20" rows="6" placeholder="Message" class="field"></textarea><br><br>
-            <button>Submit</button>
-            <br><br>
-    </form>
-    <img src="assets/images/hero_geocoding_api.png" alt="map">
-</main>
-    <footer>
-        <div id="footer1">
-            <br>
-            <ol>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#qualification">Qualification</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#assignment">Assignment</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ol>
-
-                <div id="div13" class="dash"></div>
-                <div id="div14" class="dash"></div>
-                <div id="div15" class="dash"></div>
-                <div id="div16" class="dash"></div>
-                <div id="div17" class="dash"></div>
-                <div id="div18" class="dash"></div>
-
-        </div>
-        <div id="footer2">
-            <ol>
-                <li><a href="https://github.com/kash2005"><img src="assets/images/icons8-github-96.png" alt="github"></a></li>
-                <li><a href="https://www.instagram.com/kash_fernando/"><img src="assets/images/icons8-instagram-96.png" alt="instagram"></a></li>
-                <li><a href="https://wa.me/+94740872265"><img src="assets/images/icons8-whatsapp-96.png" alt="whatsapp"></a></li>
-                <li><a href=""><img src="assets/images/icons8-linkedin-96.png" alt="linkedin"></a></li>
-                <li><a href=""><img src="assets/images/icons8-facebook-96%20(1).png" alt="facebook"></a></li>
-            </ol>
-            <div id="div19">
-                <ol id="ol1">
-                    <li><img src="assets/images/icons8-email-96.png" alt="email"></li>
-                    <li><img src="assets/images/icons8-location-96.png" alt="address"></li>
-                    <li><img src="assets/images/icons8-call-90.png" alt="call"></li>
-                </ol>
-                <ol id="ol2">
-                    <li><h5>kashmifernando3@gmail.com</h5></li>
-                    <li><h5>No,24/2 D Sagara Road, <br>Panadura.</h5></li>
-                    <li><h5>074-087-2265</h5></li>
-                </ol>
+        <h3 class="topic2">Recent Project That I did</h3>
+    </div>
+    <div class="container scroll-bottom">
+        <div class="project-gallery">
+            <div class="port-box">
+                <div class="port-img">
+                    <img src="assets/images/Screenshot%202023-03-25%20104047.png" alt="hardwarware_management_system">
+                </div>
+                <div class="port-content">
+                    <h3>Hardware Management System</h3>
+                    <p>I done a electric hardware management system project as my
+                        semester final project.
+                    </p>
+                    <a href="https://github.com/kash2005/Hardware_Management_System"><i class='bx bx-link-external' ></i></a>
+                </div>
             </div>
-            <h6>copy right by @ 2023 Kashmi Fernando</h6>
-        </div>
-    </footer>
 
-    <script src="assets/script/script.js"></script>
+            <div class="port-box">
+                <div class="port-img">
+                    <img src="assets/images/child-plays-connect-4.jpg" alt="connect_four_game">
+                </div>
+                <div class="port-content">
+                    <h3>Connect Four Game</h3>
+                    <p>The Connect Four game developed with JavaFX incorporates an AI player, offering an engaging
+                        and challenging single-player experience.
+                    </p>
+                    <a href="https://github.com/kash2005/Connect_Four_Game"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="port-box">
+                <div class="port-img">
+                    <img src="assets/images/hostel.png" alt="D24_hostel_management_system">
+                </div>
+                <div class="port-content">
+                    <h3>D24 Hostel Management System</h3>
+                    <p>The D24 Hostel Management System is a user-friendly and efficient standalone application
+                        built using JavaFX.
+                    </p>
+                    <a href="https://github.com/kash2005/D24_Hostel_Management_System"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="port-box">
+                <div class="port-img">
+                    <img src="assets/images/code.png" alt="stock_management_system">
+                </div>
+                <div class="port-content">
+                    <h3>Stock Management System</h3>
+                    <p>The stock management system developed by using java programming foundamentals.
+                    </p>
+                    <a href="https://github.com/kash2005/Stock_Management_System"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="port-box">
+                <div class="port-img">
+                    <img src="assets/images/chat.png" alt="chat_application">
+                </div>
+                <div class="port-content">
+                    <h3>Chat Application</h3>
+                    <p>The chat application developed with Java socket programming is a versatile and efficient
+                        communication tool that allows users to exchange messages in real-time over a network.
+                    </p>
+                    <a href="https://github.com/kash2005/chat_Application"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="port-box">
+                <div class="port-img">
+                    <img src="assets/images/zoo.png" alt="project_jaguar">
+                </div>
+                <div class="port-content">
+                    <h3>Project Jaguar</h3>
+                    <p>The project jaguar is a zoo project.We developed this project for inovesta event using JavaFx.
+                    </p>
+                    <a href="https://github.com/kash2005/Zoo_Management_System"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact -->
+<section id="contact" class="contact">
+    <div class="topic-content6 scroll-scale">
+        <h6 class="topic1">Contact</h6>
+        <h3 class="topic2">Have you any questions?</h3>
+    </div>
+
+    <form action="#" class="scroll-bottom">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your Email">
+        <input type="text" placeholder="Your Address">
+        <input type="tel" placeholder="Phone Number">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <div class="btn-box formBtn">
+            <button type="submit" class="btn4">
+                <a class="fancy" href="#">
+                    <span class="top-key"></span>
+                    <span class="text2">Send Message</span>
+                    <span class="bottom-key-1"></span>
+                    <span class="bottom-key-2"></span>
+                </a>
+            </button>
+        </div>
+    </form>
+</section>
+
+<!-- footer -->
+<footer class="scroll-scale">
+    <p>Copyright &copy; 2023 by Kashmi Fernando || All Right Reserved.</p>
+    <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+</footer>
+
+<script src="assets/script/script.js"></script>
 </body>
 </html>
