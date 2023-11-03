@@ -177,3 +177,27 @@ scrollBottom.forEach((e1)=>observer.observe(e1));
 
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((e1)=>observer.observe(e1));
+
+
+
+function sendEmail(){
+    let name = document.querySelector('#name').value;
+    let email = document.querySelector('#email').value;
+    let address = document.querySelector('#address').value;
+    let contact = document.querySelector('#phone').value;
+    let message = document.querySelector('#message').value;
+    let subject = document.querySelector('#subject').value;
+
+    let body = "Name :" + name + "<br/> Email :" + email + "<br/> Contact Number :" + contact + "<br/> Subject :" + subject + "<br/> Message:"+message;
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "kashmifernando3@gmail.com",
+        Password : "37168C19AC91182C603514C44DE5B5CDC6BB",
+        To : 'kashmifernando3@gmail.com',
+        From : "kashmifernando3@gmail.com",
+        Subject : "This is the subject",
+        Body : body
+    }).then(
+        message => alert(message)
+    );
+}

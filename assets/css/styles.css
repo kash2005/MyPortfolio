@@ -1524,10 +1524,6 @@ footer a i{
         font-size: 2.5rem;
     }
 
-    .project-gallery{
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    }
-
     .change-text{
         left: 25%;
     }
@@ -1613,16 +1609,16 @@ footer a i{
     }
 
     .age{
-        left: 26%;
+        left: 30%;
         font-size: 1.2rem;
     }
 
     .btn{
-        left: 35%;
+        left: 33%;
     }
 
     .social-icons{
-        left: 20%;
+        left: 17%;
     }
 
     .learn>h4{
@@ -1643,6 +1639,33 @@ footer a i{
 
     .about-img img{
         max-width: 300px;
+    }
+}
+
+@media all and (max-width: 394px){
+    .main-text{
+        font-size: 2.0rem;
+    }
+
+    .change-text{
+        left: 24%;
+    }
+
+    .age{
+        left: 27%;
+        font-size: 1.2rem;
+    }
+
+    .btn{
+        left: 30%;
+    }
+
+    .social-icons{
+        left: 14.5%;
+    }
+
+    .project-gallery{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 }
 

@@ -5,7 +5,6 @@
     <meta name="keywords" content="myportfolio,Kashmi Venushika">
     <meta name="description" content="Home,About,Skills,Education,Experience;,Contact,Assignment,Project">
     <meta name="author" content="Kashmi Venushika">
-    <meta http-equiv="refresh" content="30">
     <meta name="viewport" content="height=device-height,width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -33,18 +32,18 @@
 <!-- home section -->
 <section id="home" class="home">
 
-    <div class="home-content scroll-top">
-        <h1>Hey,I'm <span class="main-text">Kashmi Fernando.</span></h1>
+    <div class="home-content">
+        <h1 class="scroll-scale">Hey,I'm <span class="main-text scroll-scale">Kashmi Fernando.</span></h1>
         <div class="change-text">
             <h3 class="me">And I’m &nbsp;</h3>
-            <h3>
+            <h3 class="scroll-scale">
                 <span class="word">Web&nbsp;Designer .</span>
                 <span class="word">Frontend&nbsp;Designer .</span>
                 <span class="word">UI/UX&nbsp;Develpoer .</span>
                 <span class="word">Backend&nbsp;Developer .</span>
             </h3>
         </div>
-        <h1  class="age">I’m 18 years old.</h1>
+        <h1  class="age scroll-top">I’m 18 years old.</h1>
     </div>
     <button class="btn scroll-top"><a href="#contact">Hire Me Now!</a></button>
     <div class="social-icons">
@@ -520,7 +519,7 @@
 
             <div class="port-box">
                 <div class="port-img">
-                    <img src="assets/images/chat.png" alt="chat_application">
+                    <img src="assets/images/chatApplication.png" alt="chat_application">
                 </div>
                 <div class="port-content">
                     <h3>Chat Application</h3>
@@ -554,14 +553,15 @@
     </div>
 
     <form action="#" class="scroll-bottom">
-        <input type="text" placeholder="Your Name">
-        <input type="text" placeholder="Your Email">
-        <input type="text" placeholder="Your Address">
-        <input type="tel" placeholder="Phone Number">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input id="name" type="text" placeholder="Your Name">
+        <input id="email" type="text" placeholder="Your Email">
+        <input id="address" type="text" placeholder="Your Address">
+        <input id="phone" type="tel" placeholder="Phone Number">
+        <input id="subject" type="text" placeholder="Subject">
+        <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
         <div class="btn-box formBtn">
-            <button type="submit" class="btn4">
-                <a class="fancy" href="#">
+            <button type="button" class="btn4">
+                <a class="fancy" onclick="sendEmail()">
                     <span class="top-key"></span>
                     <span class="text2">Send Message</span>
                     <span class="bottom-key-1"></span>
@@ -578,6 +578,7 @@
     <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
 </footer>
 
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="assets/script/script.js"></script>
 </body>
 </html>
