@@ -179,7 +179,7 @@ const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((e1)=>observer.observe(e1));
 
 
-
+// contact
 function sendEmail(){
     let name = document.querySelector('#name').value;
     let email = document.querySelector('#email').value;
@@ -201,3 +201,11 @@ function sendEmail(){
         message => alert(message)
     );
 }
+
+
+// preloader
+var loader =document.getElementById("preloader");
+
+window.addEventListener("load",function (){
+    loader.style.display = "none";
+})
